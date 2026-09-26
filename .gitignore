@@ -1,0 +1,28 @@
+# macOS metadata and Office temporary files
+.DS_Store
+._*
+~$*
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Python local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# JavaScript dependencies and build outputs
+node_modules/
+dist/
+build/
+.vercel/
+
+# Local logs
+*.log

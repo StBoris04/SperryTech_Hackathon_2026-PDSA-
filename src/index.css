@@ -10,3 +10,14 @@
 @media(max-width:760px){.header{height:60px;padding:0 15px}.logo em,.api-state{display:none}.outline-button{padding:8px}.intro{padding:40px 0 25px}.intro h1{font-size:44px}.quick-stats{flex-wrap:wrap}.explorer{display:block;height:auto}.map-stage{height:480px}.control-panel{max-height:none}.map-caption{right:auto}.map-caption b{display:none}.opportunities,.directory{padding-top:70px}.flow-card{grid-template-columns:42px 1fr}.flow-meta{grid-column:2;display:flex!important;gap:18px}.directory-header{display:none}.directory-tools{grid-template-columns:1fr}.directory-row{grid-template-columns:1fr 65px}.directory-row>button:first-child{grid-template-columns:1fr;padding:13px}.directory-row>button:first-child>span:not(:first-child){padding-left:16px}.agent-context{grid-template-columns:1fr}.agent-response{align-items:flex-start}.agent-response button{display:none}.method{grid-template-columns:1fr;padding:28px}.method-steps{grid-template-columns:1fr}.section-head.compact{grid-template-columns:1fr}footer{flex-direction:column;gap:7px}.map-state{font-size:13px}.about{padding-top:75px}.about-intro,.team-head{grid-template-columns:1fr;gap:22px}.about-story,.about-grid{grid-template-columns:1fr}.pipeline{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr 1fr}.team-grid article{min-height:200px}.about-story article{min-height:220px}}
 @media(max-width:1050px){.recommendation-heading{grid-template-columns:1fr;gap:22px}.recommendation-board{grid-template-columns:1fr}.recommendation-status{min-height:330px}.recommendation-status button{margin-top:35px}}
 @media(max-width:760px){.recommendation-workspace{padding-top:70px}.recommendation-heading h2{font-size:43px}.recommendation-board{border-radius:16px}.recommendation-status,.recommendation-evidence{padding:27px}.evidence-metrics{grid-template-columns:1fr}.recommendation-principle{flex-wrap:wrap}.about-page-hero{padding:45px 0}.about-page-hero>button{margin-bottom:42px}.about-page-hero h1{font-size:50px}.about-page .about{padding-top:70px}}
+
+/* Increase only dense reading copy; keep map labels and controls compact. */
+.intro-copy>p,.section-head>p,.recommendation-heading>p{font-size:14px}
+.flow-card h3{font-size:17px}.flow-card p,.honesty p{font-size:11px}
+.recommendation-status p{font-size:12px}.evidence-next p{font-size:11px}
+.agent-response p{font-size:10px}.agent-rule{font-size:9px}
+.directory-row b{font-size:12px}.directory-row small{font-size:9px}.directory-row>button:first-child>span{font-size:10px}
+.selection-detail>p{font-size:11px}.detail-facts b,.op-facts b{font-size:10px}
+.compare-empty p{font-size:10px}.compare-table b{font-size:9px}
+.about-intro>p,.team-head>p{font-size:13px}.about-story p{font-size:12px}
+.pipeline small,.sources-block small,.team-grid p{font-size:9px}

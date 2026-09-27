@@ -5,8 +5,10 @@
 Initial team draft for a four-person hackathon with approximately 12 hours total.
 The repository contains the source documents, an XLSX workbook, and a Tiger Cloud
 PostgreSQL/PostGIS schema with a JSON importer. The backend implements
-`GET /health`, `GET /projects`, and `GET /opportunities`; the application UI
-remains to be built. See [the backend validation report](docs/backend-api-validation.md)
+`GET /health`, `GET /projects`, and `GET /opportunities` with CORS for a
+browser frontend. The application UI (`frontend/`) is implemented: a map,
+ranked opportunities, a project list, and a detail panel. Deployment is not
+set up yet. See [the backend validation report](docs/backend-api-validation.md)
 for verified behavior and remaining gaps.
 
 GridLock helps electric utilities identify potentially useful coordination between
@@ -37,16 +39,16 @@ Tiger Data prize submission requirements still need checking before submission.
 
 | Layer | Team choice | Decision status |
 | --- | --- | --- |
-| Frontend | React + Tailwind CSS | Selected; implementation pending |
-| Map | Leaflet or Mapbox GL JS | Selection pending |
-| Backend | Python + FastAPI | Health, project, and opportunity endpoints implemented |
-| Storage | Tiger Data / PostgreSQL | Tiger Cloud service and initial schema verified |
-| AI | Gemini API for structured extraction; optional explanations | Selected track; integration pending |
+| Frontend | React + Tailwind CSS | Implemented (`frontend/`) |
+| Map | Leaflet (OpenStreetMap tiles) | Implemented; chosen over Mapbox GL JS to avoid an API key, per Boris on 2026-09-27 |
+| Backend | Python + FastAPI | Health, project, and opportunity endpoints implemented, with CORS for the frontend origin |
+| Storage | Tiger Data / PostgreSQL | Tiger Cloud service and schema verified; 166-record master batch imported |
+| AI | Gemini API for structured extraction; optional explanations | Extraction client implemented (`gemini_extraction/`); not yet wired into the live demo path |
 | Geography | PostGIS | Verified in Tiger Cloud |
 | Python geography | GeoPy, Shapely, GeoPandas as needed | Optional; choose only if a concrete task needs them |
-| API testing | Postman | Selected |
-| Version control | GitHub | Selected |
-| Deployment | Vercel frontend; Render or Railway backend | Undecided; choose a fast viable path |
+| API testing | Postman | In use (`postman/`) |
+| Version control | GitHub | In use |
+| Deployment | Vercel frontend; Render or Railway backend | Still undecided; nothing is deployed yet |
 
 Intended flow: public PDF/XLSX -> extraction and validation -> shared JSON records
 -> Tiger Data -> overlap analysis and API -> interactive map and ranked list.
@@ -217,14 +219,22 @@ mean every record is validated. The raw `all_pdf_project_candidates.json`
 contains 252 extraction candidates, including 86 from other utilities outside
 this two-utility contract. Those records must not be relabeled as Georgia Power.
 
-Tiger Cloud was synchronized to the master batch on 2026-09-27: 24 validated
-Dominion records and 142 records needing review. The latter retain null
-coordinates. `/projects` includes both groups; `/opportunities` excludes
-unvalidated records and records without coordinates. Known synthetic fixtures
-must use `sources[].reference = "synthetic-fixture"`; the view excludes them even
-if incorrectly marked validated. No synthetic fixtures are loaded in Tiger Cloud.
-The current real opportunity response is empty because no Georgia record is yet
-validated with coordinates. A Git checkout does not import JSON into the database.
+Tiger Cloud was synchronized to the master batch on 2026-09-27, then
+re-synchronized the same day after Georgia Power location enrichment
+([PR #7](https://github.com/StBoris04/SperryTech_Hackathon_2026-PDSA-/pull/7)):
+24 validated Dominion records, 6 validated Georgia Power records (of 122;
+OSM/HIFLD confirmed 17 of 205 unique terminal names), and 136 records needing
+review. The latter retain null coordinates. `/projects` includes both groups;
+`/opportunities` excludes unvalidated records and records without coordinates.
+Known synthetic fixtures must use `sources[].reference = "synthetic-fixture"`;
+the view excludes them even if incorrectly marked validated. No synthetic
+fixtures are loaded in Tiger Cloud.
+
+The real opportunity response is expected to still be empty: the closest
+validated Dominion-Georgia pair sits around 34 miles apart (a straight-line
+sanity check, not the authoritative PostGIS distance), outside the 25-mile
+boundary. Confirm against the live `/opportunities` response rather than
+assuming either way. A Git checkout does not import JSON into the database.
 
 ## Suggested 12-hour plan
 
@@ -242,7 +252,10 @@ working demo and meaningful use of the selected sponsor technologies.
 
 ## Next team decisions
 
-1. Validate source evidence and locations for Georgia Power records before ranking.
-2. Select Leaflet or Mapbox GL JS for the map and connect the documented API.
-3. Choose the deployment destination and agree browser-origin configuration.
-4. Confirm sponsor submission requirements and rehearse the full demo.
+1. Continue validating source evidence and locations for the remaining 116
+   needs-review Georgia Power records; 6 are validated as of 2026-09-27, but
+   the closest validated cross-utility pair is still ~34 miles apart, over
+   the 25-mile boundary, so `/opportunities` remains empty.
+2. Choose the deployment destination (Vercel/Render/Railway or otherwise) and
+   agree browser-origin configuration for `GRIDLOCK_CORS_ORIGINS`.
+3. Confirm sponsor submission requirements and rehearse the full demo.

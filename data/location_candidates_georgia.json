@@ -1,0 +1,2038 @@
+{
+  "schema_version": "1.0",
+  "source": "https://overpass-api.de/api/interpreter",
+  "bbox": "32.0,-83.5,35.3,-78.4",
+  "projects_reference": "data/gemini_georgia_candidates.json",
+  "terminals": [
+    {
+      "terminal": "Adamsville",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "East Watkinsville Substation",
+          "latitude": 33.8605463,
+          "longitude": -83.3847649,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540512,
+          "source": "https://www.openstreetmap.org/way/171540512",
+          "name_score": 0.5926,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Alcovy Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Anniston",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Anthony Shoals",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Anthony Shoals Substation",
+          "latitude": 34.0018324,
+          "longitude": -82.6362788,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540506,
+          "source": "https://www.openstreetmap.org/way/171540506",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Arkwright",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ashley Park",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Athena",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Athena Substation",
+          "latitude": 33.9764031,
+          "longitude": -83.3461189,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540528,
+          "source": "https://www.openstreetmap.org/way/171540528",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Warthen Substation",
+          "latitude": 33.1200621,
+          "longitude": -82.8594838,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 160057277,
+          "source": "https://www.openstreetmap.org/way/160057277",
+          "name_score": 0.7692,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Atkinson",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Aultman Road",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.5926,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Austin Drive",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Barnesville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Barnesville #1",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Barnesville Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.6111,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.5882,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Barneyville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Bay Creek",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Tiger Creek Substation",
+          "latitude": 33.0945058,
+          "longitude": -82.9815846,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296000,
+          "source": "https://www.openstreetmap.org/way/170296000",
+          "name_score": 0.6,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Big Ogeechee",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Little Ogeechee Substation",
+          "latitude": 32.0067859,
+          "longitude": -81.2531513,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121701191,
+          "source": "https://www.openstreetmap.org/way/121701191",
+          "name_score": 0.7407,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Big Smarr",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Blakely Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.625,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Blankets Creek",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Lake Oconee Substation",
+          "latitude": 33.4595297,
+          "longitude": -83.247451,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1054868572,
+          "source": "https://www.openstreetmap.org/way/1054868572",
+          "name_score": 0.64,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Bonaire Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.625,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Boulevard",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Boulevard Substation",
+          "latitude": 32.0412308,
+          "longitude": -81.1444637,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 381797798,
+          "source": "https://www.openstreetmap.org/way/381797798",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Bremen",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Broadway",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Butler",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Boulevard Substation",
+          "latitude": 32.0412308,
+          "longitude": -81.1444637,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 381797798,
+          "source": "https://www.openstreetmap.org/way/381797798",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Buzzard Roost",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Camden Industrial Park",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cass Pine",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cavender Drive",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cliftondale",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Coleman",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Coleman Substation",
+          "latitude": 32.1077199,
+          "longitude": -81.226912,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 608270486,
+          "source": "https://www.openstreetmap.org/way/608270486",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Coleman Substation",
+          "latitude": 32.0973197,
+          "longitude": -81.116077,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 1011846565,
+          "source": "https://www.openstreetmap.org/way/1011846565",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Colerain",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Coleman Substation",
+          "latitude": 32.1077199,
+          "longitude": -81.226912,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 608270486,
+          "source": "https://www.openstreetmap.org/way/608270486",
+          "name_score": 0.8,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Coleman Substation",
+          "latitude": 32.0973197,
+          "longitude": -81.116077,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 1011846565,
+          "source": "https://www.openstreetmap.org/way/1011846565",
+          "name_score": 0.8,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Conyers",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cornelia",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cornish Mountain",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Dawson Crossing",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Dean Forest",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Dean Forest Substation",
+          "latitude": 32.0835097,
+          "longitude": -81.1887223,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121674829,
+          "source": "https://www.openstreetmap.org/way/121674829",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Deptford",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Deptford Substation",
+          "latitude": 32.0668279,
+          "longitude": -81.0483845,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 122007500,
+          "source": "https://www.openstreetmap.org/way/122007500",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Douglasville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Doyle",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Dresden",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Dyer Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Dalton",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Moultrie",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Point",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Point - Union City 230kV Black line",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Roanoke (APC)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Social Circle",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Villa Rica",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Villa Rica Area Switching Station",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "East Watkinsville",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "East Watkinsville Substation",
+          "latitude": 33.8605463,
+          "longitude": -83.3847649,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540512,
+          "source": "https://www.openstreetmap.org/way/171540512",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Eastman Primary",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.6875,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Eatonton Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.7879,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.7742,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Echeconnee",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Emblem Riverside",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Factory Shoals",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Anthony Shoals Substation",
+          "latitude": 34.0018324,
+          "longitude": -82.6362788,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540506,
+          "source": "https://www.openstreetmap.org/way/171540506",
+          "name_score": 0.7857,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Farley (APC)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Fenwick Street",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "First Avenue",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Fitzgerald",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Fort Valley #1",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Fortson",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Gordon Substation",
+          "latitude": 32.8824706,
+          "longitude": -83.3169141,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170991651,
+          "source": "https://www.openstreetmap.org/way/170991651",
+          "name_score": 0.6154,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Gainesville #2",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "East Watkinsville Substation",
+          "latitude": 33.8605463,
+          "longitude": -83.3847649,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540512,
+          "source": "https://www.openstreetmap.org/way/171540512",
+          "name_score": 0.6,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Garrett Rd",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Garrett Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Gillsville Tap Junction",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Glenwood Springs",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Goat Rock",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Goldens Creek",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Tiger Creek Substation",
+          "latitude": 33.0945058,
+          "longitude": -82.9815846,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296000,
+          "source": "https://www.openstreetmap.org/way/170296000",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Gordon",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Gordon Substation",
+          "latitude": 32.8824706,
+          "longitude": -83.3169141,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170991651,
+          "source": "https://www.openstreetmap.org/way/170991651",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Goshen",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Goshen Substation",
+          "latitude": 33.3197599,
+          "longitude": -81.9953118,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 52019569,
+          "source": "https://www.openstreetmap.org/way/52019569",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Goshen Substation",
+          "latitude": 32.2487012,
+          "longitude": -81.2094724,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 1008141064,
+          "source": "https://www.openstreetmap.org/way/1008141064",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Goshen (SAV)",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Goshen Substation",
+          "latitude": 33.3197599,
+          "longitude": -81.9953118,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 52019569,
+          "source": "https://www.openstreetmap.org/way/52019569",
+          "name_score": 0.75,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Goshen Substation",
+          "latitude": 32.2487012,
+          "longitude": -81.2094724,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 1008141064,
+          "source": "https://www.openstreetmap.org/way/1008141064",
+          "name_score": 0.75,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Goshen (Savannah)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Grady",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Grassy Hollow",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Gullatt Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hammond",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hartwell Dam",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hartwell Energy",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Heard County",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hickory Level",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Highway 112",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hill View",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hopewell",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Huckleberry",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hyundai",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Indian Creek Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Jack McDonough",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Jefferson Street #3",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Jesup",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Kettle Creek Primary",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Kinlaw",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Klondike",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Kraft",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Kraft Substation",
+          "latitude": 32.1481353,
+          "longitude": -81.1459835,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121986375,
+          "source": "https://www.openstreetmap.org/way/121986375",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "LG&E Monroe",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "LaGrange Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.7097,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lagrange",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lake Oconee",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Lake Oconee Substation",
+          "latitude": 33.4595297,
+          "longitude": -83.247451,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1054868572,
+          "source": "https://www.openstreetmap.org/way/1054868572",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lawrenceville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lick Creek",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Tiger Creek Substation",
+          "latitude": 33.0945058,
+          "longitude": -82.9815846,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296000,
+          "source": "https://www.openstreetmap.org/way/170296000",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Line Creek",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Tiger Creek Substation",
+          "latitude": 33.0945058,
+          "longitude": -82.9815846,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296000,
+          "source": "https://www.openstreetmap.org/way/170296000",
+          "name_score": 0.7619,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Little Ogeechee",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Little Ogeechee Substation",
+          "latitude": 32.0067859,
+          "longitude": -81.2531513,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121701191,
+          "source": "https://www.openstreetmap.org/way/121701191",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lizard Lope",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lloyd Shoals",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Anthony Shoals Substation",
+          "latitude": 34.0018324,
+          "longitude": -82.6362788,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540506,
+          "source": "https://www.openstreetmap.org/way/171540506",
+          "name_score": 0.6923,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Lower River",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ludowici Primary",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Magnolia",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Magnolia Substation",
+          "latitude": 32.0226869,
+          "longitude": -81.0861807,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121857248,
+          "source": "https://www.openstreetmap.org/way/121857248",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "McClure Industrial",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "McEver Rd",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "McEver Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "McIntosh",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "McIntosh Substation",
+          "latitude": 32.3521162,
+          "longitude": -81.1751124,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121624352,
+          "source": "https://www.openstreetmap.org/way/121624352",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "McManus",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Middle Fork",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Midway",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Mitchell",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Morning Hornet",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Morrow",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Mountain View",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Nelson",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "New Lacy",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Newton Rd",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Deptford Substation",
+          "latitude": 32.0668279,
+          "longitude": -81.0483845,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 122007500,
+          "source": "https://www.openstreetmap.org/way/122007500",
+          "name_score": 0.5882,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Norcross",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Columbus",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Druid Hills",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Dublin",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Opelika",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Spa",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Tifton",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Northside Drive",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Northwest",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Dean Forest Substation",
+          "latitude": 32.0835097,
+          "longitude": -81.1887223,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 121674829,
+          "source": "https://www.openstreetmap.org/way/121674829",
+          "name_score": 0.6,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "O'Hara",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Offerman",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Coleman Substation",
+          "latitude": 32.1077199,
+          "longitude": -81.226912,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 608270486,
+          "source": "https://www.openstreetmap.org/way/608270486",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Coleman Substation",
+          "latitude": 32.0973197,
+          "longitude": -81.116077,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 1011846565,
+          "source": "https://www.openstreetmap.org/way/1011846565",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ohara",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Oostanaula",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Palmyra",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Perry",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Pine Grove Primary",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Pittman Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Pitts",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Pond Fork",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Porterdale Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6061,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Possum Branch",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Purrysburg",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ray Place Rd",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Rice Hope",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Riddleville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ridgeway Church Road Junction",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Robins Spring",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Robins Spring Substation",
+          "latitude": 33.0054267,
+          "longitude": -82.8797626,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 1011162726,
+          "source": "https://www.openstreetmap.org/way/1011162726",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Rockville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "SKC",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Sand Bar Ferry",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Sandersville #1",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "East Watkinsville Substation",
+          "latitude": 33.8605463,
+          "longitude": -83.3847649,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540512,
+          "source": "https://www.openstreetmap.org/way/171540512",
+          "name_score": 0.5806,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Scottdale",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Shoal Creek",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Shugart Farms",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Sinai (FPL)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Slappey Drive",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "South Bainbridge",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "South Griffin",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "South Hazlehurst",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "South Macon",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "South Warner Robins",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Stonewall Tell Road (TA Realty)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Summer Lake",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Switch Way",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Talbot",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Talbot #2",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Tallulah Lodge",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Tazewell",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Tenaska",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Athena Substation",
+          "latitude": 33.9764031,
+          "longitude": -83.3461189,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540528,
+          "source": "https://www.openstreetmap.org/way/171540528",
+          "name_score": 0.6154,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Thalmann",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Thomaston",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Thomasville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Thornton Road",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Thumbs Up",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Tiger Creek",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Tiger Creek Substation",
+          "latitude": 33.0945058,
+          "longitude": -82.9815846,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296000,
+          "source": "https://www.openstreetmap.org/way/170296000",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Tomochichi",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Towaliga River",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Trae Lane",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Tributary",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Truman Parkway",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6207,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Union City",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "V. Rica",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Villa Rica",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Wadley Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.7097,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6207,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Wansley",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Warrenton Primary",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6875,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Warthen",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Warthen Substation",
+          "latitude": 33.1200621,
+          "longitude": -82.8594838,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 160057277,
+          "source": "https://www.openstreetmap.org/way/160057277",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Athena Substation",
+          "latitude": 33.9764031,
+          "longitude": -83.3461189,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 171540528,
+          "source": "https://www.openstreetmap.org/way/171540528",
+          "name_score": 0.7692,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Washington",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Washington #3",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Washington 3",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Waynesboro - Wilson 230kV switching station",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Webb (APC)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Weiss Dam",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "West End Substation",
+          "latitude": 35.2195791,
+          "longitude": -79.5302689,
+          "operator": "Duke Energy Progress",
+          "osm_type": "way",
+          "osm_id": 185505656,
+          "source": "https://www.openstreetmap.org/way/185505656",
+          "name_score": 0.5882,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Wellston",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "West End Substation",
+          "latitude": 35.2195791,
+          "longitude": -79.5302689,
+          "operator": "Duke Energy Progress",
+          "osm_type": "way",
+          "osm_id": 185505656,
+          "source": "https://www.openstreetmap.org/way/185505656",
+          "name_score": 0.625,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "West Brunswick",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "West End",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "West End Substation",
+          "latitude": 35.2195791,
+          "longitude": -79.5302689,
+          "operator": "Duke Energy Progress",
+          "osm_type": "way",
+          "osm_id": 185505656,
+          "source": "https://www.openstreetmap.org/way/185505656",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "West Point Dam (USA)",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Westover",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "West End Substation",
+          "latitude": 35.2195791,
+          "longitude": -79.5302689,
+          "operator": "Duke Energy Progress",
+          "osm_type": "way",
+          "osm_id": 185505656,
+          "source": "https://www.openstreetmap.org/way/185505656",
+          "name_score": 0.625,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Winder",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Winder Primary",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Warrenton Primary Substation",
+          "latitude": 33.3805007,
+          "longitude": -82.687296,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 170296005,
+          "source": "https://www.openstreetmap.org/way/170296005",
+          "name_score": 0.6452,
+          "exact_normalized_name": false
+        },
+        {
+          "name": "Eastman Primary Substation",
+          "latitude": 32.2132993,
+          "longitude": -83.1614216,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 164880657,
+          "source": "https://www.openstreetmap.org/way/164880657",
+          "name_score": 0.6207,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Woodstock",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Yates",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Yates 6 & 7",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Yates Common",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "customer substations",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    }
+  ]
+}

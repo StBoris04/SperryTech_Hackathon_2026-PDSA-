@@ -2143,8 +2143,8 @@
       "project_name": "EVANS PRIMARY - THURMOND DAM (USA) #5 115KV REBUILD",
       "project_type": "transmission_line",
       "state": "GA",
-      "description": "Rebuild approximately 5.45 miles of the Euchee Creek - Thurmond Dam segment of the Evans Primary - Thurmond Dam (USA) #5 115kV line and replace the main bus at Thurmond Dam (USA) with a larger element.",
-      "location_text": "Evans Primary - Thurmond Dam (USA) #5 line; described work is the Euchee Creek - Thurmond Dam segment",
+      "description": "Rebuild approximately 5.45 miles of Euchee Creek - Thurmond Dam segment of the Evans Primary - Thurmond Dam (USA) #5 115kV line with 200C 1351 ACSS Martin conductor. Replace the main bus with a larger element at Thurmond Dam (USA).",
+      "location_text": null,
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2164,28 +2164,22 @@
         },
         {
           "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
-          "locator": "PDF page 189 (printed Page 19 of 304)",
-          "supports": [
-            "utility_id",
-            "project_name",
-            "schedule_text"
-          ]
-        },
-        {
-          "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
           "locator": "PDF page 410 (printed Page 240 of 304)",
           "supports": [
+            "utility_id",
             "project_name",
             "project_type",
             "description",
             "location_text",
             "construction_start",
+            "construction_end",
+            "in_service_date",
             "schedule_text"
           ]
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source Teams # 20793 and Project Sponsor GPC. The Need Date is not an in-service date, so in_service_date remains null. No construction end date is stated. The title names Evans Primary and Thurmond Dam (USA) #5, while the description narrows the rebuilt section to Euchee Creek - Thurmond Dam. No coordinates were validated. The team confirmed use of the supplied PDF on 2026-09-26; the record remains needs_review only because its location has not been validated."
+      "notes": "Source project ID 20793; sponsor Georgia Power. Need Date 2033-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_10143",
@@ -2194,7 +2188,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 1.2 miles of 100C 636 ACSR conductor from Johns Manville to Winder Primary with 200C 795 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Lawrenceville - Winder",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2221,7 +2215,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 10143; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 10143; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Lawrenceville, Winder. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_10222",
@@ -2230,7 +2224,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Blakley Primary - Huckleberry 115kV line from 75C 477 ACSR to 200C 1351 ACSS. (13.5 miles) GPC: Replace jumpers at Blakely Primary GTC: Replace jumpers at Blakely and Huckleberry",
-      "location_text": null,
+      "location_text": "Blakely Primary - Huckleberry",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2257,7 +2251,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 10222; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 10222; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Blakely Primary, Huckleberry. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_10478",
@@ -2266,7 +2260,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 9.7 miles of the Cornelia - Chase Road - Clarksville - Hollywood segments of the Cornelia - Tallulah Lodge 115kV line with 200C 795 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Cornelia - Tallulah Lodge",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2293,7 +2287,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 10478; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 10478; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Cornelia, Tallulah Lodge. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_10481",
@@ -2302,7 +2296,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the entire Lawrenceville - Winder Primary 230kV line, approximately 15.4 miles, using 200C 1351 ACSS \"Martin\" conductor.",
-      "location_text": null,
+      "location_text": "Lawrenceville - Winder Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2329,7 +2323,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 10481; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 10481; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Lawrenceville, Winder Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_10487",
@@ -2410,7 +2404,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 5.3 miles of the Gainesville #2 - McEver Rd 115kV line with 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Gainesville #2 - McEver Rd",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2437,7 +2431,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 12120; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 12120; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Gainesville #2, McEver Rd. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_13166",
@@ -2446,7 +2440,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 0.9 miles North Columbus - First Avenue 115kV line (currently 75C 657 ACAR) with 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "First Avenue - North Columbus",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2473,7 +2467,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 13166; sponsor Georgia Power. Need Date 2028-12-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 13166; sponsor Georgia Power. Need Date 2028-12-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: First Avenue, North Columbus. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_13628",
@@ -2482,7 +2476,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Four Mile tap - Recovery - Sinai (FPL) segment of the Sinai (FPL) - South Bainbridge 115kV line from 100C 336.4 ACSR to 200C 1351 ACSS. 9.8 miles in FPL and 13.75 miles in GPC At Recovery (GTC): Replace 100C 336.4 ACSR string bus with higher rating and jumpers with (1) 1590 AAC At Sinai (FPL): Replace 100C 336.4 ACSR string bus with higher rating",
-      "location_text": null,
+      "location_text": "South Bainbridge - Sinai (FPL)",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2509,7 +2503,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 13628; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 13628; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: South Bainbridge, Sinai (FPL). No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_14222",
@@ -2554,7 +2548,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 11.2 miles of 100C 477 ACSR with 200C 1334 T13 ACCR Martin or 200C 1351.0 ACSS between Yates Common to Oak Mountain. Replace limiting elements along the line.",
-      "location_text": null,
+      "location_text": "Possum Branch - Yates Common",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2581,7 +2575,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 15879; sponsor Georgia Power. Need Date 2027-05-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 15879; sponsor Georgia Power. Need Date 2027-05-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Possum Branch, Yates Common. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_16007",
@@ -2590,7 +2584,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Reconductor approximately 2.72 miles of transmission line from Fenwick St to East Augusta Jct. with 100C 1351 ACSR conductor.",
-      "location_text": null,
+      "location_text": "Fenwick Street - Sand Bar Ferry",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2617,7 +2611,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 16007; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 16007; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Fenwick Street, Sand Bar Ferry. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_16887",
@@ -2626,7 +2620,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the radial Thomaston - Butler 115kV line to 230kV network operation. Make all necessary upgrades and accommodations at Butler and Thomaston. Convert the Wesley substation from 115kV to 230kV.",
-      "location_text": null,
+      "location_text": "Butler - Thomaston",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2653,7 +2647,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 16887; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 16887; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Butler, Thomaston. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_17900",
@@ -2662,7 +2656,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 23.4 miles of the Union City - Yates 230kV White line with bundled 1351 ACSS Martin conductor at 200C.",
-      "location_text": null,
+      "location_text": "Union City - Yates",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2689,7 +2683,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 17900; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 17900; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Union City, Yates. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_17977",
@@ -2698,11 +2692,11 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 8.47 miles of the University of Georgia - East Watkinsville line sections on the Athena - East Watkinsville 115kV line with 100C ACSR 1033 conductor.",
-      "location_text": null,
-      "latitude": null,
-      "longitude": null,
-      "location_quality": "unknown",
-      "location_method": null,
+      "location_text": "Athena - East Watkinsville",
+      "latitude": 33.9184747,
+      "longitude": -83.3654419,
+      "location_quality": "approximate",
+      "location_method": "Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD",
       "construction_start": "2024-08-01",
       "construction_end": null,
       "in_service_date": null,
@@ -2722,10 +2716,40 @@
             "in_service_date",
             "schedule_text"
           ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/171540528",
+          "locator": "Terminal: Athena",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Athena",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/171540512",
+          "locator": "Terminal: East Watkinsville",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
         }
       ],
-      "review_status": "needs_review",
-      "notes": "Source project ID 17977; sponsor Georgia Power. Need Date 2027-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "review_status": "validated",
+      "notes": "Source project ID 17977; sponsor Georgia Power. Need Date 2027-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_17993",
@@ -2770,7 +2794,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Arkwright - Lloyd Shoals 115kV line with 100C 795 ACSR Drake.",
-      "location_text": null,
+      "location_text": "Arkwright - Lloyd Shoals",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2797,7 +2821,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18573; sponsor Georgia Power. Need Date 2027-07-30 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18573; sponsor Georgia Power. Need Date 2027-07-30 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Arkwright, Lloyd Shoals. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_18668",
@@ -2806,7 +2830,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 20 miles of 100C 4/0 ACSR Penguin conductor along the Jesup - Offerman 115kV line, with 100C 795 ACSR Drake conductor.",
-      "location_text": null,
+      "location_text": "Jesup - Offerman",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2833,7 +2857,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18668; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18668; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Jesup, Offerman. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_18690",
@@ -2842,7 +2866,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Remove the 6% reactor at the Palmyra Substation.",
-      "location_text": null,
+      "location_text": "Palmyra",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2869,7 +2893,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18690; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18690; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Palmyra. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_18700",
@@ -2914,7 +2938,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "GPC will rebuild the Line Creek 230kV substation as breaker and a half configuration and connect the Morrow - Yates 230kV line and the Union City - Yates 230kV White line into Line Creek. For the Union City - Yates 230kV Black line, terminate the line from the Yates side into Shugart Farms, and the line from the Union City side into Line Creek. Build two short lines from Line Creek to Shugart Farms (0.3 miles each) with 100C 1351 ACSR Martin conductor.",
-      "location_text": null,
+      "location_text": "Line Creek - Shugart Farms",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2941,7 +2965,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18736; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18736; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Line Creek, Shugart Farms. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_18800",
@@ -2950,7 +2974,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the South Warner Robins to Wellston section (1.2 miles) with 100C 1351.5 ACSR Martin conductor.",
-      "location_text": null,
+      "location_text": "South Warner Robins - Wellston",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -2977,7 +3001,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18800; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18800; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: South Warner Robins, Wellston. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_18848",
@@ -3022,7 +3046,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 115kV White line from Northwest to Jefferson Street #3 (1.2 miles) with 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Northwest - Jefferson Street #3",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3049,7 +3073,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18889; sponsor Georgia Power. Need Date 2025-12-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18889; sponsor Georgia Power. Need Date 2025-12-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Northwest, Jefferson Street #3. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_18960",
@@ -3058,7 +3082,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the entire Blankets Creek - Woodstock 115kV line, approximately 7.1 miles, with 200C 795 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Blankets Creek - Woodstock",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3085,7 +3109,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18960; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18960; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Blankets Creek, Woodstock. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19187",
@@ -3094,7 +3118,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild from Bremen to Indian Creek Road, on the Bremen - Crooked Creek 115kV line (14 miles), using 795 ACSR conductor at 100C.",
-      "location_text": null,
+      "location_text": "Bremen - Indian Creek Road",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3121,7 +3145,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19187; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19187; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Bremen, Indian Creek Road. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19248",
@@ -3130,7 +3154,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 24.3 miles of the Sandersville #1 - Wadley Primary 115kV line from 100C 336 ACSR Linnet conductor to 100C 1351 ACSR Drake conductor. Replace limiting elements in substations along the line.",
-      "location_text": null,
+      "location_text": "Sandersville #1 - Wadley Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3157,7 +3181,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19248; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19248; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Sandersville #1, Wadley Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19287",
@@ -3166,7 +3190,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Reconductor the Grady - West End 115kV line (2.6 miles) using 200C 1351 ACSS Martin.",
-      "location_text": null,
+      "location_text": "Grady - West End",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3193,7 +3217,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19287; sponsor Georgia Power. Need Date 2026-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19287; sponsor Georgia Power. Need Date 2026-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Grady, West End. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19363",
@@ -3202,7 +3226,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Mountain View - Barnett Road section of the Morrow - Mountain View 115kV line with 200C 1351 ACSS Martin conductor.",
-      "location_text": null,
+      "location_text": "Morrow - Mountain View",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3229,7 +3253,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19363; sponsor Georgia Power. Need Date 2026-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19363; sponsor Georgia Power. Need Date 2026-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Morrow, Mountain View. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19597",
@@ -3238,7 +3262,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the line sections from Adamsville to Boat Rock Road (8.08 miles) on the Adamsville - Buzzard Roost 230kV line with 200C 1351 ACSS Martin conductor. Replace the AAC 750 jumper on the line at Adamsville with (2) 1590 AAC jumper. Replace 1590 AAC jumpers at Bakers Ferry and Boat Rock with (2) 1590 AAC jumpers. Replace 1600A line switches at Boat Rock with 3000A switches.",
-      "location_text": null,
+      "location_text": "Adamsville - Buzzard Roost",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3265,7 +3289,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19597; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19597; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Adamsville, Buzzard Roost. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19601",
@@ -3274,7 +3298,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "On the Fife - Fairburn SW - Owens Corning Tap sections of the Morrow - Yates Common 115kV line, rebuild approximately 5.8 miles of 50C 477 ACSR with 210C 1334 T13 ACCR Martin or 200C 1351.0 ACSS Martin.",
-      "location_text": null,
+      "location_text": "Morrow - Yates Common",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3301,7 +3325,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19601; sponsor Georgia Power. Need Date 2027-05-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19601; sponsor Georgia Power. Need Date 2027-05-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Morrow, Yates Common. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19618",
@@ -3310,11 +3334,11 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Gordon - Engelhard McIntyre J of the Gordon - North Dublin 115kV line from 100C 336.4 ACSR (2.81 miles) Linnet and 75C 4/0 F Copper/CW (3.18 miles) to 200C ACSS 795 conductor.",
-      "location_text": null,
-      "latitude": null,
-      "longitude": null,
-      "location_quality": "unknown",
-      "location_method": null,
+      "location_text": "Gordon - North Dublin",
+      "latitude": 32.8824706,
+      "longitude": -83.3169141,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Gordon; other terminal unavailable",
       "construction_start": "2023-10-01",
       "construction_end": null,
       "in_service_date": null,
@@ -3334,10 +3358,30 @@
             "in_service_date",
             "schedule_text"
           ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/170991651",
+          "locator": "Terminal: Gordon",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Gordon",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
         }
       ],
-      "review_status": "needs_review",
-      "notes": "Source project ID 19618; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "review_status": "validated",
+      "notes": "Source project ID 19618; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: North Dublin. Representative point is one endpoint, not the route midpoint. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19621",
@@ -3346,7 +3390,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 636 ACSR (1 mile) of the McEver Road - College Square section, and 2 - 4/0 copper part (2.05 miles) of the College Square to Lakeside WTP B line section, part of the McEver Road - Shoal Creek 115kV line, using 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "McEver Road - Shoal Creek",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3373,7 +3417,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19621; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19621; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: McEver Road, Shoal Creek. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19626",
@@ -3418,7 +3462,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 11.8 miles of the Echeconnee - Wellston 115kV line with 200C 1351 ACSS conductor and the limiting elements along the line with higher ratings. Replace the Bus at North Warner Robins with 1590 AAC.",
-      "location_text": null,
+      "location_text": "Echeconnee - Wellston",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3445,7 +3489,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19627; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19627; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Echeconnee, Wellston. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19631",
@@ -3454,7 +3498,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Install a Dual Stage 30MVAR capacitor bank at Pine Grove Primary.",
-      "location_text": null,
+      "location_text": "Pine Grove Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3481,7 +3525,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19631; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19631; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Pine Grove Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19632",
@@ -3526,7 +3570,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 11.2 miles of Hammond - Weiss Dam 115kV from Hammond to the APC border with 200C 795 ACSS.",
-      "location_text": null,
+      "location_text": "Hammond - Weiss Dam",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3553,7 +3597,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19636; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19636; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Hammond, Weiss Dam. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19676",
@@ -3562,7 +3606,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the entire 6.1 mile Adamsville - Jack McDonough 230kV line with 160C 1351 ACSS.",
-      "location_text": null,
+      "location_text": "Adamsville - Jack McDonough",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3589,7 +3633,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19676; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19676; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Adamsville, Jack McDonough. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19706",
@@ -3598,7 +3642,7 @@
       "project_type": "substation",
       "state": null,
       "description": "GPC: Replace the two 230/115kV auto transformers (Bank C and D) at Gainesville #2 with 400MVA. Project was originally maintenance driven but now compliance driven.",
-      "location_text": null,
+      "location_text": "Gainesville #2",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3625,7 +3669,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19706; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19706; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Gainesville #2. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19995",
@@ -3670,11 +3714,11 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 0.34 miles of the Goldens Creek - Warrenton Primary 230kV line from 100C 1 - 1351.5 ACSR Martin conductor to 200C 1351 ACCR Martin conductor or equivalent.",
-      "location_text": null,
-      "latitude": null,
-      "longitude": null,
-      "location_quality": "unknown",
-      "location_method": null,
+      "location_text": "Goldens Creek - Warrenton Primary",
+      "latitude": 33.3805007,
+      "longitude": -82.687296,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Warrenton Primary; other terminal unavailable",
       "construction_start": "2028-06-01",
       "construction_end": null,
       "in_service_date": null,
@@ -3694,10 +3738,30 @@
             "in_service_date",
             "schedule_text"
           ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/170296005",
+          "locator": "Terminal: Warrenton Primary",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Warrenton Primary",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
         }
       ],
-      "review_status": "needs_review",
-      "notes": "Source project ID 19996; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "review_status": "validated",
+      "notes": "Source project ID 19996; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Goldens Creek. Representative point is one endpoint, not the route midpoint. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_19997",
@@ -3706,7 +3770,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the PPG J2 - Langston Road line section of the Aultman Road - Perry 115kV line from 100C 336 ACSR Linnet conductor to 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Aultman Road - Perry",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3733,7 +3797,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 19997; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 19997; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Aultman Road, Perry. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20018",
@@ -3742,7 +3806,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Build a new 500/230kV substation (Ashley Park) splitting the Ohara - Union City 500kV line. Install two 500/230kV auto transformers at the Ashley Park station. At Ashley Park, the 500kV side will be a 4 - breaker ring bus, while the 230kV side will be a 2 - rung Breaker and a Half configuration. Build two new 230kV lines (~6 miles each) from Ashley Park to the high side of customer substations. The new lines will be built with bundled 200C 1351 ACSS Martin conductor.",
-      "location_text": null,
+      "location_text": "Ashley Park - customer substations",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3769,7 +3833,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20018; sponsor Georgia Power. Need Date 2026-04-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20018; sponsor Georgia Power. Need Date 2026-04-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Ashley Park, customer substations. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20024",
@@ -3778,7 +3842,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 20.7 miles of 75C 397.5 ACSR conductor with advanced conductor from Dyer Road to Wansley tap on the Dyer Road - East Roanoke (APC) 115kV line.",
-      "location_text": null,
+      "location_text": "Dyer Road - East Roanoke (APC)",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3805,7 +3869,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20024; sponsor Georgia Power. Need Date 2027-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20024; sponsor Georgia Power. Need Date 2027-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Dyer Road, East Roanoke (APC). No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20150",
@@ -3814,7 +3878,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Build two 230kV switching stations (Hill View and Grassy Hollow) looping into the Cartersville - McGrau Ford 230kV line (8.5 miles apart). Build two new 230kV lines: Cass Pine - Great Valley and Great Valley - Grassy Hollow (total 10.1 miles) with 200C 1351 ACSS Martin.",
-      "location_text": null,
+      "location_text": "Cass Pine - Grassy Hollow",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3841,7 +3905,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20150; sponsor Georgia Power. Need Date 2027-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20150; sponsor Georgia Power. Need Date 2027-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Cass Pine, Grassy Hollow. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20151",
@@ -3850,7 +3914,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Build a new 230/25kV 8 element ring bus networked substation named Cass Pine that will interconnect between new Great Valley and Hill View 230kV substations.",
-      "location_text": null,
+      "location_text": "Cass Pine",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3877,7 +3941,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20151; sponsor Georgia Power. Need Date 2026-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20151; sponsor Georgia Power. Need Date 2026-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Cass Pine. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20152",
@@ -3886,7 +3950,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Build a new 7.58 mile 200C 1351 ACSS conductor 230kV line between new Cass Pine and Hill View 230kV substations.",
-      "location_text": null,
+      "location_text": "Cass Pine - Hill View",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -3913,7 +3977,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20152; sponsor Georgia Power. Need Date 2025-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20152; sponsor Georgia Power. Need Date 2025-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Cass Pine, Hill View. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20160",
@@ -3994,7 +4058,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Build 230kV line segment, using 200C 1351 ACSS Martin conductor, to loop in the Stonewall Tell Road (TA Realty) customer station into the East Point - Union City 230kV Black line.",
-      "location_text": null,
+      "location_text": "Stonewall Tell Road (TA Realty) - East Point - Union City 230kV Black line",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4021,7 +4085,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20216; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20216; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Stonewall Tell Road (TA Realty), East Point - Union City 230kV Black line. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20223",
@@ -4066,7 +4130,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Loop in and out the new Jack's Creek 230kV switching station into the Doyle - LG&E Monroe 230kV line. This is coordinated with the East Walton Project (TEAMS #09662).",
-      "location_text": null,
+      "location_text": "Doyle - LG&E Monroe",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4093,7 +4157,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20234; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20234; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Doyle, LG&E Monroe. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20243",
@@ -4102,7 +4166,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Build the new Garrett Road 230kV switching station (three - element ring bus) splitting the Villa Rica - West Marietta 230kV line. Build a new 230kV line (8.6 miles) from the Trae Lane substation to the Garrett Road switching station with bundled 100C 1351 ACSR conductor.",
-      "location_text": null,
+      "location_text": "Garrett Road - Trae Lane",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4129,7 +4193,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20243; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20243; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Garrett Road, Trae Lane. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20248",
@@ -4138,7 +4202,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "GPC will rebuild the Bay Creek - Conyers 230kV line, approximately 15.29 miles, using 200C 1351 ACSS \"Martin\" conductor.",
-      "location_text": null,
+      "location_text": "Bay Creek - Conyers",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4165,7 +4229,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20248; sponsor Georgia Power. Need Date 2029-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20248; sponsor Georgia Power. Need Date 2029-12-31 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Bay Creek, Conyers. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20274",
@@ -4174,7 +4238,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Union City - Yates 230kV Black line with bundled 200C 1351 ACSS Martin conductor. Replace limiting elements at Union City, Fairburn #1 and Line Creek substations.",
-      "location_text": null,
+      "location_text": "Union City - Yates",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4201,7 +4265,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20274; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20274; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Union City, Yates. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20284",
@@ -4210,7 +4274,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 38.04 miles of 50C 4/0 ACSR conductor from the Pine Grove to the Pearson tap using 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Kettle Creek Primary - Pine Grove Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4237,7 +4301,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20284; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20284; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Kettle Creek Primary, Pine Grove Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20285",
@@ -4246,7 +4310,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Reconductor 0.97 miles of 100C 636 Grosbeak Lower River - Webb 115kV line with 200C 795 ACSS Drake conductor.",
-      "location_text": null,
+      "location_text": "Lower River - Webb (APC)",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4273,7 +4337,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20285; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20285; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Lower River, Webb (APC). No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20298",
@@ -4282,11 +4346,11 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the North Eatonton Junction - Putnam Sawmill Junction line with 200C 1351 ACSS conductor.",
-      "location_text": null,
-      "latitude": null,
-      "longitude": null,
-      "location_quality": "unknown",
-      "location_method": null,
+      "location_text": "Glenwood Springs - Lake Oconee",
+      "latitude": 33.4595297,
+      "longitude": -83.247451,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Lake Oconee; other terminal unavailable",
       "construction_start": "2027-06-01",
       "construction_end": null,
       "in_service_date": null,
@@ -4306,10 +4370,30 @@
             "in_service_date",
             "schedule_text"
           ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1054868572",
+          "locator": "Terminal: Lake Oconee",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Lake Oconee",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
         }
       ],
-      "review_status": "needs_review",
-      "notes": "Source project ID 20298; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "review_status": "validated",
+      "notes": "Source project ID 20298; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Glenwood Springs. Representative point is one endpoint, not the route midpoint. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20300",
@@ -4318,7 +4402,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Upgrade protection scheme on all three 115kV buses at Morrow.",
-      "location_text": null,
+      "location_text": "Morrow",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4345,7 +4429,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20300; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20300; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Morrow. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20326",
@@ -4354,11 +4438,11 @@
       "project_type": "substation",
       "state": null,
       "description": "Install a + 150 / - 150 MVAR turnkey STATCOM system at Anthony Shoals 230kV substation.",
-      "location_text": null,
-      "latitude": null,
-      "longitude": null,
-      "location_quality": "unknown",
-      "location_method": null,
+      "location_text": "Anthony Shoals",
+      "latitude": 34.0018324,
+      "longitude": -82.6362788,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Anthony Shoals; other terminal unavailable",
       "construction_start": "2023-08-04",
       "construction_end": null,
       "in_service_date": null,
@@ -4378,10 +4462,30 @@
             "in_service_date",
             "schedule_text"
           ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/171540506",
+          "locator": "Terminal: Anthony Shoals",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Anthony Shoals",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
         }
       ],
-      "review_status": "needs_review",
-      "notes": "Source project ID 20326; sponsor Georgia Power. Need Date 2025-12-31 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "review_status": "validated",
+      "notes": "Source project ID 20326; sponsor Georgia Power. Need Date 2025-12-31 is preserved in schedule_text and is not an in-service date. Representative point is one endpoint, not the route midpoint. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20346",
@@ -4390,7 +4494,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the McManus - West Brunswick 115kV line, approximately 5.7 miles, with 200C 1351 ACSS Martin conductor.",
-      "location_text": null,
+      "location_text": "McManus - West Brunswick",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4417,7 +4521,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20346; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20346; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: McManus, West Brunswick. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20428",
@@ -4426,11 +4530,11 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Deepstep - Robins Spring (7.6 miles) Robins Spring - Kaolin J (2.23mi), and Kaolin J - Sandersville #6 (0.66 miles) line sections of the Gordon - Sandersville #1 115kV line. Rebuild a total of 10.49 miles from 100C 336 ACSR to 100C ACSR 795 conductor.",
-      "location_text": null,
-      "latitude": null,
-      "longitude": null,
-      "location_quality": "unknown",
-      "location_method": null,
+      "location_text": "Gordon - Sandersville #1",
+      "latitude": 32.8824706,
+      "longitude": -83.3169141,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Gordon; other terminal unavailable",
       "construction_start": "2023-12-01",
       "construction_end": null,
       "in_service_date": null,
@@ -4450,10 +4554,30 @@
             "in_service_date",
             "schedule_text"
           ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/170991651",
+          "locator": "Terminal: Gordon",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Gordon",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
         }
       ],
-      "review_status": "needs_review",
-      "notes": "Source project ID 20428; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "review_status": "validated",
+      "notes": "Source project ID 20428; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Sandersville #1. Representative point is one endpoint, not the route midpoint. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20431",
@@ -4462,7 +4586,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Replace a low side breaker at Villa Rica with a 4000A breaker.",
-      "location_text": null,
+      "location_text": "Villa Rica",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4489,7 +4613,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20431; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20431; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Villa Rica. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20464",
@@ -4498,7 +4622,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Install a bus tie breaker in series with existing bus tie breaker between 230kV Bus 1 and Bus 3 at Norcross.",
-      "location_text": null,
+      "location_text": "Norcross",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4525,7 +4649,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20464; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20464; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Norcross. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20466",
@@ -4534,7 +4658,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Installation of Smart Valve devices inside the Eatonton Primary substation on the Branch - Oasis 230kV and Eatonton Primary - Oasis 230kV lines.",
-      "location_text": null,
+      "location_text": "Eatonton Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4561,7 +4685,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20466; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20466; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Eatonton Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20474",
@@ -4570,7 +4694,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Upgrade protection on 230kV bus, all 115kV buses, and both 230/115kV auto transformers at Grady. Add adequate monitoring on DC supply. Install a 230kV breaker and associated switches on the high side of Grady 230/115kV auto transformer D.",
-      "location_text": null,
+      "location_text": "Grady",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4597,7 +4721,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20474; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20474; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Grady. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20480",
@@ -4606,7 +4730,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Reconductor the 1.5 mile section from Flat Shoals Road station to the Stonewall Tell loop - in point on the East Point - Union City 230kV Black line with 200C 1351 ACSS Martin conductor. Replace limiting elements at Union City",
-      "location_text": null,
+      "location_text": "East Point - Union City",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4633,7 +4757,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20480; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20480; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: East Point, Union City. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20482",
@@ -4642,7 +4766,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 3 miles from the Pittman Road 115kV station to the West Point Dam (USA) 115kV station with 100C 1351 ACSS Martin conductor. Replace AAC 750 jumper at Pittman Road 115kV with (2) 1590 AAC.",
-      "location_text": null,
+      "location_text": "Pittman Road - West Point Dam (USA)",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4669,7 +4793,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20482; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20482; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Pittman Road, West Point Dam (USA). No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20489",
@@ -4678,7 +4802,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Upgrade protection on 230kV bus and 230/115kV auto transformers at the Scottdale station. Add adequate monitoring on DC supply.",
-      "location_text": null,
+      "location_text": "Scottdale",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4705,7 +4829,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20489; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20489; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Scottdale. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20490",
@@ -4714,7 +4838,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Upgrade protection on 230kV buses at the Klondike station. Add adequate monitoring on DC supply.",
-      "location_text": null,
+      "location_text": "Klondike",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4741,7 +4865,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20490; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20490; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Klondike. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20491",
@@ -4750,7 +4874,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Upgrade protection on 230kV buses, 115kV buses, and 230/115kV auto transformer at the East Point station. Add adequate monitoring on DC supply.",
-      "location_text": null,
+      "location_text": "East Point",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4777,7 +4901,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20491; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20491; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: East Point. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20509",
@@ -4786,7 +4910,7 @@
       "project_type": "substation",
       "state": null,
       "description": "A new customer substation, Emblem Riverside, is being built along the Buzzard Roost - Douglasville 230kV line. Moreover, a Fiber ICON ring is being built in the area to help with communications and protection for all customers in the area.",
-      "location_text": null,
+      "location_text": "Emblem Riverside",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4813,7 +4937,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20509; sponsor Georgia Power. Need Date 2027-03-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20509; sponsor Georgia Power. Need Date 2027-03-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Emblem Riverside. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20512",
@@ -4858,7 +4982,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Replace the 230kV 1200A switch with 3000A, 90C 1351.5 ACSR Martin jumper with (2) AAC 1590, and 1600A line trap with 3000A (part of the Goat Rock - North Opelika 230kV line at Goat Rock substation.",
-      "location_text": null,
+      "location_text": "Goat Rock",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4885,7 +5009,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20516; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20516; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Goat Rock. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20656",
@@ -4894,7 +5018,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Yates 6 & 7 substation to a Breaker and a Half configuration.",
-      "location_text": null,
+      "location_text": "Yates 6 & 7",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4921,7 +5045,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20656; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20656; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Yates 6 & 7. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20668",
@@ -4930,7 +5054,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "On the O'Hara - Wansley 500kV line, replace the protective relay panels associated with the 500kV line terminal facing Dresden, at both O'Hara and Wansley.",
-      "location_text": null,
+      "location_text": "O'Hara - Wansley",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4957,7 +5081,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20668; sponsor Georgia Power. Need Date 2026-12-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20668; sponsor Georgia Power. Need Date 2026-12-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: O'Hara, Wansley. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20684",
@@ -4966,7 +5090,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "This project will loop in GPC's existing Colerain to Thalman 230kV line into GTC's new Camden Industrial Park station. GPC's Kingsland termination at GTC's Kinlaw sub will be relocated to a new 115kV bay position.",
-      "location_text": null,
+      "location_text": "Camden Industrial Park",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -4993,7 +5117,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20684; sponsor Georgia Power. Need Date 2025-06-30 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20684; sponsor Georgia Power. Need Date 2025-06-30 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Camden Industrial Park. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20690",
@@ -5038,7 +5162,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Replace the limiting elements at Union City and Yates substations along the Union City - Yates 230kV (White) line.",
-      "location_text": null,
+      "location_text": "Union City - Yates",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5065,7 +5189,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20691; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20691; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Union City, Yates. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20717",
@@ -5074,7 +5198,7 @@
       "project_type": "substation",
       "state": null,
       "description": "Build the new Tomochichi 500/230kV switching station (four element ring bus 500kV high side, four element breaker and a half 230kV low side) splitting the Ohara - Schere 500kV line. Build two new 230kV lines from the new Tomochichi substation to the new Towaliga River 230kV substation.",
-      "location_text": null,
+      "location_text": "Tomochichi - Towaliga River",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5101,7 +5225,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20717; sponsor Georgia Power. Need Date 2027-07-15 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20717; sponsor Georgia Power. Need Date 2027-07-15 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Tomochichi, Towaliga River. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20736",
@@ -5110,7 +5234,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the ~14.9mi Austin Drive - Morrow 115kV with 200C 1351.5 ACSS Martin. At Austin Drive 115kV, replace the 115/230kV auto transformer along with upgrades other limiting elements at the station.",
-      "location_text": null,
+      "location_text": "Austin Drive - Morrow",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5137,7 +5261,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20736; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20736; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Austin Drive, Morrow. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20756",
@@ -5182,7 +5306,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Norcross - Norcross Junction (674) segment, approximately 3.9 miles, from 100C 477 ACSR Hawk conductor to 200C 1351 ACSS \"Martin\" conductor.",
-      "location_text": null,
+      "location_text": "Norcross - North Druid Hills",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5209,7 +5333,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20757; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20757; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Norcross, North Druid Hills. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20758",
@@ -5290,7 +5414,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 1.2 mile Atkinson - Tilford Yards section of the Atkinson - Northwest 115kV with 200C 1351 ACSS Martin.",
-      "location_text": null,
+      "location_text": "Atkinson - Northwest",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5317,7 +5441,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20761; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20761; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Atkinson, Northwest. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20764",
@@ -5326,7 +5450,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild a portion of the Atkinson - Northside 115kV line, approximately 3.2 miles from Atkinson to Chattahoochee with 200C 1351 ACSS Martin.",
-      "location_text": null,
+      "location_text": "Atkinson - Northside Drive",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5353,7 +5477,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20764; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20764; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Atkinson, Northside Drive. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20767",
@@ -5398,7 +5522,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Replace the 115kV buses 1 and 2 at South Macon with (2) 1590 AAC.",
-      "location_text": null,
+      "location_text": "South Macon",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5425,7 +5549,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20768; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20768; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: South Macon. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20771",
@@ -5434,7 +5558,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Upstream Transmission improvements to serve a new customer station being built along the Morrow - Yates Common 115kV and Line Creek - Fairburn #2 115kV lines. Rebuild the Morrow - Yates Common 115kV line from Line Creek to the new Gullatt Road customer station. Rebuild the Line Creek - Fairburn #2 115kV line from Line Creek to the new Gullatt Road customer station. Remove the Owens Corning Tap Connection on the Morrow - Yates Common 115kV line and rebuild the line from North Coweta to Str 1. Build new line section from Str 1 to the new Gullatt Road customer station",
-      "location_text": null,
+      "location_text": "Line Creek - Gullatt Road",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5461,7 +5585,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20771; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20771; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Line Creek, Gullatt Road. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20774",
@@ -5470,7 +5594,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Loop in the Bowen - Union City line into Villa Rica 500kV bus and add a second 2016 MVA 500/230kV auto transformer. Convert the 230kV side to a 10 element breaker and a half scheme.",
-      "location_text": null,
+      "location_text": "Villa Rica",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5497,7 +5621,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20774; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20774; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Villa Rica. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20777",
@@ -5506,7 +5630,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Jack McDonough - Northwest (Black) 230kV line (4.59 miles) using 200C 1351 Elbrus/TW.",
-      "location_text": null,
+      "location_text": "Jack McDonough - Northwest",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5533,7 +5657,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20777; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20777; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Jack McDonough, Northwest. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20781",
@@ -5542,7 +5666,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 2.5 mile section from Villa Rica to the new East Villa Rica Switching station on the Summer Lake - Villa Rica 230kV line with bundled 200C 1351 ACSS Martin.",
-      "location_text": null,
+      "location_text": "Summer Lake - Villa Rica",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5569,7 +5693,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20781; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20781; sponsor Georgia Power. Need Date 2027-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Summer Lake, Villa Rica. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20789",
@@ -5650,7 +5774,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Build a 7 rung breaker and a half switching station along the right of way of the (3) 230kV lines about 2.5 miles East of Villa Rica to service recently signed customers in the area. All three lines will terminate into this station.",
-      "location_text": null,
+      "location_text": "East Villa Rica Area Switching Station",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5677,7 +5801,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 20797; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 20797; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: East Villa Rica Area Switching Station. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_20857",
@@ -5722,7 +5846,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Replace Breaker on the Ohara - Tara 115kV Line at the Ohara Substation.",
-      "location_text": null,
+      "location_text": "Ohara",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5749,7 +5873,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21022; sponsor Georgia Power. Need Date 2026-10-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21022; sponsor Georgia Power. Need Date 2026-10-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Ohara. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21036",
@@ -5758,7 +5882,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "A new 2 mile 230kV line is being built from Buzzard Roost to Factory Shoals with 200C 1351 ACSS Martin conductor.",
-      "location_text": null,
+      "location_text": "Buzzard Roost - Factory Shoals",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5785,7 +5909,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21036; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21036; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Buzzard Roost, Factory Shoals. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21046",
@@ -5794,7 +5918,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Relay protection modifications at GPC's Thalmann and Colerain substations to match relay scheme used at GTC's new Camden Industrial Park 230/115kV substation.",
-      "location_text": null,
+      "location_text": "Thalmann - Colerain",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5821,7 +5945,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21046; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21046; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Thalmann, Colerain. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21047",
@@ -5830,7 +5954,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the Griffin Rd - Echeconnee line section of Broadway - Echeconnee line with 200C 1351 ACSS conductor.",
-      "location_text": null,
+      "location_text": "Broadway - Echeconnee",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5857,7 +5981,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21047; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21047; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Broadway, Echeconnee. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21048",
@@ -5866,7 +5990,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild approximately 26.14 miles of the Fitzgerald - Pitts 115kV line with 200C 1351 ACSS.",
-      "location_text": null,
+      "location_text": "Fitzgerald - Pitts",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5893,7 +6017,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21048; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21048; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Fitzgerald, Pitts. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21053",
@@ -5938,7 +6062,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Construct a 500kV line from Ashley Park to Wansley, approximately 35 miles long.",
-      "location_text": null,
+      "location_text": "Ashley Park - Wansley",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -5965,7 +6089,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21062; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21062; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Ashley Park, Wansley. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21063",
@@ -5974,7 +6098,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Construct a new 500kV line from Farley (APC) to Tazewell substation, approximately 120 miles long. Construct a 5 breaker 500kV ring bus to loop in the Blacksmith - Talbot 500kV line, terminate the new Farley - Tazewell 500kV and Talbot #2 - Tazewell 500kV lines. Install a 500/230kV auto transformer to connect to the existing 230kV switchyard.",
-      "location_text": null,
+      "location_text": "Farley (APC) - Tazewell",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6001,7 +6125,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21063; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21063; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Farley (APC), Tazewell. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21069",
@@ -6010,7 +6134,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Installation of Power Flow Controllers at the new East Villa Rica Switching Station on the Douglasville - Villa Rica 230kV and Summer Lake - Villa Rica 230kV lines. The Power Flow Controllers will be removed when GTCs strategic project at Cavender Drive goes in service.",
-      "location_text": null,
+      "location_text": "East Villa Rica",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6037,7 +6161,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21069; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21069; sponsor Georgia Power. Need Date 2028-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: East Villa Rica. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21093",
@@ -6082,7 +6206,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 2.9 mile section from Cavender Drive to Marietta 25 with 200C 1351 ACSS conductor on the East Point - Tributary 230kV line.",
-      "location_text": null,
+      "location_text": "East Point - Tributary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6109,7 +6233,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21097; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21097; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: East Point, Tributary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21098",
@@ -6154,7 +6278,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Construct a 230kV switching station on the Waynesboro - Wilson 230kV line and a new 230kV line between the switching station and Goshen, approximately 12.3 miles. Provides an alternate power flow path into Goshen outside of the existing constrained Goshen - Vogtle corridor.",
-      "location_text": null,
+      "location_text": "Waynesboro - Wilson 230kV switching station - Goshen",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6181,7 +6305,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21116; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21116; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Waynesboro - Wilson 230kV switching station, Goshen. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21128",
@@ -6190,7 +6314,7 @@
       "project_type": "unknown",
       "state": null,
       "description": "Install 1% series reactors on the Fortson - Goat Rock (Black) 230kV and Fortson - Goat Rock (White) 230kV.",
-      "location_text": null,
+      "location_text": "Goat Rock",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6217,7 +6341,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21128; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21128; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Goat Rock. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21129",
@@ -6226,7 +6350,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild the 28.12 miles section between Hammond and the Goshen tap with 200C 1351 ACSS Martin conductor.",
-      "location_text": null,
+      "location_text": "Anniston - Hammond",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6253,7 +6377,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21129; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21129; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Anniston, Hammond. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21130",
@@ -6262,7 +6386,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Construct approximately 7 miles of 115kV line with minimum 170C 1351 ACSS conductor from Gillsville Tap Junction to Midway. Utilize the existing GPC owned North Jackson - Lawrence Smith 46kV ROW that is to be retired. Disconnect the East Maysville 115kV tap at Midway 115kV and terminate the new Pond Fork - Midway 115kV line.",
-      "location_text": null,
+      "location_text": "Gillsville Tap Junction - Midway",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6289,7 +6413,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21130; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21130; sponsor Georgia Power. Need Date 2030-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Gillsville Tap Junction, Midway. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21138",
@@ -6298,7 +6422,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Replace the 600A line switch at Porterdale Primary on the Glenwood Springs - Porterdale Primary 230kV Line with 1200A switch.",
-      "location_text": null,
+      "location_text": "Porterdale Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6325,7 +6449,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21138; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21138; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Porterdale Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21139",
@@ -6334,7 +6458,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Replace 0.72 miles of conductor from Moreland Way to Morrow including the bus and jumper at Moreland Way with 1351.5 Martin/ACSS 54/19 conductor.",
-      "location_text": null,
+      "location_text": "Grady - Morrow",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6361,7 +6485,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21139; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21139; sponsor Georgia Power. Need Date 2026-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Grady, Morrow. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21141",
@@ -6370,7 +6494,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Rebuild 15.8 miles of 50C 397.5 ACSR Ibis with 200C 1351 ACSS Martin from Jackson Lake to Lloyd Shoals and Jackson Lake to South. Covington Junction.",
-      "location_text": null,
+      "location_text": "Lloyd Shoals - Porterdale Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6397,7 +6521,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21141; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21141; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Lloyd Shoals, Porterdale Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_21142",
@@ -6406,7 +6530,7 @@
       "project_type": "transmission_line",
       "state": null,
       "description": "Build a new 6.56 mile line from Conyers to Klondike with 200C (2) 1351 ACSS Martin conductor. Build one new 230kV breaker terminal at Conyers and one new 230kV terminal at Klondike.",
-      "location_text": null,
+      "location_text": "Conyers - Klondike",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6433,7 +6557,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 21142; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 21142; sponsor Georgia Power. Need Date 2029-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Conyers, Klondike. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_4",
@@ -6442,7 +6566,7 @@
       "project_type": "transmission_line",
       "state": "GA",
       "description": "Rebuild 35.21 miles of the Mitchell - North Tifton 230kV line from 100C 795 ACSR to 100C 1351 ACSR.",
-      "location_text": null,
+      "location_text": "Mitchell - North Tifton",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6477,7 +6601,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 18492; sponsor Georgia Power. Need Date 2025-05-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 18492; sponsor Georgia Power. Need Date 2025-05-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Mitchell, North Tifton. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     },
     {
       "project_id": "GPC_5",
@@ -6486,7 +6610,7 @@
       "project_type": "transmission_line",
       "state": "GA",
       "description": "Rebuild approximately 7.5 miles of the Jesup - North Jesup - Rayonier section of the Jesup - Ludowici Primary 115kV line from 100C 336.4 ACSR Linnet conductor to 100C 795 ACSR Drake conductor.",
-      "location_text": null,
+      "location_text": "Jesup - Ludowici Primary",
       "latitude": null,
       "longitude": null,
       "location_quality": "unknown",
@@ -6521,7 +6645,7 @@
         }
       ],
       "review_status": "needs_review",
-      "notes": "Source project ID 11821; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
+      "notes": "Source project ID 11821; sponsor Georgia Power. Need Date 2025-06-01 is preserved in schedule_text and is not an in-service date. Unconfirmed terminals: Jesup, Ludowici Primary. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution."
     }
   ]
 }

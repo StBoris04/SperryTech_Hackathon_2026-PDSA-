@@ -88,15 +88,21 @@ milestone never supplies a missing construction bound. Original project strings
 are unchanged. Point proximity is a screening signal, not minimum route separation
 or proof of resource-sharing feasibility.
 
-The current real response is:
+As of the 2026-09-27 Georgia Power location enrichment
+([PR #7](https://github.com/StBoris04/SperryTech_Hackathon_2026-PDSA-/pull/7)),
+there are 24 validated Dominion projects and 6 validated Georgia Power projects
+(of 122), with 136 total still needing review. The response is expected to
+remain:
 
 ```json
 {"schema_version":"1.0","opportunities":[]}
 ```
 
-There are 24 validated Dominion projects and 142 projects needing review. No
-Georgia project is validated with coordinates yet. The empty response is correct;
-data science must verify those records before real cross-utility pairs can rank.
+because the closest validated cross-utility pair is roughly 34 miles apart (a
+straight-line sanity check, not the authoritative PostGIS distance) — outside
+the 25-mile boundary. Confirm against the live response rather than assuming;
+more Georgia terminals need to be confirmed against OSM/HIFLD before a real
+match within range is likely.
 
 ## Postman
 

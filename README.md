@@ -10,12 +10,19 @@ and help users investigate opportunities to share resources and infrastructure.
 ## Current status
 
 The Tiger Cloud PostgreSQL/PostGIS schema and versioned JSON importer are
-implemented. The importer has loaded a real project batch into Tiger Cloud.
-The backend serves `GET /health`, `GET /projects`, and `GET /opportunities`.
-Tiger Cloud contains the 166-record master batch. Frontend and deployment are
-still pending. Gemini extraction code exists;
-its integration into the complete demo still needs verification.
-The features below describe the intended complete MVP.
+implemented. The backend serves `GET /health`, `GET /projects`, and
+`GET /opportunities`, with CORS enabled for a browser frontend
+(`GRIDLOCK_CORS_ORIGINS`). Tiger Cloud contains the 166-record master batch:
+24 validated Dominion records and 6 validated Georgia Power records (of 122),
+after OSM/HIFLD location enrichment for Georgia terminals. `/opportunities`
+is expected to still return empty — the closest validated cross-utility pair
+is roughly 34 miles apart, over the 25-mile boundary.
+
+A React + Tailwind + Leaflet frontend (`frontend/`) is implemented: a map of
+both utilities' projects, the ranked opportunity list, a filterable project
+list, and a detail panel with source evidence. Deployment is not set up yet.
+Gemini extraction code exists; its integration into the complete demo still
+needs verification. The features below describe the intended complete MVP.
 
 ## Planned MVP
 
@@ -58,15 +65,15 @@ an in-service date alone does not establish a construction window.
 
 | Layer | Direction | Status |
 | --- | --- | --- |
-| Frontend | React + Tailwind CSS | Selected; implementation pending |
-| Map | Leaflet or Mapbox GL JS | Decision pending |
+| Frontend | React + Tailwind CSS | Implemented |
+| Map | Leaflet (OpenStreetMap tiles) | Implemented; no API key required |
 | Backend | Python + FastAPI | Health, project, and opportunity endpoints implemented |
 | Database | Tiger Data / PostgreSQL | Implemented and verified |
-| AI | Gemini API | Selected; integration pending |
+| AI | Gemini API | Extraction client implemented (`gemini_extraction/`); not yet wired into the live demo path |
 | Geographic queries | PostGIS | Implemented and verified |
-| API testing | Postman | Selected |
-| Version control | GitHub | Selected |
-| Deployment | Vercel frontend; Render or Railway backend | Proposed; decision pending |
+| API testing | Postman | In use (`postman/`) |
+| Version control | GitHub | In use |
+| Deployment | Vercel frontend; Render or Railway backend | Still undecided — nothing is deployed yet |
 
 Choose only the dependencies needed for the demo. See [context.md](context.md)
 for the selected contract and remaining decisions.
@@ -95,6 +102,8 @@ and shared interfaces before making overlapping changes.
 | [database/](database/) | Tiger Cloud schema, JSON importer, examples, tests, and run instructions |
 | [main.py](main.py) and [db.py](db.py) | FastAPI health, projects, and ranked opportunities backed by PostgreSQL |
 | [docs/api.md](docs/api.md) | Startup, exact endpoint contracts, examples, and Postman handoff |
+| [frontend/](frontend/) | React + Tailwind + Leaflet map, opportunity list, project list, and detail panel |
+| [location_enrichment/](location_enrichment/) and [data/georgia_location_confirmations.json](data/georgia_location_confirmations.json) | OSM/HIFLD terminal confirmation, run for both Dominion and Georgia Power |
 | [docs/backend-api-validation.md](docs/backend-api-validation.md) | Backend verification results and remaining demo limitations |
 | [data/validated_projects.json](data/validated_projects.json) | First source-checked project records in the shared v1 handoff shape |
 | [data/all_pdf_project_candidates.json](data/all_pdf_project_candidates.json) | All 44 Dominion and 208 Georgia plan project candidates extracted from the PDFs |
@@ -167,26 +176,51 @@ check the page ranges without making API requests.
 
 ### Run the backend
 
-From the repository root, using Python 3.10 or newer:
+Requires Python `>=3.10` (stated in `database/pyproject.toml`). `fastapi` and
+`uvicorn` are pinned exactly in `requirements.txt`; other backend dependencies
+use version ranges rather than a full lockfile. From the repository root, set
+`DATABASE_URL` first, either exported in the shell or in the ignored
+`database/.env` file (copy `database/.env.example`).
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-# Set DATABASE_URL, or configure the ignored database/.env file.
 python -m uvicorn main:app --host 127.0.0.1 --port 8000
 ```
 
 Open [API docs](http://127.0.0.1:8000/docs). The API reads Tiger Cloud; it does not
 load JSON on startup. For a fresh database, apply migrations `001` then `002`
 and import `data/master_projects.json` as described in [database/README.md](database/README.md).
-The current master has 44 Dominion and 122 Georgia Power projects. Projects
-needing review remain visible, but cannot enter rankings. Zero opportunities is
-currently expected because no Georgia record is validated with coordinates.
+The current master has 44 Dominion and 122 Georgia Power projects, 24 and 6 of
+which are respectively validated with coordinates. Projects needing review
+remain visible, but cannot enter rankings. Empty `/opportunities` is currently
+expected: the closest validated cross-utility pair is roughly 34 miles apart,
+over the 25-mile boundary.
 
 See [docs/api.md](docs/api.md) for response examples, tests, and the Postman
-collection. Frontend run commands remain pending. Never commit API keys, database
-credentials, or `.env` files.
+collection.
+
+### Run the frontend
+
+Requires Node `^20.19.0` or `>=22.12.0` (pinned in `frontend/package.json`
+`engines` and `frontend/.nvmrc`; run `nvm use` from `frontend/` if you use nvm).
+In a second terminal, with the backend already running on port 8000:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open http://localhost:5173. It calls the API at `VITE_API_BASE_URL` (defaults
+to `http://127.0.0.1:8000`; override via `frontend/.env.local`, copied from
+`frontend/.env.example`). The backend only allows browser requests from the
+origins in `GRIDLOCK_CORS_ORIGINS`, which defaults to the Vite dev server; add
+a deployed frontend URL there once deployment is agreed. See
+[frontend/README.md](frontend/README.md) for details.
+
+Never commit API keys, database credentials, or `.env` files.
 
 ## Contributing during the hackathon
 

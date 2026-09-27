@@ -1,0 +1,692 @@
+{
+  "schema_version": "1.0",
+  "method": "exact normalized terminal name plus OSM/HIFLD separation <= tolerance",
+  "tolerance_miles": 2.0,
+  "spatial_tolerance_miles": 0.1,
+  "hifld_source": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+  "terminals": [
+    {
+      "terminal": "Anthony Shoals",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0028,
+      "recommended_latitude": 34.0018324,
+      "recommended_longitude": -82.6362788,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Anthony Shoals Substation",
+        "latitude": 34.0018324,
+        "longitude": -82.6362788,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 171540506,
+        "source": "https://www.openstreetmap.org/way/171540506",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "110792",
+        "NAME": "ANTHONY SHOALS",
+        "CITY": "ELBERTON",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 34.001806000000045,
+        "LONGITUDE": -82.63624199999998,
+        "SOURCE": "IMAGERY, https://www.oasis.oati.com/SOCO/SOCOdocs/Active-Gen-IC-Requests.pdf",
+        "SOURCEDATE": 1401667200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1550188800000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/171540506",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Athena",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0148,
+      "recommended_latitude": 33.9764031,
+      "recommended_longitude": -83.3461189,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Athena Substation",
+        "latitude": 33.9764031,
+        "longitude": -83.3461189,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 171540528,
+        "source": "https://www.openstreetmap.org/way/171540528",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "116054",
+        "NAME": "ATHENA",
+        "CITY": "ATHENS",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.97661739100005,
+        "LONGITUDE": -83.34612491499996,
+        "SOURCE": "IMAGERY, https://www.rd.usda.gov/files/UWP_GA110-GTC_EastWalton_AES%20%26%20MCS.pdf",
+        "SOURCEDATE": 1406851200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1513641600000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/171540528",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Boulevard",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0435,
+      "recommended_latitude": 32.0412308,
+      "recommended_longitude": -81.1444637,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Boulevard Substation",
+        "latitude": 32.0412308,
+        "longitude": -81.1444637,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 381797798,
+        "source": "https://www.openstreetmap.org/way/381797798",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "151752",
+        "NAME": "BOULEVARD",
+        "CITY": "SAVANNAH",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.04135000000008,
+        "LONGITUDE": -81.14519299999995,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1452038400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/381797798",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Dean Forest",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0064,
+      "recommended_latitude": 32.0835097,
+      "recommended_longitude": -81.1887223,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Dean Forest Substation",
+        "latitude": 32.0835097,
+        "longitude": -81.1887223,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 121674829,
+        "source": "https://www.openstreetmap.org/way/121674829",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "151751",
+        "NAME": "DEAN FOREST",
+        "CITY": "SAVANNAH",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.08360201000005,
+        "LONGITUDE": -81.18873703899999,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1402963200000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/121674829",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Deptford",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0073,
+      "recommended_latitude": 32.0668279,
+      "recommended_longitude": -81.0483845,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Deptford Substation",
+        "latitude": 32.0668279,
+        "longitude": -81.0483845,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 122007500,
+        "source": "https://www.openstreetmap.org/way/122007500",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "152863",
+        "NAME": "DEPTFORD",
+        "CITY": "SAVANNAH",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.06693199500006,
+        "LONGITUDE": -81.04840171799998,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1402963200000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/122007500",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "East Watkinsville",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0206,
+      "recommended_latitude": 33.8605463,
+      "recommended_longitude": -83.3847649,
+      "location_quality": "verified",
+      "osm": {
+        "name": "East Watkinsville Substation",
+        "latitude": 33.8605463,
+        "longitude": -83.3847649,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 171540512,
+        "source": "https://www.openstreetmap.org/way/171540512",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "115854",
+        "NAME": "EAST WATKINSVILLE",
+        "CITY": "WATKINSVILLE",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.86037743500003,
+        "LONGITUDE": -83.38446942899998,
+        "SOURCE": "IMAGERY, https://www.rd.usda.gov/files/UWP_GA110-GTC_EastWalton_AES%20%26%20MCS.pdf",
+        "SOURCEDATE": 1407110400000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1513641600000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/171540512",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Eastman Primary",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0028,
+      "recommended_latitude": 32.2132993,
+      "recommended_longitude": -83.1614216,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Eastman Primary Substation",
+        "latitude": 32.2132993,
+        "longitude": -83.1614216,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 164880657,
+        "source": "https://www.openstreetmap.org/way/164880657",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "112006",
+        "NAME": "UNKNOWN112006",
+        "CITY": "EASTMAN",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.21334000000007,
+        "LONGITUDE": -83.16142299999996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1402876800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1402876800000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/164880657",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Gordon",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0115,
+      "recommended_latitude": 32.8824706,
+      "recommended_longitude": -83.3169141,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Gordon Substation",
+        "latitude": 32.8824706,
+        "longitude": -83.3169141,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 170991651,
+        "source": "https://www.openstreetmap.org/way/170991651",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "112280",
+        "NAME": "UNKNOWN112280",
+        "CITY": "GORDON",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.88258900000005,
+        "LONGITUDE": -83.31705299999999,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1403049600000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1403049600000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/170991651",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Kraft",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0082,
+      "recommended_latitude": 32.1481353,
+      "recommended_longitude": -81.1459835,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Kraft Substation",
+        "latitude": 32.1481353,
+        "longitude": -81.1459835,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 121986375,
+        "source": "https://www.openstreetmap.org/way/121986375",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "151712",
+        "NAME": "KRAFT SUBSTATION",
+        "CITY": "PORT WENTWORTH",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.148150000000044,
+        "LONGITUDE": -81.14584499999995,
+        "SOURCE": "IMAGERY, EIA 860, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1470787200000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/121986375",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Lake Oconee",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0073,
+      "recommended_latitude": 33.4595297,
+      "recommended_longitude": -83.247451,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Lake Oconee Substation",
+        "latitude": 33.4595297,
+        "longitude": -83.247451,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 1054868572,
+        "source": "https://www.openstreetmap.org/way/1054868572",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "169069",
+        "NAME": "UNKNOWN169069",
+        "CITY": "GREENSBORO",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.45962120100006,
+        "LONGITUDE": -83.24751526399996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1577404800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1577923200000,
+        "MAX_VOLT": -999999
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1054868572",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Little Ogeechee",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0316,
+      "recommended_latitude": 32.0067859,
+      "recommended_longitude": -81.2531513,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Little Ogeechee Substation",
+        "latitude": 32.0067859,
+        "longitude": -81.2531513,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 121701191,
+        "source": "https://www.openstreetmap.org/way/121701191",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "152585",
+        "NAME": "LITTLE OGEECHEE",
+        "CITY": "SAVANNAH",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.007156000000066,
+        "LONGITUDE": -81.25283299999995,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1402963200000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/121701191",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Magnolia",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0012,
+      "recommended_latitude": 32.0226869,
+      "recommended_longitude": -81.0861807,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Magnolia Substation",
+        "latitude": 32.0226869,
+        "longitude": -81.0861807,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 121857248,
+        "source": "https://www.openstreetmap.org/way/121857248",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "150301",
+        "NAME": "MAGNOLIA",
+        "CITY": "SAVANNAH",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.02269650000005,
+        "LONGITUDE": -81.08616375199995,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1402963200000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/121857248",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "McIntosh",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0221,
+      "recommended_latitude": 32.3521162,
+      "recommended_longitude": -81.1751124,
+      "location_quality": "verified",
+      "osm": {
+        "name": "McIntosh Substation",
+        "latitude": 32.3521162,
+        "longitude": -81.1751124,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 121624352,
+        "source": "https://www.openstreetmap.org/way/121624352",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "151753",
+        "NAME": "MCINTOSH",
+        "CITY": "RINCON",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.35189548200003,
+        "LONGITUDE": -81.17538717899998,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1402963200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1402963200000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/121624352",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Robins Spring",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0059,
+      "recommended_latitude": 33.0054267,
+      "recommended_longitude": -82.8797626,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Robins Spring Substation",
+        "latitude": 33.0054267,
+        "longitude": -82.8797626,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 1011162726,
+        "source": "https://www.openstreetmap.org/way/1011162726",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "113408",
+        "NAME": "UNKNOWN113408",
+        "CITY": "SANDERSVILLE",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.00534300000004,
+        "LONGITUDE": -82.87974699999995,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1403568000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1403568000000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1011162726",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Tiger Creek",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0017,
+      "recommended_latitude": 33.0945058,
+      "recommended_longitude": -82.9815846,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Tiger Creek Substation",
+        "latitude": 33.0945058,
+        "longitude": -82.9815846,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 170296000,
+        "source": "https://www.openstreetmap.org/way/170296000",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "113410",
+        "NAME": "UNKNOWN113410",
+        "CITY": "SPARTA",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.09448127600007,
+        "LONGITUDE": -82.98157817099997,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1403568000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1403568000000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/170296000",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Warrenton Primary",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0086,
+      "recommended_latitude": 33.3805007,
+      "recommended_longitude": -82.687296,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Warrenton Primary Substation",
+        "latitude": 33.3805007,
+        "longitude": -82.687296,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 170296005,
+        "source": "https://www.openstreetmap.org/way/170296005",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "113523",
+        "NAME": "UNKNOWN113523",
+        "CITY": "WARRENTON",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.380584000000056,
+        "LONGITUDE": -82.68740599999995,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1403654400000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1403654400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/170296005",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Warthen",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.011,
+      "recommended_latitude": 33.1200621,
+      "recommended_longitude": -82.8594838,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Warthen Substation",
+        "latitude": 33.1200621,
+        "longitude": -82.8594838,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 160057277,
+        "source": "https://www.openstreetmap.org/way/160057277",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "154653",
+        "NAME": "WARTHEN SUBSTATION",
+        "CITY": "WARTHEN",
+        "STATE": "GA",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.11992200000003,
+        "LONGITUDE": -82.85939199999996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1403568000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1470700800000,
+        "MAX_VOLT": 500
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/160057277",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "West End",
+      "status": "needs_review",
+      "distance_between_sources_miles": 35.6172,
+      "recommended_latitude": null,
+      "recommended_longitude": null,
+      "location_quality": "unknown",
+      "osm": {
+        "name": "West End Substation",
+        "latitude": 35.2195791,
+        "longitude": -79.5302689,
+        "operator": "Duke Energy Progress",
+        "osm_type": "way",
+        "osm_id": 185505656,
+        "source": "https://www.openstreetmap.org/way/185505656",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "120930",
+        "NAME": "UNKNOWN120930",
+        "CITY": "BENNETTSVILLE",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 34.747037815000056,
+        "LONGITUDE": -79.78170480899996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1422489600000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1422489600000,
+        "MAX_VOLT": 69
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185505656"
+      ],
+      "notes": "No sufficiently close exact-name HIFLD confirmation; do not use coordinates yet."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "projects": [
+    {
+      "project_id": "fixture-dominion-001",
+      "utility_id": "dominion_sc",
+      "project_name": "Illustrative Dominion project",
+      "project_type": "unknown",
+      "state": "SC",
+      "description": null,
+      "location_text": null,
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": null,
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "synthetic-fixture",
+          "locator": "example only",
+          "supports": ["project_id", "utility_id", "project_name", "state"]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Synthetic importer example; exclude from real rankings."
+    }
+  ]
+}

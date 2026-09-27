@@ -176,9 +176,11 @@ check the page ranges without making API requests.
 
 ### Run the backend
 
-From the repository root, using Python 3.10 or newer. Set `DATABASE_URL` first,
-either exported in the shell or in the ignored `database/.env` file (copy
-`database/.env.example`).
+Requires Python `>=3.10` (stated in `database/pyproject.toml`). `fastapi` and
+`uvicorn` are pinned exactly in `requirements.txt`; other backend dependencies
+use version ranges rather than a full lockfile. From the repository root, set
+`DATABASE_URL` first, either exported in the shell or in the ignored
+`database/.env` file (copy `database/.env.example`).
 
 ```bash
 python3 -m venv .venv
@@ -201,6 +203,8 @@ collection.
 
 ### Run the frontend
 
+Requires Node `^20.19.0` or `>=22.12.0` (pinned in `frontend/package.json`
+`engines` and `frontend/.nvmrc`; run `nvm use` from `frontend/` if you use nvm).
 In a second terminal, with the backend already running on port 8000:
 
 ```bash

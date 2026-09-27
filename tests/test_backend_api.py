@@ -18,6 +18,7 @@ import psycopg
 import db
 import main
 from database.gridlock_importer.validation import validate_batch
+from recommendations.engine import self_test_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -152,6 +153,22 @@ class BackendApiTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(body, {"schema_version": "1.0", "opportunities": []})
 
+    def test_recommendations_explain_backend_results(self):
+        projects, opportunities = self_test_data()
+        with (
+            patch("main.fetch_projects", return_value=list(projects.values())),
+            patch("main.fetch_opportunities", return_value=opportunities),
+        ):
+            status, _, body = get("/recommendations")
+        self.assertEqual(status, 200)
+        self.assertEqual(body["status"], "ok")
+        self.assertEqual(len(body["recommendations"]), 1)
+        recommendation = body["recommendations"][0]
+        self.assertEqual(recommendation["project_id_a"], "TEST_A")
+        self.assertEqual(recommendation["project_id_b"], "TEST_B")
+        self.assertEqual(recommendation["distance_miles"], 8.77)
+        self.assertIn("within the 25-mile threshold", recommendation["why_flagged"])
+
     def test_opportunities_serialize_distance_and_explain_uncertainty(self):
         for timeline in ("overlap", "no_overlap", "unknown"):
             with self.subTest(timeline=timeline):
@@ -186,7 +203,7 @@ class BackendApiTests(unittest.TestCase):
     def test_openapi_exposes_agreed_response_contracts(self):
         status, _, document = get("/openapi.json")
         self.assertEqual(status, 200)
-        self.assertEqual(set(document["paths"]), {"/health", "/projects", "/opportunities"})
+        self.assertEqual(set(document["paths"]), {"/health", "/projects", "/opportunities", "/recommendations"})
         models = document["components"]["schemas"]
         self.assertEqual(set(models["Project"]["required"]), set(self.sample))
         self.assertEqual(len(models["Opportunity"]["required"]), 7)

@@ -11,7 +11,9 @@ and help users investigate opportunities to share resources and infrastructure.
 
 The Tiger Cloud PostgreSQL/PostGIS schema and versioned JSON importer are
 implemented. The importer has loaded a real project batch into Tiger Cloud.
-The backend serves `GET /health`, `GET /projects`, and `GET /opportunities`.
+The backend serves `GET /health`, `GET /projects`, `GET /opportunities`, and
+`GET /recommendations`. Recommendations explain deterministic backend results;
+they never create project pairs, distances, dates, feasibility, or savings.
 Tiger Cloud contains the 166-record master batch. Frontend and deployment are
 still pending. Gemini extraction code exists;
 its integration into the complete demo still needs verification.

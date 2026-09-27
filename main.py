@@ -9,6 +9,7 @@ from api_models import (
 )
 from db import get_opportunities as fetch_opportunities
 from db import get_projects as fetch_projects
+from recommendations.engine import build_recommendations, index_projects
 
 app = FastAPI(title="GridLock")
 
@@ -53,3 +54,23 @@ def get_opportunities():
         ) from None
 
     return {"schema_version": "1.0", "opportunities": opportunities}
+
+
+@app.get(
+    "/recommendations",
+    responses={503: {"model": ErrorResponse}},
+)
+def get_recommendations():
+    """Explain deterministic project pairs without creating new matches."""
+    try:
+        projects = fetch_projects()
+        opportunities = fetch_opportunities()
+        return build_recommendations(
+            opportunities,
+            index_projects({"projects": projects}),
+        )
+    except (psycopg.Error, RuntimeError):
+        raise HTTPException(
+            status_code=503,
+            detail="Recommendation data is temporarily unavailable.",
+        ) from None

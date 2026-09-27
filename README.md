@@ -69,11 +69,11 @@ an in-service date alone does not establish a construction window.
 | Map | Leaflet (OpenStreetMap tiles) | Implemented; no API key required |
 | Backend | Python + FastAPI | Health, project, and opportunity endpoints implemented |
 | Database | Tiger Data / PostgreSQL | Implemented and verified |
-| AI | Gemini API | Selected; integration pending |
+| AI | Gemini API | Extraction client implemented (`gemini_extraction/`); not yet wired into the live demo path |
 | Geographic queries | PostGIS | Implemented and verified |
-| API testing | Postman | Selected |
-| Version control | GitHub | Selected |
-| Deployment | Vercel frontend; Render or Railway backend | Proposed; decision pending |
+| API testing | Postman | In use (`postman/`) |
+| Version control | GitHub | In use |
+| Deployment | Vercel frontend; Render or Railway backend | Still undecided — nothing is deployed yet |
 
 Choose only the dependencies needed for the demo. See [context.md](context.md)
 for the selected contract and remaining decisions.

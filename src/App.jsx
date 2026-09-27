@@ -120,9 +120,8 @@ export default function App(){
         setRecommendationData(recommendationPayload);
         setDataState("api");
       })
-      .catch(()=>fetch("/master_projects.json")
-        .then(response=>{if(!response.ok)throw new Error("Dataset unavailable");return response.json()})
-        .then(payload=>{setProjects(payload.projects.map(normalizeProject));setApiOpportunities([]);setRecommendationData({status:"offline",summary:"Recommendation API unavailable. Showing the local project dataset only.",recommendations:[]});setDataState("local")})
+      .catch(()=>Promise.all([fetch("/master_projects.json").then(response=>{if(!response.ok)throw new Error("Dataset unavailable");return response.json()}),fetch("/recommendations.json").then(response=>{if(!response.ok)throw new Error("Recommendation snapshot unavailable");return response.json()})])
+        .then(([payload,recommendations])=>{setProjects(payload.projects.map(normalizeProject));setApiOpportunities([]);setRecommendationData(recommendations);setDataState("local")})
         .catch(()=>{setDataState("fallback");setRecommendationData({status:"offline",summary:"Recommendation API unavailable.",recommendations:[]})}));
   },[]);
   useEffect(()=>{if(page!=="workspace")return;const updateSection=()=>{const sections=["directory","recommendations","top"];const current=sections.find(id=>{const element=document.getElementById(id);return element&&element.getBoundingClientRect().top<=150});setActiveSection(current??"top")};window.addEventListener("scroll",updateSection,{passive:true});updateSection();return()=>window.removeEventListener("scroll",updateSection)},[page]);

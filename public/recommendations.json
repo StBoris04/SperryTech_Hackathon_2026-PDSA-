@@ -1,0 +1,1017 @@
+{
+  "status": "ok",
+  "summary": "8 cross-utility pairs within 25 miles: 8 nearby - timing unconfirmed.",
+  "evidence_gaps": [
+    {
+      "utility": "Dominion Energy South Carolina (DESC)",
+      "total_projects": 44,
+      "validated_with_coordinates": 24,
+      "missing_coordinates": 20,
+      "needs_review": 20,
+      "missing_construction_end": 44
+    },
+    {
+      "utility": "Georgia Power (GPC)",
+      "total_projects": 34,
+      "validated_with_coordinates": 4,
+      "missing_coordinates": 30,
+      "needs_review": 30,
+      "missing_construction_end": 34
+    }
+  ],
+  "recommendations": [
+    {
+      "project_id_a": "DESC_3",
+      "project_id_b": "GPC_2",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 3.03,
+      "timeline_status": "unknown",
+      "why_flagged": "Jasper \u2013 Okatie 230 kV #2: Construct (Dominion Energy South Carolina (DESC)) and SAV: MCINTOSH - PURRYSBURG 230KV REACTORS (Georgia Power (GPC)) have representative points 3.03 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Jasper \u2013 Okatie 230 kV #2: Construct: approximate location (Representative point uses confirmed terminal Jasper; other terminal unavailable).",
+        "Jasper \u2013 Okatie 230 kV #2: Construct: no source-backed construction end date.",
+        "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS: approximate location (Representative point uses confirmed terminal McIntosh; other terminal unavailable).",
+        "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_3",
+          "project_name": "Jasper \u2013 Okatie 230 kV #2: Construct",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2025-12-31",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 4",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 23 (printed Project 23 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185380597",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_2",
+          "project_name": "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2024-01-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 8",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 227 (printed 57 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/121624352",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_3",
+      "project_id_b": "GPC_3",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 3.03,
+      "timeline_status": "unknown",
+      "why_flagged": "Jasper \u2013 Okatie 230 kV #2: Construct (Dominion Energy South Carolina (DESC)) and SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD (Georgia Power (GPC)) have representative points 3.03 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Jasper \u2013 Okatie 230 kV #2: Construct: approximate location (Representative point uses confirmed terminal Jasper; other terminal unavailable).",
+        "Jasper \u2013 Okatie 230 kV #2: Construct: no source-backed construction end date.",
+        "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD: approximate location (Representative point uses confirmed terminal McIntosh; other terminal unavailable).",
+        "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_3",
+          "project_name": "Jasper \u2013 Okatie 230 kV #2: Construct",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2025-12-31",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 4",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 23 (printed Project 23 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185380597",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_3",
+          "project_name": "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 9",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 314 (printed 144 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/121624352",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_0139_M_N",
+      "project_id_b": "GPC_2",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 16.16,
+      "timeline_status": "unknown",
+      "why_flagged": "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in (Dominion Energy South Carolina (DESC)) and SAV: MCINTOSH - PURRYSBURG 230KV REACTORS (Georgia Power (GPC)) have representative points 16.16 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in: approximate location (Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD).",
+        "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in: no source-backed construction end date.",
+        "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS: approximate location (Representative point uses confirmed terminal McIntosh; other terminal unavailable).",
+        "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_0139_M_N",
+          "project_name": "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2024-12-31",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 3 (printed Project 3 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185380597",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185317032",
+              "locator": "Terminal: Yemassee",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_2",
+          "project_name": "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2024-01-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 8",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 227 (printed 57 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/121624352",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_0139_M_N",
+      "project_id_b": "GPC_3",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 16.16,
+      "timeline_status": "unknown",
+      "why_flagged": "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in (Dominion Energy South Carolina (DESC)) and SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD (Georgia Power (GPC)) have representative points 16.16 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in: approximate location (Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD).",
+        "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in: no source-backed construction end date.",
+        "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD: approximate location (Representative point uses confirmed terminal McIntosh; other terminal unavailable).",
+        "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_0139_M_N",
+          "project_name": "Okatie 230-115kV Substation, Jasper \u2013 Yemassee 230kV #1 Fold-in",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2024-12-31",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 3 (printed Project 3 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185380597",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185317032",
+              "locator": "Terminal: Yemassee",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_3",
+          "project_name": "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 9",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 314 (printed 144 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/121624352",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_5",
+      "project_id_b": "GPC_20066",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 18.94,
+      "timeline_status": "unknown",
+      "why_flagged": "Okatie-Bluffton 115kV: Rebuild (Dominion Energy South Carolina (DESC)) and SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR (Georgia Power (GPC)) have representative points 18.94 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Okatie-Bluffton 115kV: Rebuild: approximate location (Representative point uses confirmed terminal Bluffton; other terminal unavailable).",
+        "Okatie-Bluffton 115kV: Rebuild: no source-backed construction end date.",
+        "SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR: approximate location (Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD).",
+        "SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_5",
+          "project_name": "Okatie-Bluffton 115kV: Rebuild",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 6",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 10 (printed Project 10 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/498967268",
+              "locator": "Terminal: Bluffton",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Bluffton",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_20066",
+          "project_name": "SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 277 (printed Page 107 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/381797798",
+              "locator": "Terminal: Boulevard",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Boulevard",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/122007500",
+              "locator": "Terminal: Deptford",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_5",
+      "project_id_b": "GPC_2",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 20.46,
+      "timeline_status": "unknown",
+      "why_flagged": "Okatie-Bluffton 115kV: Rebuild (Dominion Energy South Carolina (DESC)) and SAV: MCINTOSH - PURRYSBURG 230KV REACTORS (Georgia Power (GPC)) have representative points 20.46 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Okatie-Bluffton 115kV: Rebuild: approximate location (Representative point uses confirmed terminal Bluffton; other terminal unavailable).",
+        "Okatie-Bluffton 115kV: Rebuild: no source-backed construction end date.",
+        "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS: approximate location (Representative point uses confirmed terminal McIntosh; other terminal unavailable).",
+        "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_5",
+          "project_name": "Okatie-Bluffton 115kV: Rebuild",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 6",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 10 (printed Project 10 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/498967268",
+              "locator": "Terminal: Bluffton",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Bluffton",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_2",
+          "project_name": "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2024-01-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 8",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 227 (printed 57 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/121624352",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_5",
+      "project_id_b": "GPC_3",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 20.46,
+      "timeline_status": "unknown",
+      "why_flagged": "Okatie-Bluffton 115kV: Rebuild (Dominion Energy South Carolina (DESC)) and SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD (Georgia Power (GPC)) have representative points 20.46 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Okatie-Bluffton 115kV: Rebuild: approximate location (Representative point uses confirmed terminal Bluffton; other terminal unavailable).",
+        "Okatie-Bluffton 115kV: Rebuild: no source-backed construction end date.",
+        "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD: approximate location (Representative point uses confirmed terminal McIntosh; other terminal unavailable).",
+        "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_5",
+          "project_name": "Okatie-Bluffton 115kV: Rebuild",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 6",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 10 (printed Project 10 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/498967268",
+              "locator": "Terminal: Bluffton",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Bluffton",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_3",
+          "project_name": "SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 9",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 314 (printed 144 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/121624352",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: McIntosh",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    },
+    {
+      "project_id_a": "DESC_3",
+      "project_id_b": "GPC_20066",
+      "category": "Nearby - timing unconfirmed",
+      "priority": 2,
+      "distance_miles": 21.25,
+      "timeline_status": "unknown",
+      "why_flagged": "Jasper \u2013 Okatie 230 kV #2: Construct (Dominion Energy South Carolina (DESC)) and SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR (Georgia Power (GPC)) have representative points 21.25 miles apart, within the 25-mile threshold. Whether their construction windows overlap is unknown.",
+      "uncertainties": [
+        "Distance is measured between representative points, not between full transmission routes.",
+        "At least one location is approximate.",
+        "Jasper \u2013 Okatie 230 kV #2: Construct: approximate location (Representative point uses confirmed terminal Jasper; other terminal unavailable).",
+        "Jasper \u2013 Okatie 230 kV #2: Construct: no source-backed construction end date.",
+        "SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR: approximate location (Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD).",
+        "SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR: no source-backed construction end date.",
+        "Resource sharing, outage impact, and savings are not established by this data."
+      ],
+      "evidence": [
+        {
+          "project_id": "DESC_3",
+          "project_name": "Jasper \u2013 Okatie 230 kV #2: Construct",
+          "utility": "Dominion Energy South Carolina (DESC)",
+          "schedule": "in-service 2025-12-31",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+              "locator": "projects!row 4",
+              "supports": [
+                "project_id",
+                "state"
+              ]
+            },
+            {
+              "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+              "locator": "PDF page 23 (printed Project 23 of 44)",
+              "supports": [
+                "utility_id",
+                "state",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/185380597",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Jasper",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        },
+        {
+          "project_id": "GPC_20066",
+          "project_name": "SAV: BOULEVARD - DEPTFORD 115KV RECONDUCTOR",
+          "utility": "Georgia Power (GPC)",
+          "schedule": "construction start 2025-06-01",
+          "sources": [
+            {
+              "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+              "locator": "PDF page 277 (printed Page 107 of 304)",
+              "supports": [
+                "utility_id",
+                "project_name",
+                "project_type",
+                "description",
+                "location_text",
+                "construction_start",
+                "construction_end",
+                "in_service_date",
+                "schedule_text"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/381797798",
+              "locator": "Terminal: Boulevard",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+              "locator": "Terminal: Boulevard",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            },
+            {
+              "reference": "https://www.openstreetmap.org/way/122007500",
+              "locator": "Terminal: Deptford",
+              "supports": [
+                "latitude",
+                "longitude",
+                "location_quality",
+                "location_method"
+              ]
+            }
+          ]
+        }
+      ],
+      "next_step": "Obtain source-backed construction start and end dates for both projects. Until then, proximity is the only confirmed signal.",
+      "backend_reason": "Local deterministic snapshot: validated cross-utility representative points within 25 miles; timing remains unknown."
+    }
+  ],
+  "source": "local_deterministic_snapshot"
+}

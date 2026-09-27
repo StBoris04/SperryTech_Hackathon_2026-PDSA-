@@ -1,8 +1,18 @@
-# GridLock frontend (API integration check)
+# GridLock frontend
 
-Minimal React + Vite page that calls `GET /health`, `GET /projects`, and
-`GET /opportunities` from the browser, so API connectivity can be tested before
-the map UI is built.
+React + Tailwind CSS + Leaflet (OpenStreetMap tiles, no API key) interface over
+`GET /projects` and `GET /opportunities`:
+
+- Map of both utilities' projects in distinct colors. Approximate locations are
+  dashed and translucent; projects without coordinates stay in the list only.
+- Ranked opportunities exactly as the API orders them. Selecting one draws the
+  pair on the map and shows distance, timeline status, uncertainty, the reason,
+  and both projects.
+- Project list with search and utility/map filters. Selecting a project shows
+  its dates at source precision, location method, notes, and source evidence,
+  plus a 25-mile radius on the map.
+- The UI does not compute distances, rankings, or savings; those come from the
+  API and are never invented.
 
 ```bash
 # Terminal 1, repository root: start the API (see docs/api.md)

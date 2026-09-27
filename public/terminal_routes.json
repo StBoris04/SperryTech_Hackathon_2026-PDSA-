@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "routes": [
+    {
+      "project_id": "DESC_0139_M_N",
+      "terminals": [
+        {
+          "name": "Jasper",
+          "latitude": 32.3606993,
+          "longitude": -81.1241523,
+          "location_quality": "verified"
+        },
+        {
+          "name": "Yemassee",
+          "latitude": 32.6974259,
+          "longitude": -80.8637929,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_0147_B_J",
+      "terminals": [
+        {
+          "name": "Jack Primus",
+          "latitude": 32.9193841,
+          "longitude": -79.9044954,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_0147_C_K",
+      "terminals": [
+        {
+          "name": "Cainhoy",
+          "latitude": 32.941402,
+          "longitude": -79.8422757,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_06005_B",
+      "terminals": [
+        {
+          "name": "Harleyville substation",
+          "latitude": 33.2099069,
+          "longitude": -80.4511658,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_06076A",
+      "terminals": [
+        {
+          "name": "Canadys",
+          "latitude": 33.0640963,
+          "longitude": -80.6205999,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_06372_A",
+      "terminals": [
+        {
+          "name": "Church Creek",
+          "latitude": 32.8303196,
+          "longitude": -80.0702792,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_06810_F",
+      "terminals": [
+        {
+          "name": "Ward",
+          "latitude": 33.87218,
+          "longitude": -81.6977228,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_2",
+      "terminals": [
+        {
+          "name": "Thurmond",
+          "latitude": 33.6601273,
+          "longitude": -82.1959307,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_3",
+      "terminals": [
+        {
+          "name": "Jasper",
+          "latitude": 32.3606993,
+          "longitude": -81.1241523,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_5",
+      "terminals": [
+        {
+          "name": "Bluffton",
+          "latitude": 32.2350272,
+          "longitude": -80.8533836,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6341_A_F",
+      "terminals": [
+        {
+          "name": "Cainhoy",
+          "latitude": 32.941402,
+          "longitude": -79.8422757,
+          "location_quality": "verified"
+        },
+        {
+          "name": "Hamlin",
+          "latitude": 32.859937,
+          "longitude": -79.7884409,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6359",
+      "terminals": [
+        {
+          "name": "Yemassee",
+          "latitude": 32.6974259,
+          "longitude": -80.8637929,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6388_A",
+      "terminals": [
+        {
+          "name": "Williams",
+          "latitude": 33.0176985,
+          "longitude": -79.9321678,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6808_K",
+      "terminals": [
+        {
+          "name": "Burton",
+          "latitude": 32.4364883,
+          "longitude": -80.7210159,
+          "location_quality": "verified"
+        },
+        {
+          "name": "Frogmore",
+          "latitude": 32.3991323,
+          "longitude": -80.5711266,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6808_R",
+      "terminals": [
+        {
+          "name": "Wateree",
+          "latitude": 33.8262718,
+          "longitude": -80.6240763,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6809_M",
+      "terminals": [
+        {
+          "name": "Santee Substation",
+          "latitude": 33.4234139,
+          "longitude": -80.125292,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6809_N",
+      "terminals": [
+        {
+          "name": "Batesburg",
+          "latitude": 33.9134867,
+          "longitude": -81.5644353,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6810_J",
+      "terminals": [
+        {
+          "name": "Elloree",
+          "latitude": 33.5323844,
+          "longitude": -80.5797245,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6810_O",
+      "terminals": [
+        {
+          "name": "Urquhart",
+          "latitude": 33.4328703,
+          "longitude": -81.9110807,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6810_U",
+      "terminals": [
+        {
+          "name": "Elloree",
+          "latitude": 33.5323844,
+          "longitude": -80.5797245,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6846_A",
+      "terminals": [
+        {
+          "name": "Sumter",
+          "latitude": 33.8976611,
+          "longitude": -80.3239761,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6847_A_B_D_H",
+      "terminals": [
+        {
+          "name": "Church Creek",
+          "latitude": 32.8303196,
+          "longitude": -80.0702792,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6852",
+      "terminals": [
+        {
+          "name": "Urquhart",
+          "latitude": 33.4328703,
+          "longitude": -81.9110807,
+          "location_quality": "verified"
+        },
+        {
+          "name": "Toolebeck",
+          "latitude": 33.5346321,
+          "longitude": -81.6693272,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "DESC_6859",
+      "terminals": [
+        {
+          "name": "Canadys",
+          "latitude": 33.0640963,
+          "longitude": -80.6205999,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "GPC_19618",
+      "terminals": [
+        {
+          "name": "Gordon",
+          "latitude": 32.8824706,
+          "longitude": -83.3169141,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "GPC_2",
+      "terminals": [
+        {
+          "name": "McIntosh",
+          "latitude": 32.3521162,
+          "longitude": -81.1751124,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "GPC_20066",
+      "terminals": [
+        {
+          "name": "Boulevard",
+          "latitude": 32.0412308,
+          "longitude": -81.1444637,
+          "location_quality": "verified"
+        },
+        {
+          "name": "Deptford",
+          "latitude": 32.0668279,
+          "longitude": -81.0483845,
+          "location_quality": "verified"
+        }
+      ]
+    },
+    {
+      "project_id": "GPC_3",
+      "terminals": [
+        {
+          "name": "McIntosh",
+          "latitude": 32.3521162,
+          "longitude": -81.1751124,
+          "location_quality": "verified"
+        }
+      ]
+    }
+  ]
+}

@@ -31,7 +31,7 @@ const normalizeProject = (project) => {
 
 const distanceMiles=(a,b)=>{if(a?.latitude==null||a?.longitude==null||b?.latitude==null||b?.longitude==null)return null;const rad=value=>value*Math.PI/180;const dLat=rad(b.latitude-a.latitude);const dLon=rad(b.longitude-a.longitude);const h=Math.sin(dLat/2)**2+Math.cos(rad(a.latitude))*Math.cos(rad(b.latitude))*Math.sin(dLon/2)**2;return 3958.8*2*Math.asin(Math.sqrt(h))};
 
-function ProjectMap({projects,selectedId,compareIds,layer,onSelect}){
+function ProjectMap({projects,terminalRoutes,selectedId,compareIds,layer,onSelect}){
   const containerRef=useRef(null);
   const mapRef=useRef(null);
   const projectLayerRef=useRef(null);
@@ -57,6 +57,15 @@ function ProjectMap({projects,selectedId,compareIds,layer,onSelect}){
     group.clearLayers();
     const located=projects.filter(project=>project.latitude!=null&&project.longitude!=null);
     const visibleIds=layer==="Opportunities"&&compareIds.length===2?new Set(compareIds):null;
+    terminalRoutes.filter(route=>route.terminals.length===2).forEach(route=>{
+      const project=projects.find(item=>item.id===route.project_id);
+      if(!project||(visibleIds&&!visibleIds.has(project.id)))return;
+      const active=selectedId===project.id||compareIds.includes(project.id);
+      const color=tone(project.utility)==="green"?"#24714a":"#dd8735";
+      const points=route.terminals.map(terminal=>[terminal.latitude,terminal.longitude]);
+      L.polyline(points,{color,weight:active?6:3,opacity:active?.95:.45}).bindTooltip(`${route.terminals[0].name} ↔ ${route.terminals[1].name}`).addTo(group);
+      route.terminals.forEach(terminal=>L.circleMarker([terminal.latitude,terminal.longitude],{radius:active?6:4,color:"#fff",weight:2,fillColor:color,fillOpacity:1}).bindTooltip(terminal.name).addTo(group));
+    });
     located.forEach(project=>{
       if(visibleIds&&!visibleIds.has(project.id))return;
       const color=tone(project.utility)==="green"?"#24714a":"#dd8735";
@@ -82,7 +91,7 @@ function ProjectMap({projects,selectedId,compareIds,layer,onSelect}){
       if(selected)map.flyTo([selected.latitude,selected.longitude],Math.max(map.getZoom(),9),{duration:.55});
       else if(located.length)map.fitBounds(L.latLngBounds(located.map(project=>[project.latitude,project.longitude])),{padding:[35,35],maxZoom:8});
     }
-  },[projects,selectedId,compareIds,layer,onSelect]);
+  },[projects,terminalRoutes,selectedId,compareIds,layer,onSelect]);
 
   return <div ref={containerRef} className="leaflet-map" aria-label="Interactive map of utility projects"/>;
 }
@@ -90,6 +99,7 @@ function ProjectMap({projects,selectedId,compareIds,layer,onSelect}){
 export default function App(){
   const [projects,setProjects]=useState(fallbackProjects);
   const [apiOpportunities,setApiOpportunities]=useState([]);
+  const [terminalRoutes,setTerminalRoutes]=useState([]);
   const [recommendationData,setRecommendationData]=useState({status:"loading",summary:"Loading recommendations…",recommendations:[]});
   const [dataState,setDataState]=useState("loading");
   const [selectedId,setSelectedId]=useState("DESC_2");
@@ -101,6 +111,7 @@ export default function App(){
   const [activeSection,setActiveSection]=useState("top");
   const [page,setPage]=useState("workspace");
   const [toast,setToast]=useState("");
+  useEffect(()=>{fetch("/terminal_routes.json").then(response=>response.json()).then(payload=>setTerminalRoutes(payload.routes??[])).catch(()=>setTerminalRoutes([]))},[]);
   useEffect(()=>{
     Promise.all([fetchJson("/projects"),fetchJson("/opportunities"),fetchJson("/recommendations")])
       .then(([projectPayload,opportunityPayload,recommendationPayload])=>{
@@ -117,6 +128,7 @@ export default function App(){
   useEffect(()=>{if(page!=="workspace")return;const updateSection=()=>{const sections=["directory","recommendations","top"];const current=sections.find(id=>{const element=document.getElementById(id);return element&&element.getBoundingClientRect().top<=150});setActiveSection(current??"top")};window.addEventListener("scroll",updateSection,{passive:true});updateSection();return()=>window.removeEventListener("scroll",updateSection)},[page]);
   useEffect(()=>{if(compareIds.length===2){setPanel("compare");window.setTimeout(()=>navigateTo("top"),0)}},[compareIds]);
   const selected=projects.find(p=>p.id===selectedId)??projects[0];
+  const selectedRoute=terminalRoutes.find(route=>route.project_id===selected?.id);
   const compared=compareIds.map(id=>projects.find(p=>p.id===id)).filter(Boolean);
   const comparedDistance=compared.length===2?distanceMiles(compared[0],compared[1]):null;
   const mappedComparison=compared.length===2&&compared.every(project=>project.latitude!=null&&project.longitude!=null)?compared:null;
@@ -166,10 +178,10 @@ export default function App(){
 
       <section className="explorer">
           <div className="map-stage">
-          <ProjectMap projects={projects} selectedId={selectedId} compareIds={compareIds} layer={layer} onSelect={chooseProject}/>
+          <ProjectMap projects={projects} terminalRoutes={terminalRoutes} selectedId={selectedId} compareIds={compareIds} layer={layer} onSelect={chooseProject}/>
           {!mappedComparison&&compareIds.length===2&&<div className="map-data-warning">A map line requires coordinates for both selected projects.</div>}
           <div className="layer-switch">{["Projects","Opportunities"].map(x=><button onClick={()=>setLayer(x)} className={layer===x?"active":""} key={x}>{x}</button>)}</div>
-          <div className="map-caption"><span><i className="dot green"/> Dominion</span><span><i className="dot orange"/> Georgia Power</span><b>{projects.filter(p=>p.x!=null).length} located · {projects.length-projects.filter(p=>p.x!=null).length} location unknown</b></div>
+          <div className="map-caption"><span><i className="dot green"/> Dominion</span><span><i className="dot orange"/> Georgia Power</span><b>{selectedRoute?.terminals.length===2?`${selectedRoute.terminals[0].name} ↔ ${selectedRoute.terminals[1].name} · verified terminals`:`${projects.filter(p=>p.x!=null).length} located · ${projects.length-projects.filter(p=>p.x!=null).length} location unknown`}</b></div>
         </div>
 
         <aside className="control-panel">

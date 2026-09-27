@@ -9,10 +9,10 @@ and help users investigate opportunities to share resources and infrastructure.
 
 ## Current status
 
-Planning and data preparation. The repository contains challenge documents,
-source PDFs, a supplied spreadsheet, and team documentation. The application,
-database integration, and deployment are not implemented yet. The features and
-architecture below describe the intended MVP.
+The Tiger Cloud PostgreSQL/PostGIS schema and versioned JSON importer are
+implemented. The importer has loaded a real project batch into Tiger Cloud.
+The backend API, frontend, Gemini integration, and deployment are still pending.
+The features below describe the intended complete MVP.
 
 ## Planned MVP
 
@@ -55,18 +55,18 @@ an in-service date alone does not establish a construction window.
 
 | Layer | Direction | Status |
 | --- | --- | --- |
-| Frontend | React + Tailwind CSS | Proposed |
+| Frontend | React + Tailwind CSS | Selected; implementation pending |
 | Map | Leaflet or Mapbox GL JS | Decision pending |
-| Backend | Python + FastAPI | Proposed |
-| Database | Tiger Data / PostgreSQL | Selected; setup pending |
+| Backend | Python + FastAPI | Selected; implementation pending |
+| Database | Tiger Data / PostgreSQL | Implemented and verified |
 | AI | Gemini API | Selected; integration pending |
-| Geographic queries | PostGIS if supported by the actual instance; otherwise an agreed Python approach | Verification and decision pending |
-| API testing | Postman | Team preference |
-| Version control | GitHub | Team preference |
+| Geographic queries | PostGIS | Implemented and verified |
+| API testing | Postman | Selected |
+| Version control | GitHub | Selected |
 | Deployment | Vercel frontend; Render or Railway backend | Proposed; decision pending |
 
 Choose only the dependencies needed for the demo. See [context.md](context.md)
-for detailed proposals and open decisions.
+for the selected contract and remaining decisions.
 
 ## Team
 
@@ -89,6 +89,7 @@ and shared interfaces before making overlapping changes.
 | [AGENTS.md](AGENTS.md) | Team and coding-agent working agreement, approval boundaries, and PR format |
 | [skills.md](skills.md) | Workflows and handoffs for extraction, storage, analysis, API, frontend, and demo |
 | [docs/data-audit.md](docs/data-audit.md) | Read-only audit and proposed import mapping for the supplied workbook |
+| [database/](database/) | Tiger Cloud schema, JSON importer, examples, tests, and run instructions |
 
 Use public information only and preserve original source files. The source
 inventory and review status are tracked in [context.md](context.md).
@@ -100,9 +101,13 @@ inventory and review status are tracked in [context.md](context.md).
 3. Read [AGENTS.md](AGENTS.md) and agree on the task you own.
 4. Follow the relevant workflow in [skills.md](skills.md).
 
-There are no application setup or run commands yet. Add verified installation,
-environment configuration, local run, and deployment instructions as those
-components are implemented. Never commit API keys, database credentials, or .env files.
+The database importer can be run now. From `database/`, install the package with
+`python -m pip install -e ".[dev]"`, configure `DATABASE_URL` in an ignored `.env`,
+and run `python -m gridlock_importer.health` to verify connectivity. Validate a
+versioned batch with `gridlock-import /path/to/projects.json --dry-run`, then
+run the same command without `--dry-run` to import it. See [database/README.md](database/README.md)
+for complete instructions. The API and frontend do not have run commands yet.
+Never commit API keys, database credentials, or `.env` files.
 
 ## Contributing during the hackathon
 

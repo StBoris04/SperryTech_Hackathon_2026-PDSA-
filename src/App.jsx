@@ -155,6 +155,7 @@ export default function App(){
   const filtered=useMemo(()=>projects.filter(p=>(utility==="All"||p.short===utility)&&`${p.id} ${p.name} ${p.location}`.toLowerCase().includes(query.toLowerCase())),[projects,query,utility]);
   const chooseProject=useCallback((id)=>{setSelectedId(id);setPanel("project")},[]);
   const toggleCompare=(id)=>{setCompareIds(current=>current.includes(id)?current.filter(item=>item!==id):current.length>=2?[current[1],id]:[...current,id])};
+  const chooseRecommendation=(item)=>{setCompareIds([item.project_id_a,item.project_id_b]);setSelectedId(item.project_id_a);setPanel("opportunity");window.setTimeout(()=>navigateTo("top"),0)};
   const navigateTo=(id)=>{setActiveSection(id);document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"})};
   const openWorkspace=(id="top")=>{setPage("workspace");setActiveSection(id);window.setTimeout(()=>document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"}),0)};
   const openAbout=()=>{setPage("about");setActiveSection("about");window.scrollTo({top:0,behavior:"smooth"})};
@@ -196,6 +197,9 @@ export default function App(){
 
       <section className="recommendation-workspace" id="recommendations">
         <div className="recommendation-heading"><div><p className="kicker"><span>02</span> Recommendations</p><h2>Know what deserves<br/><em>attention next.</em></h2></div><p>GridLock turns verified proximity and schedule evidence into a focused coordination review. Unknown data remains visible and is never treated as a match.</p></div>
+        <div className="recommendation-list">
+          {recommendationData.recommendations.length?recommendationData.recommendations.map((item,index)=><button key={pairKey(item.project_id_a,item.project_id_b)} onClick={()=>chooseRecommendation(item)}><span>{String(index+1).padStart(2,"0")}</span><div><small>{item.project_id_a} ↔ {item.project_id_b}</small><b>{item.category}</b><p>{item.why_flagged}</p></div><em>{Number(item.distance_miles).toFixed(2)} mi →</em></button>):<div className="recommendation-empty"><b>{dataState==="api"?"No ranked opportunities returned":"Recommendation API is not connected"}</b><p>{recommendationData.summary}</p></div>}
+        </div>
         <div className="recommendation-board">
           <div className="recommendation-status"><span className="status-orbit"><i/><i/><i/></span><small>Current review</small><h3>{compared.length===2?`${compared[0].id} ↔ ${compared[1].id}`:"Select two projects to begin"}</h3><p>{recommendationView.description}</p><button onClick={()=>openWorkspace(compared.length===2?"top":"directory")}>{compared.length===2?"Review comparison":"Choose projects"} <span>→</span></button></div>
           <div className="recommendation-evidence">

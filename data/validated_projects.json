@@ -1,0 +1,2155 @@
+{
+  "schema_version": "1.0",
+  "projects": [
+    {
+      "project_id": "DESC_0139_M_N",
+      "utility_id": "dominion_sc",
+      "project_name": "Okatie 230-115kV Substation, Jasper – Yemassee 230kV #1 Fold-in",
+      "project_type": "substation",
+      "state": "SC",
+      "description": "Expand existing Okatie Transmission sub, add a 230-115 autobank and fold the Jasper - Yemassee 230 kV #1 line into the 230 kV side. Construct two additional 115 kV bus tie lines.",
+      "location_text": "Jasper - Yemassee",
+      "latitude": 32.5290626,
+      "longitude": -80.9939726,
+      "location_quality": "approximate",
+      "location_method": "Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 3 (printed Project 3 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185380597",
+          "locator": "Terminal: Jasper",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Jasper",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185317032",
+          "locator": "Terminal: Yemassee",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 0139 M,N. Scope includes substation expansion/autobank addition at Okatie and folding in the Jasper - Yemassee 230 kV #1 line."
+    },
+    {
+      "project_id": "DESC_0147_B_J",
+      "utility_id": "dominion_sc",
+      "project_name": "Jack Primus 115 kV Tap: Construct",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct a 115 kV tap from Jack Primus to Clements Ferry. Approximately 2.2 miles. Construct terminals at Jack Primus.",
+      "location_text": "Jack Primus - Clements Ferry",
+      "latitude": 32.9193841,
+      "longitude": -79.9044954,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Jack Primus; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 38 (printed Project 38 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1097237376",
+          "locator": "Terminal: Jack Primus",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Jack Primus",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 0147 B, J. Unconfirmed terminals: Clements Ferry. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_0147_C_K",
+      "utility_id": "dominion_sc",
+      "project_name": "Cainhoy 115 kV Tap: Construct",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct a 115 kV tap from Cainhoy to Clements Ferry. Approximately 2.8 miles. Construct terminal at Cainhoy.",
+      "location_text": "Cainhoy - Clements Ferry",
+      "latitude": 32.941402,
+      "longitude": -79.8422757,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Cainhoy; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 37 (printed Project 37 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/229116275",
+          "locator": "Terminal: Cainhoy",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Cainhoy",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 0147 C, K. Unconfirmed terminals: Clements Ferry. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_0167C_D",
+      "utility_id": "dominion_sc",
+      "project_name": "Union Pier 115-13.8 kV Sub: Tap",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Installing a 115 kV Tap to feed the future Union Pier 115 kV Sub.",
+      "location_text": "Union Pier",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 2 (printed Project 2 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 0167C-D. Unconfirmed terminals: Union Pier. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. The project is a tap line feeding future Union Pier Sub; the origin/tap point transmission line is not specified."
+    },
+    {
+      "project_id": "DESC_05004_P",
+      "utility_id": "dominion_sc",
+      "project_name": "Summerville: Replace and Spare 230-115kV 336MVA Auto Bank",
+      "project_type": "substation",
+      "state": "SC",
+      "description": "Purchase a spare 230/115kV, 336MVA Autobank for the Southern Region to be stored at Summerville 230kV Sub. Include a pad, AC for heaters, and possibly a pit for oil containment.",
+      "location_text": "Summerville 230kV Sub",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 19 (printed Project 19 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 05004 P. Unconfirmed terminals: Summerville 230kV Sub. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_06005_B",
+      "utility_id": "dominion_sc",
+      "project_name": "Harleyville 115KV Transmission Tap – Construct (1.4 miles)",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Extend the 115 kV line from the Blue Circle tap to the Harleyville substation to provide 115 kV service.",
+      "location_text": "Blue Circle tap - Harleyville substation",
+      "latitude": 33.2099069,
+      "longitude": -80.4511658,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Harleyville substation; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-03-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 18 (printed Project 18 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1075801506",
+          "locator": "Terminal: Harleyville substation",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Harleyville substation",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 06005 B. Unconfirmed terminals: Blue Circle tap. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_06076A",
+      "utility_id": "dominion_sc",
+      "project_name": "Canadys-Ritter 115KV-Rebld SPDC 230/115KV 1272 (Approx 18 Miles)",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuild Canadys-Ritter 115 kV line as SPDC with 230 kV on one side and 115 kV on the other side.",
+      "location_text": "Canadys - Ritter",
+      "latitude": 33.0640963,
+      "longitude": -80.6205999,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Canadys; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-06-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 20 (printed Project 20 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185032900",
+          "locator": "Terminal: Canadys",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Canadys",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 06076A. Unconfirmed terminals: Ritter. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_06367_A_C_H",
+      "utility_id": "dominion_sc",
+      "project_name": "Riverport Tap: Construct Tap",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct Okatie - Riverport 230 kV to feed new Distribution substation.",
+      "location_text": "Okatie - Riverport",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 22 (printed Project 22 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 06367 A - C, H. Unconfirmed terminals: Okatie, Riverport. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_06371_D",
+      "utility_id": "dominion_sc",
+      "project_name": "Wagener 115kV Tap: Construct Tap",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Constructing a 115 kV Tap off the Edmund Switching Station- Owens Corning 115 kV Line to feed new Wagener Distribution substation.",
+      "location_text": "Edmund Switching Station- Owens Corning 115 kV Line - Wagener Distribution substation",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 24 (printed Project 24 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 06371 D. Unconfirmed terminals: Edmund Switching Station- Owens Corning 115 kV Line, Wagener Distribution substation. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_06372_A",
+      "utility_id": "dominion_sc",
+      "project_name": "Church Creek - Ritter 230kV - Replace 38 Large Angles and Dead Ends",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace 6.5 miles of aging conductor.",
+      "location_text": "Church Creek - Ritter",
+      "latitude": 32.8303196,
+      "longitude": -80.0702792,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Church Creek; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-06-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 25 (printed Project 25 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185330726",
+          "locator": "Terminal: Church Creek",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Church Creek",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 06372 A. Unconfirmed terminals: Ritter. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_06810_F",
+      "utility_id": "dominion_sc",
+      "project_name": "VCS2-Ward 230kV: Rebuild Line",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuild 40 miles of 230 kV line.",
+      "location_text": "VCS2 - Ward",
+      "latitude": 33.87218,
+      "longitude": -81.6977228,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Ward; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2029-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 26 (printed Project 26 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185197506",
+          "locator": "Terminal: Ward",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Ward",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 06810 F. Unconfirmed terminals: VCS2. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_06810_G",
+      "utility_id": "dominion_sc",
+      "project_name": "Goose Creek Reservoir: Rebuild Transmission Line Crossings",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuilding the Williams Goose Creek 230 and 115 kV lines and the Williams - Faber Place 230 kV line across the Goose Creek Reservoir.",
+      "location_text": null,
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 27 (printed Project 27 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 06810 G. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Project involves rebuilding multiple line crossings across Goose Creek Reservoir: Williams Goose Creek 230 and 115 kV lines, and Williams - Faber Place 230 kV line."
+    },
+    {
+      "project_id": "DESC_06810_H",
+      "utility_id": "dominion_sc",
+      "project_name": "Summerville 115kV Loop: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replacing several wood pole sections on the Summerville 115 kV Loop that have reached the end of life.",
+      "location_text": "Summerville",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 28 (printed Project 28 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 06810 H. Unconfirmed terminals: Summerville. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Project involves replacing wood pole sections on the Summerville 115 kV Loop; single distinct endpoints are not applicable to a loop."
+    },
+    {
+      "project_id": "DESC_1",
+      "utility_id": "dominion_sc",
+      "project_name": "Stevens Creek - Hooks 115kV/LR Plumb Branch 46kV Rebuilds",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "9.5 miles. Scope includes rebuilding the 115 and 46 kV lines in this corridor SPDC.",
+      "location_text": "Stevens Creek - Hooks",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+          "locator": "projects!row 2",
+          "supports": [
+            "project_id",
+            "state"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 14 (printed Project 14 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6809 E. Unconfirmed terminals: Stevens Creek, Hooks. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Title and description mention rebuilding 115 kV and 46 kV lines in this corridor SPDC (Stevens Creek - Hooks 115kV / LR Plumb Branch 46kV)."
+    },
+    {
+      "project_id": "DESC_1060A_I_L",
+      "utility_id": "dominion_sc",
+      "project_name": "Williams St Sub: Replace Sw House & Relays, AM Williams Sub: Replace Sw House, and McMeekin Sub: Add Sw House",
+      "project_type": "substation",
+      "state": "SC",
+      "description": "Replace switch house, switch house equipment, and relay panels at Williams Street substation. Replace the switch house at AM Williams substation. Add Switching House at McMeekin Substation to move relays from plant relay room.",
+      "location_text": null,
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2028-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 17 (printed Project 17 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 1060A, I, L. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Project encompasses three substations: Williams Street substation, AM Williams substation, and McMeekin Substation."
+    },
+    {
+      "project_id": "DESC_2",
+      "utility_id": "dominion_sc",
+      "project_name": "Hooks - Thurmond 115kV Tie: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuilding section of line between Hooks and Thurmond. Approximately 2.3 miles. The line will be rebuilt on existing R/W using steel poles, 115 kV insulation, and 1272 ACSR conductor.",
+      "location_text": "Hooks - Thurmond",
+      "latitude": 33.6601273,
+      "longitude": -82.1959307,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Thurmond; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+          "locator": "projects!row 3",
+          "supports": [
+            "project_id",
+            "state"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 31 (printed Project 31 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/52102019",
+          "locator": "Terminal: Thurmond",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Thurmond",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6810 A. Unconfirmed terminals: Hooks. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_3",
+      "utility_id": "dominion_sc",
+      "project_name": "Jasper – Okatie 230 kV #2: Construct",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct a 230 kV line with B1272 ACSR from Jasper to Okatie 230/115kV Substation. The line is estimated to be 6.5 miles long. This makes Jasper a Medium Impact substation and will require a new CIP Hut.",
+      "location_text": "Jasper - Okatie",
+      "latitude": 32.3606993,
+      "longitude": -81.1241523,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Jasper; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+          "locator": "projects!row 4",
+          "supports": [
+            "project_id",
+            "state"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 23 (printed Project 23 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185380597",
+          "locator": "Terminal: Jasper",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Jasper",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 06367 D - G. Unconfirmed terminals: Okatie. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_4",
+      "utility_id": "dominion_sc",
+      "project_name": "Queensboro - Ft Johnson 115 kV & Queensboro-Bayfront 115kV (Queensboro-James Island Sect)",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace the Queensboro - Ft Johnson 115 kV Line and structures as they have reached the end of life.",
+      "location_text": "Queensboro - Ft Johnson",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2023-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+          "locator": "projects!row 5",
+          "supports": [
+            "project_id",
+            "state"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 1 (printed Project 1 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6807 B. Unconfirmed terminals: Queensboro, Ft Johnson. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Project title lists both Queensboro - Ft Johnson 115 kV & Queensboro-Bayfront 115kV (Queensboro-James Island Sect), but description specifically describes replacing the Queensboro – Ft Johnson 115 kV Line and structures."
+    },
+    {
+      "project_id": "DESC_5",
+      "utility_id": "dominion_sc",
+      "project_name": "Okatie-Bluffton 115kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden H-Frame structures with Self Supporting Steel Structures and upgrade conductor to standard 1272 ACSR.",
+      "location_text": "Okatie - Bluffton",
+      "latitude": 32.2350272,
+      "longitude": -80.8533836,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Bluffton; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-06-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+          "locator": "projects!row 6",
+          "supports": [
+            "project_id",
+            "state"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 10 (printed Project 10 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/498967268",
+          "locator": "Terminal: Bluffton",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Bluffton",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6808 S. Unconfirmed terminals: Okatie. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_5392_A_C",
+      "utility_id": "dominion_sc",
+      "project_name": "Coit – Gills Creek 115kV: Construct",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Convert the existing Coit - Gills Creek 33 kV Line to 115 kV. Approximately 1.25 miles. Construct Gills Creek Terminal at Coit Bus #1.",
+      "location_text": "Coit - Gills Creek",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 30 (printed Project 30 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 5392 A-C. Unconfirmed terminals: Coit, Gills Creek. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_6341_A_F",
+      "utility_id": "dominion_sc",
+      "project_name": "Cainhoy - Hamlin 115kV: Rebuild Line and Cainhoy – Hamlin 115 kV #2: Construct New 115 kV Line",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Upgrade the 954 ACSR portion of the Cainhoy - Hamlin 115 kV line to B795 ACSR conductor, construct a new Cainhoy - Hamlin 115 kV #2 line, add terminals to Cainhoy and Hamlin sub to accommodate upgrades.",
+      "location_text": "Cainhoy - Hamlin",
+      "latitude": 32.9006695,
+      "longitude": -79.8153583,
+      "location_quality": "approximate",
+      "location_method": "Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 4 (printed Project 4 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/229116275",
+          "locator": "Terminal: Cainhoy",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Cainhoy",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/229116306",
+          "locator": "Terminal: Hamlin",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6341 A-F."
+    },
+    {
+      "project_id": "DESC_6359",
+      "utility_id": "dominion_sc",
+      "project_name": "Yemassee– Ritter 230kV #1 & #2: Construct SPDC with B-1272",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct Ritter - Yemassee 230kV #1 and #2 SPDC with B1272 ACSR on both sides. Convert the existing Ritter - Yemassee 230 kV to 115 kV operation. Convert and add terminals at Ritter and Yemassee. Add 230 kV bus tie at Ritter and upgrade the Yemassee 230 kV bus tie.",
+      "location_text": "Yemassee - Ritter",
+      "latitude": 32.6974259,
+      "longitude": -80.8637929,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Yemassee; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-06-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 21 (printed Project 21 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185317032",
+          "locator": "Terminal: Yemassee",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Yemassee",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6359. Unconfirmed terminals: Ritter. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_6388_A",
+      "utility_id": "dominion_sc",
+      "project_name": "Williams-Summerville 230kV: Upgrade to SPDC B1272 ACSR",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuild the section of the Williams - Summerville 230 kV line from Ladson Jct to Williams. Line to upgraded to B-1272 and designed for a future second circuit. Approximately 10 miles.",
+      "location_text": "Ladson Jct - Williams",
+      "latitude": 33.0176985,
+      "longitude": -79.9321678,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Williams; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-05-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 36 (printed Project 36 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/184867924",
+          "locator": "Terminal: Williams",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Williams",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6388 A. Unconfirmed terminals: Ladson Jct. Representative point is one endpoint, not the route midpoint. Title indicates Williams-Summerville 230kV line, but description specifies rebuild section is from Ladson Jct to Williams."
+    },
+    {
+      "project_id": "DESC_6805_G",
+      "utility_id": "dominion_sc",
+      "project_name": "Edenwood Sub: #1 & #2 230-115kV Autobanks, Replace with 336MVA",
+      "project_type": "substation",
+      "state": "SC",
+      "description": "Replace Autobank 1 and 2 at Edenwood Substation.",
+      "location_text": "Edenwood Substation",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-25",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 16 (printed Project 16 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6805 G. Unconfirmed terminals: Edenwood Substation. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_6808_J",
+      "utility_id": "dominion_sc",
+      "project_name": "Eastover - Square D 115kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden H-Frame structures with Self Supporting Steel Structures and restring with 1272 ACSR conductor.",
+      "location_text": "Eastover - Square D",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-06-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 5 (printed Project 5 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6808 J. Unconfirmed terminals: Eastover, Square D. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_6808_K",
+      "utility_id": "dominion_sc",
+      "project_name": "Burton-St Helena 115kV: Rebuild Burton-Frogmore Transmission Section",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden structures with Self Supporting Steel Structures and restring with 1272 ACSR conductor for the Burton - Frogmore Transmission section.",
+      "location_text": "Burton - Frogmore",
+      "latitude": 32.4178103,
+      "longitude": -80.6460713,
+      "location_quality": "approximate",
+      "location_method": "Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 6 (printed Project 6 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185362029",
+          "locator": "Terminal: Burton",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Burton",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1064802545",
+          "locator": "Terminal: Frogmore",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6808 K. Overall line is Burton-St Helena 115kV, but specific work section is Burton to Frogmore."
+    },
+    {
+      "project_id": "DESC_6808_L",
+      "utility_id": "dominion_sc",
+      "project_name": "Burton-St Helena 115kV: Frogmore Distribution - St Helena",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden structures with Self Supporting Steel Structures and upgrade to 795 ACSR for the Frogmore Distribution Tap - St. Helena section.",
+      "location_text": "Frogmore Distribution Tap - St. Helena",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 7 (printed Project 7 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6808 L. Unconfirmed terminals: Frogmore Distribution Tap, St. Helena. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Overall line is Burton-St Helena 115kV, but specific rebuilt section is Frogmore Distribution (Tap) to St Helena."
+    },
+    {
+      "project_id": "DESC_6808_N_O",
+      "utility_id": "dominion_sc",
+      "project_name": "VCS1-Denny Terrace 230kV & VCS1-Pineland 230kV: Rebuild Single Circuit Sections",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden H-Frame structures with Self Supporting Steel Structures and restring with standard 1272 ACSR conductor.",
+      "location_text": null,
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 8 (printed Project 8 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6808 N,O. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Title encompasses two separate lines: VCS1-Denny Terrace 230kV and VCS1-Pineland 230kV single circuit sections."
+    },
+    {
+      "project_id": "DESC_6808_R",
+      "utility_id": "dominion_sc",
+      "project_name": "Wateree-Killian 230kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden H-Frame structures with Self Supporting Steel Structures.",
+      "location_text": "Wateree - Killian",
+      "latitude": 33.8262718,
+      "longitude": -80.6240763,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Wateree; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2028-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 9 (printed Project 9 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1082130490",
+          "locator": "Terminal: Wateree",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Wateree",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6808 R. Unconfirmed terminals: Killian. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_6808_U",
+      "utility_id": "dominion_sc",
+      "project_name": "Hopkins-CIP 230kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden H-Frame structures with Self Supporting Steel Structures.",
+      "location_text": "Hopkins - CIP",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 11 (printed Project 11 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6808 U. Unconfirmed terminals: Hopkins, CIP. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_6808_V",
+      "utility_id": "dominion_sc",
+      "project_name": "Faber Place-Bayfront 115kV: Rebuild North Bridge Terrace to Bayfront Section",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden structures with Self Supporting Steel Structures and upgrade conductor to standard 1272 ACSR.",
+      "location_text": "North Bridge Terrace - Bayfront",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2028-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 12 (printed Project 12 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6808 V. Unconfirmed terminals: North Bridge Terrace, Bayfront. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Overall line is Faber Place-Bayfront 115kV, but specific rebuild scope is from North Bridge Terrace to Bayfront."
+    },
+    {
+      "project_id": "DESC_6808_W",
+      "utility_id": "dominion_sc",
+      "project_name": "Square D - Hopkins 115kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Replace wooden H-Frame structures with Self Supporting Steel Structures and restring with 1272 ACSR conductor.",
+      "location_text": "Square D - Hopkins",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2024-09-30",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 13 (printed Project 13 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6808 W. Unconfirmed terminals: Square D, Hopkins. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null."
+    },
+    {
+      "project_id": "DESC_6809_G",
+      "utility_id": "dominion_sc",
+      "project_name": "Stevens Creek - Hooks 115kV/LR Plumb Branch 46kV",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Upgrade 6.5 miles of aging conductor with 1272 ACSR and rebuild with SPDC.",
+      "location_text": "Stevens Creek - Hooks",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 15 (printed Project 15 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6809 G. Unconfirmed terminals: Stevens Creek, Hooks. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Title includes Stevens Creek - Hooks 115kV and LR Plumb Branch 46kV."
+    },
+    {
+      "project_id": "DESC_6809_M",
+      "utility_id": "dominion_sc",
+      "project_name": "St George - Sumter 230kV Tie: Rebuild Line from Santee Substation - Duke/Progress Energy Tie",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuild Line from Santee Substation - Duke/Progress Energy Tie.",
+      "location_text": "Santee Substation - Duke/Progress Energy Tie",
+      "latitude": 33.4234139,
+      "longitude": -80.125292,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Santee Substation; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 29 (printed Project 29 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/184966103",
+          "locator": "Terminal: Santee Substation",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Santee Substation",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6809 M. Unconfirmed terminals: Duke/Progress Energy Tie. Representative point is one endpoint, not the route midpoint. Overall tie line is St George - Sumter 230kV Tie, but rebuild section is from Santee Substation to Duke/Progress Energy Tie."
+    },
+    {
+      "project_id": "DESC_6809_N",
+      "utility_id": "dominion_sc",
+      "project_name": "Batesburg - Saluda County 115kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuild 13.5 miles of conductor.",
+      "location_text": "Batesburg - Saluda County",
+      "latitude": 33.9134867,
+      "longitude": -81.5644353,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Batesburg; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2025-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 32 (printed Project 32 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/178951280",
+          "locator": "Terminal: Batesburg",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Batesburg",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6809 N. Unconfirmed terminals: Saluda County. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_6810_J",
+      "utility_id": "dominion_sc",
+      "project_name": "Elloree – Santee City 46 kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuilding the 46 kV line between Elloree and Santee City. 7 miles.",
+      "location_text": "Elloree - Santee City",
+      "latitude": 33.5323844,
+      "longitude": -80.5797245,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Elloree; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 42 (printed Project 42 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1075509549",
+          "locator": "Terminal: Elloree",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Elloree",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6810 J. Unconfirmed terminals: Santee City. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_6810_O",
+      "utility_id": "dominion_sc",
+      "project_name": "Urquhart – Aiken PSA 46 kV: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuilding the section of 46 kV line from Urquhart to the Aiken PSA tap point. TBD if the scope of this project includes rebuilding the actual tap Aiken PSA. 4.5 miles.",
+      "location_text": "Urquhart - Aiken PSA tap point",
+      "latitude": 33.4328703,
+      "longitude": -81.9110807,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Urquhart; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 43 (printed Project 43 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/relation/14317637",
+          "locator": "Terminal: Urquhart",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Urquhart",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6810 O. Unconfirmed terminals: Aiken PSA tap point. Representative point is one endpoint, not the route midpoint. Description states: Rebuilding the section of 46 kV line from Urquhart to the Aiken PSA tap point. TBD if the scope of this project includes rebuilding the actual tap Aiken PSA."
+    },
+    {
+      "project_id": "DESC_6810_T",
+      "utility_id": "dominion_sc",
+      "project_name": "Cameron Jct – Cameron – St Matthews 46 kV Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuilding the 46 kV line between Cameron Jct and St Matthews. 9.8 miles.",
+      "location_text": "Cameron Jct - St Matthews",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2028-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 44 (printed Project 44 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6810 T. Unconfirmed terminals: Cameron Jct, St Matthews. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Title includes Cameron: Cameron Jct – Cameron – St Matthews 46 kV Rebuild, but description notes between Cameron Jct and St Matthews."
+    },
+    {
+      "project_id": "DESC_6810_U",
+      "utility_id": "dominion_sc",
+      "project_name": "Cameron Jct – Elloree 46 kV Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Rebuilding the Cameron Jct - Elloree 46 kV Line. 7.3 miles.",
+      "location_text": "Cameron Jct - Elloree",
+      "latitude": 33.5323844,
+      "longitude": -80.5797245,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Elloree; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-12-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 41 (printed Project 41 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1075509549",
+          "locator": "Terminal: Elloree",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Elloree",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6810 U. Unconfirmed terminals: Cameron Jct. Representative point is one endpoint, not the route midpoint."
+    },
+    {
+      "project_id": "DESC_6846_A",
+      "utility_id": "dominion_sc",
+      "project_name": "Eastover – Sumter 115kV DEP Tie: Rebuild with 1272 ACSR",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Upgrade the DESC section (approx. 1 mile) of the tie line from 397.5 ACSR Ibis to 1272 ACSR.",
+      "location_text": "Eastover - Sumter",
+      "latitude": 33.8976611,
+      "longitude": -80.3239761,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Sumter; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-05-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 40 (printed Project 40 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185032893",
+          "locator": "Terminal: Sumter",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Sumter",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6846 A. Unconfirmed terminals: Eastover. Representative point is one endpoint, not the route midpoint. Description states work upgrades the DESC section (approx. 1 mile) of the tie line."
+    },
+    {
+      "project_id": "DESC_6847_A_B_D_H",
+      "utility_id": "dominion_sc",
+      "project_name": "Church Creek – Faber Place – Charleston Transmission: Add 230kV Line",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct a 230 kV transmission line from Church Creek to Charleston Transmission. The Church Creek - Faber Place 230kV and 115kV lines will be rebuilt, and a 230kV line will be added between Faber Place and Charleston Transmission. Add 230/115kV transformer at Charleston Transmission. Add/upgrade terminals and bus work at impacted substations.",
+      "location_text": "Church Creek - Charleston Transmission",
+      "latitude": 32.8303196,
+      "longitude": -80.0702792,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Church Creek; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2027-05-01",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 39 (printed Project 39 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185330726",
+          "locator": "Terminal: Church Creek",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Church Creek",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6847 A-B, D-H. Unconfirmed terminals: Charleston Transmission. Representative point is one endpoint, not the route midpoint. Scope includes Church Creek - Faber Place rebuild and adding a 230kV line between Faber Place and Charleston Transmission, plus substation upgrades."
+    },
+    {
+      "project_id": "DESC_6852",
+      "utility_id": "dominion_sc",
+      "project_name": "Urquhart – Toolebeck 115kV line: Rebuild",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Upgrade the 477 ACSR portions of the Urquhart - Toolebeck 115 kV line to 1272 ACSR. Replace existing structures with Single Pole Double Circuit Structures. Approximately 12.5 miles.",
+      "location_text": "Urquhart - Toolebeck",
+      "latitude": 33.4837512,
+      "longitude": -81.790204,
+      "location_quality": "approximate",
+      "location_method": "Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-08-12",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 35 (printed Project 35 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/relation/14317637",
+          "locator": "Terminal: Urquhart",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Urquhart",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/1073259467",
+          "locator": "Terminal: Toolebeck",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6852."
+    },
+    {
+      "project_id": "DESC_6853_B_F",
+      "utility_id": "dominion_sc",
+      "project_name": "Scout 230 kV Sub and Fold-in: Construct",
+      "project_type": "transmission_line",
+      "state": "SC",
+      "description": "Construct 230kV Transmission Line for Scout Customer Substation and modify VCS1 and Killian terminals.",
+      "location_text": "Scout Customer Substation",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": "2026-03-31",
+      "schedule_text": null,
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 33 (printed Project 33 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Project ID 6853 B-F. Unconfirmed terminals: Scout Customer Substation. No terminal coordinates passed OSM/HIFLD confirmation; coordinates remain null. Description states: Construct 230kV Transmission Line for Scout Customer Substation and modify VCS1 and Killian terminals."
+    },
+    {
+      "project_id": "DESC_6859",
+      "utility_id": "dominion_sc",
+      "project_name": "Dawson 230kV Sub and Fold-in: Construct and Rebuild",
+      "project_type": "substation",
+      "state": "SC",
+      "description": "Construct Dawson 230kV substation. Fold in the existing Canadys - Church Creek and Canadys - Faber Place 230kV lines at the Dawson 230kV substation (phase 1). Rebuild Canadys - Dawson 230kV #1 and #2 with B1272 ACSR (phase 2).",
+      "location_text": "Canadys - Dawson",
+      "latitude": 33.0640963,
+      "longitude": -80.6205999,
+      "location_quality": "approximate",
+      "location_method": "Representative point uses confirmed terminal Canadys; other terminal unavailable",
+      "construction_start": null,
+      "construction_end": null,
+      "in_service_date": null,
+      "schedule_text": "10/1/2025 (phase 1) and 10/1/2026 (phase 2)",
+      "sources": [
+        {
+          "reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+          "locator": "PDF page 34 (printed Project 34 of 44)",
+          "supports": [
+            "utility_id",
+            "state",
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "in_service_date",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "https://www.openstreetmap.org/way/185032900",
+          "locator": "Terminal: Canadys",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        },
+        {
+          "reference": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+          "locator": "Terminal: Canadys",
+          "supports": [
+            "latitude",
+            "longitude",
+            "location_quality",
+            "location_method"
+          ]
+        }
+      ],
+      "review_status": "validated",
+      "notes": "Source Project ID 6859. Unconfirmed terminals: Dawson. Representative point is one endpoint, not the route midpoint. Scope includes constructing Dawson 230kV substation, fold-in of Canadys - Church Creek and Canadys - Faber Place lines, and rebuilding Canadys - Dawson 230kV #1 and #2. in_service_date contains multiple or unsupported source dates; review schedule_text."
+    },
+    {
+      "project_id": "GPC_1",
+      "utility_id": "georgia_power",
+      "project_name": "EVANS PRIMARY - THURMOND DAM (USA) #5 115KV REBUILD",
+      "project_type": "transmission_line",
+      "state": "GA",
+      "description": "Rebuild approximately 5.45 miles of the Euchee Creek - Thurmond Dam segment of the Evans Primary - Thurmond Dam (USA) #5 115kV line and replace the main bus at Thurmond Dam (USA) with a larger element.",
+      "location_text": "Evans Primary - Thurmond Dam (USA) #5 line; described work is the Euchee Creek - Thurmond Dam segment",
+      "latitude": null,
+      "longitude": null,
+      "location_quality": "unknown",
+      "location_method": null,
+      "construction_start": "2029-06-01",
+      "construction_end": null,
+      "in_service_date": null,
+      "schedule_text": "Need Date: 06/01/2033. Start Date: 06/01/2029.",
+      "sources": [
+        {
+          "reference": "Challenge Docs/Projects_Overlaps.xlsx",
+          "locator": "projects!row 7",
+          "supports": [
+            "project_id",
+            "state"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+          "locator": "PDF page 189 (printed Page 19 of 304)",
+          "supports": [
+            "utility_id",
+            "project_name",
+            "schedule_text"
+          ]
+        },
+        {
+          "reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+          "locator": "PDF page 410 (printed Page 240 of 304)",
+          "supports": [
+            "project_name",
+            "project_type",
+            "description",
+            "location_text",
+            "construction_start",
+            "schedule_text"
+          ]
+        }
+      ],
+      "review_status": "needs_review",
+      "notes": "Source Teams # 20793 and Project Sponsor GPC. The Need Date is not an in-service date, so in_service_date remains null. No construction end date is stated. The title names Evans Primary and Thurmond Dam (USA) #5, while the description narrows the rebuilt section to Euchee Creek - Thurmond Dam. No coordinates were validated. The team confirmed use of the supplied PDF on 2026-09-26; the record remains needs_review only because its location has not been validated."
+    }
+  ]
+}

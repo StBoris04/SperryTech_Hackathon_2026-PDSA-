@@ -1,0 +1,2123 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "6807 B",
+      "project_name": "Queensboro - Ft Johnson 115 kV & Queensboro-Bayfront 115kV (Queensboro-James Island Sect)",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Queensboro",
+      "terminal_b": "Ft Johnson",
+      "terminal_basis": "both",
+      "in_service_date": "2023-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Project title lists both Queensboro - Ft Johnson 115 kV & Queensboro-Bayfront 115kV (Queensboro-James Island Sect), but description specifically describes replacing the Queensboro – Ft Johnson 115 kV Line and structures."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "printed_page": "1",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nQueensboro - Ft Johnson 115 kV & Queensboro-Bayfront 115kV \n(Queensboro-James Island Sect)\nProject ID\n6807 B"
+        },
+        {
+          "pdf_page": 1,
+          "printed_page": "1",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nReplace the Queensboro – Ft Johnson 115 kV Line and structures as they have reached the end of life."
+        },
+        {
+          "pdf_page": 1,
+          "printed_page": "1",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/23"
+        }
+      ]
+    },
+    {
+      "source_project_id": "0167C-D",
+      "project_name": "Union Pier 115-13.8 kV Sub: Tap",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": null,
+      "terminal_b": "Union Pier",
+      "terminal_basis": "both",
+      "in_service_date": "2027-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "The project is a tap line feeding future Union Pier Sub; the origin/tap point transmission line is not specified."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "printed_page": "2",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nUnion Pier 115-13.8 kV Sub: Tap\nProject ID\n0167C-D"
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": "2",
+          "supports": [
+            "project_type",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nInstalling a 115 kV Tap to feed the future Union Pier 115 kV Sub."
+        },
+        {
+          "pdf_page": 2,
+          "printed_page": "2",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/27"
+        }
+      ]
+    },
+    {
+      "source_project_id": "0139 M,N",
+      "project_name": "Okatie 230-115kV Substation, Jasper – Yemassee 230kV #1 Fold-in",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "substation",
+      "terminal_a": "Jasper",
+      "terminal_b": "Yemassee",
+      "terminal_basis": "both",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Scope includes substation expansion/autobank addition at Okatie and folding in the Jasper - Yemassee 230 kV #1 line."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "printed_page": "3",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nOkatie 230-115kV Substation, Jasper – Yemassee 230kV #1 Fold-in\nProject ID\n0139 M,N"
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": "3",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nExpand existing Okatie Transmission sub, add a 230-115 autobank and fold the Jasper – Yemassee 230 \nkV #1 line into the 230 kV side. Construct two additional 115 kV bus tie lines."
+        },
+        {
+          "pdf_page": 3,
+          "printed_page": "3",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2024"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6341 A-F",
+      "project_name": "Cainhoy - Hamlin 115kV: Rebuild Line and Cainhoy – Hamlin 115 kV #2: Construct New 115 kV Line",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Cainhoy",
+      "terminal_b": "Hamlin",
+      "terminal_basis": "both",
+      "in_service_date": "2025-12-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "printed_page": "4",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nCainhoy - Hamlin 115kV: Rebuild Line and Cainhoy – Hamlin 115 kV #2: \nConstruct New 115 kV Line\nProject ID\n6341 A-F"
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": "4",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nUpgrade the 954 ACSR portion of the Cainhoy – Hamlin 115 kV line to B795 ACSR conductor, construct a \nnew Cainhoy – Hamlin 115 kV #2 line, add terminals to Cainhoy and Hamlin sub to accommodate \nupgrades."
+        },
+        {
+          "pdf_page": 4,
+          "printed_page": "4",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/01/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 J",
+      "project_name": "Eastover - Square D 115kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Eastover",
+      "terminal_b": "Square D",
+      "terminal_basis": "title",
+      "in_service_date": "2024-06-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "printed_page": "5",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nEastover - Square D 115kV: Rebuild\nProject ID\n6808 J"
+        },
+        {
+          "pdf_page": 5,
+          "printed_page": "5",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace wooden H-Frame structures with Self Supporting Steel Structures and restring with 1272 ACSR \nconductor."
+        },
+        {
+          "pdf_page": 5,
+          "printed_page": "5",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n06/01/24"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 K",
+      "project_name": "Burton-St Helena 115kV: Rebuild Burton-Frogmore Transmission Section",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Burton",
+      "terminal_b": "Frogmore",
+      "terminal_basis": "both",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Overall line is Burton-St Helena 115kV, but specific work section is Burton to Frogmore."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "printed_page": "6",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nBurton-St Helena 115kV: Rebuild Burton-Frogmore Transmission \nSection\nProject ID\n6808 K"
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": "6",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nReplace wooden structures with Self Supporting Steel Structures and restring with 1272 ACSR conductor\nfor the Burton – Frogmore Transmission section."
+        },
+        {
+          "pdf_page": 6,
+          "printed_page": "6",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/24"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 L",
+      "project_name": "Burton-St Helena 115kV: Frogmore Distribution - St Helena",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Frogmore Distribution Tap",
+      "terminal_b": "St. Helena",
+      "terminal_basis": "both",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Overall line is Burton-St Helena 115kV, but specific rebuilt section is Frogmore Distribution (Tap) to St Helena."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "printed_page": "7",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nBurton-St Helena 115kV: Frogmore Distribution - St Helena\nProject ID\n6808 L"
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": "7",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nReplace wooden structures with Self Supporting Steel Structures and upgrade to 795 ACSR for the \nFrogmore Distribution Tap – St. Helena section."
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": "7",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 N,O",
+      "project_name": "VCS1-Denny Terrace 230kV & VCS1-Pineland 230kV: Rebuild Single Circuit Sections",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": null,
+      "terminal_b": null,
+      "terminal_basis": null,
+      "in_service_date": "2026-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Title encompasses two separate lines: VCS1-Denny Terrace 230kV and VCS1-Pineland 230kV single circuit sections."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "printed_page": "8",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nVCS1-Denny Terrace 230kV & VCS1-Pineland 230kV: Rebuild Single \nCircuit Sections\nProject ID\n6808 N,O"
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": "8",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace wooden H-Frame structures with Self Supporting Steel Structures and restring with standard \n1272 ACSR conductor."
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": "8",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/26"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 R",
+      "project_name": "Wateree-Killian 230kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Wateree",
+      "terminal_b": "Killian",
+      "terminal_basis": "title",
+      "in_service_date": "2028-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "printed_page": "9",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nWateree-Killian 230kV: Rebuild\nProject ID\n6808 R"
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": "9",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace wooden H-Frame structures with Self Supporting Steel Structures."
+        },
+        {
+          "pdf_page": 9,
+          "printed_page": "9",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/28"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 S",
+      "project_name": "Okatie-Bluffton 115kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Okatie",
+      "terminal_b": "Bluffton",
+      "terminal_basis": "title",
+      "in_service_date": "2025-06-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "printed_page": "10",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nOkatie-Bluffton 115kV: Rebuild\nProject ID\n6808 S"
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": "10",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace wooden H-Frame structures with Self Supporting Steel Structures and upgrade conductor to \nstandard 1272 ACSR."
+        },
+        {
+          "pdf_page": 10,
+          "printed_page": "10",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n06/01/2025"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 U",
+      "project_name": "Hopkins-CIP 230kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Hopkins",
+      "terminal_b": "CIP",
+      "terminal_basis": "title",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": "11",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nHopkins-CIP 230kV: Rebuild\nProject ID\n6808 U"
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": "11",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace wooden H-Frame structures with Self Supporting Steel Structures."
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": "11",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 V",
+      "project_name": "Faber Place-Bayfront 115kV: Rebuild North Bridge Terrace to Bayfront Section",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "North Bridge Terrace",
+      "terminal_b": "Bayfront",
+      "terminal_basis": "both",
+      "in_service_date": "2028-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Overall line is Faber Place-Bayfront 115kV, but specific rebuild scope is from North Bridge Terrace to Bayfront."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "12",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nFaber Place-Bayfront 115kV: Rebuild North Bridge Terrace to Bayfront \nSection\nProject ID\n6808 V"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "12",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nReplace wooden structures with Self Supporting Steel Structures and upgrade conductor to standard \n1272 ACSR."
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "12",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/28"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6808 W",
+      "project_name": "Square D - Hopkins 115kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Square D",
+      "terminal_b": "Hopkins",
+      "terminal_basis": "title",
+      "in_service_date": "2024-09-30",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": "13",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nSquare D - Hopkins 115kV: Rebuild\nProject ID\n6808 W"
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": "13",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace wooden H-Frame structures with Self Supporting Steel Structures and restring with 1272 ACSR \nconductor."
+        },
+        {
+          "pdf_page": 13,
+          "printed_page": "13",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n9/30/2024"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6809 E",
+      "project_name": "Stevens Creek - Hooks 115kV/LR Plumb Branch 46kV Rebuilds",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Stevens Creek",
+      "terminal_b": "Hooks",
+      "terminal_basis": "title",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Title and description mention rebuilding 115 kV and 46 kV lines in this corridor SPDC (Stevens Creek - Hooks 115kV / LR Plumb Branch 46kV)."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "14",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nStevens Creek - Hooks 115kV/LR Plumb Branch 46kV Rebuilds\nProject ID\n6809 E"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "14",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\n9.5 miles. Scope includes rebuilding the 115 and 46 kV lines in this corridor SPDC."
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "14",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/24"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6809 G",
+      "project_name": "Stevens Creek - Hooks 115kV/LR Plumb Branch 46kV",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Stevens Creek",
+      "terminal_b": "Hooks",
+      "terminal_basis": "title",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Title includes Stevens Creek - Hooks 115kV and LR Plumb Branch 46kV."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": "15",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nStevens Creek - Hooks 115kV/LR Plumb Branch 46kV\nProject ID\n6809 G"
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": "15",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nUpgrade 6.5 miles of aging conductor with 1272 ACSR and rebuild with SPDC."
+        },
+        {
+          "pdf_page": 15,
+          "printed_page": "15",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6805 G",
+      "project_name": "Edenwood Sub: #1 & #2 230-115kV Autobanks, Replace with 336MVA",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "substation",
+      "terminal_a": "Edenwood Substation",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": "2024-12-25",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "printed_page": "16",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nEdenwood Sub: #1 & #2 230-115kV Autobanks, Replace with 336MVA\nProject ID\n6805 G"
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": "16",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nReplace Autobank 1 and 2 at Edenwood Substation."
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": "16",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/25/24"
+        }
+      ]
+    },
+    {
+      "source_project_id": "1060A, I, L",
+      "project_name": "Williams St Sub: Replace Sw House & Relays, AM Williams Sub: Replace Sw House, and McMeekin Sub: Add Sw House",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "substation",
+      "terminal_a": null,
+      "terminal_b": null,
+      "terminal_basis": null,
+      "in_service_date": "2028-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Project encompasses three substations: Williams Street substation, AM Williams substation, and McMeekin Substation."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "printed_page": "17",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nWilliams St Sub: Replace Sw House & Relays, AM Williams Sub: Replace \nSw House, and McMeekin Sub: Add Sw House\nProject ID\n1060A, I, L"
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": "17",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace switch house, switch house equipment, and relay panels at Williams Street substation. Replace \nthe switch house at AM Williams substation. Add Switching House at McMeekin Substation to move \nrelays from plant relay room."
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": "17",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/28"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06005 B",
+      "project_name": "Harleyville 115KV Transmission Tap – Construct (1.4 miles)",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Blue Circle tap",
+      "terminal_b": "Harleyville substation",
+      "terminal_basis": "description",
+      "in_service_date": "2027-03-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": "18",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nHarleyville 115KV Transmission Tap – Construct (1.4 miles)\nProject ID\n06005 B"
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": "18",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nExtend the 115 kV line from the Blue Circle tap to the Harleyville substation to provide 115 kV service."
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": "18",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n3/31/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "05004 P",
+      "project_name": "Summerville: Replace and Spare 230-115kV 336MVA Auto Bank",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "substation",
+      "terminal_a": "Summerville 230kV Sub",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "printed_page": "19",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nSummerville: Replace and Spare 230-115kV 336MVA Auto Bank\nProject ID\n05004 P"
+        },
+        {
+          "pdf_page": 19,
+          "printed_page": "19",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nPurchase a spare 230/115kV, 336MVA Autobank for the Southern Region to be stored at Summerville \n230kV Sub. Include a pad, AC for heaters, and possibly a pit for oil containment."
+        },
+        {
+          "pdf_page": 19,
+          "printed_page": "19",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2024"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06076A",
+      "project_name": "Canadys-Ritter 115KV-Rebld SPDC 230/115KV 1272 (Approx 18 Miles)",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Canadys",
+      "terminal_b": "Ritter",
+      "terminal_basis": "both",
+      "in_service_date": "2026-06-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nCanadys-Ritter 115KV-Rebld SPDC 230/115KV 1272 (Approx 18 Miles)\nProject ID\n06076A"
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuild Canadys-Ritter 115 kV line as SPDC with 230 kV on one side and 115 kV on the other side."
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n6/1/2026"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6359",
+      "project_name": "Yemassee– Ritter 230kV #1 & #2: Construct SPDC with B-1272",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Yemassee",
+      "terminal_b": "Ritter",
+      "terminal_basis": "both",
+      "in_service_date": "2026-06-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "printed_page": "21",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nYemassee– Ritter 230kV #1 & #2: Construct SPDC with B-1272\nProject ID\n6359"
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": "21",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct Ritter – Yemassee 230kV #1 and #2 SPDC with B1272 ACSR on both sides. Convert the existing \nRitter – Yemassee 230 kV to 115 kV operation. Convert and add terminals at Ritter and Yemassee. Add \n230 kV bus tie at Ritter and upgrade the Yemassee 230 kV bus tie."
+        },
+        {
+          "pdf_page": 21,
+          "printed_page": "21",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n6/1/2026"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06367 A - C, H",
+      "project_name": "Riverport Tap: Construct Tap",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Okatie",
+      "terminal_b": "Riverport",
+      "terminal_basis": "description",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 22,
+          "printed_page": "22",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nRiverport Tap: Construct Tap\nProject ID\n06367 A - C, H"
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": "22",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct Okatie – Riverport 230 kV to feed new Distribution substation."
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": "22",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06367 D - G",
+      "project_name": "Jasper – Okatie 230 kV #2: Construct",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Jasper",
+      "terminal_b": "Okatie",
+      "terminal_basis": "both",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "printed_page": "23",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nJasper – Okatie 230 kV #2: Construct\nProject ID\n06367 D - G"
+        },
+        {
+          "pdf_page": 23,
+          "printed_page": "23",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct a 230 kV line with B1272 ACSR from Jasper to Okatie 230/115kV Substation. The line is \nestimated to be 6.5 miles long. This makes Jasper a Medium Impact substation and will require a new \nCIP Hut."
+        },
+        {
+          "pdf_page": 23,
+          "printed_page": "23",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06371 D",
+      "project_name": "Wagener 115kV Tap: Construct Tap",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Edmund Switching Station- Owens Corning 115 kV Line",
+      "terminal_b": "Wagener Distribution substation",
+      "terminal_basis": "description",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "printed_page": "24",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nWagener 115kV Tap: Construct Tap\nProject ID\n06371 D"
+        },
+        {
+          "pdf_page": 24,
+          "printed_page": "24",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstructing a 115 kV Tap off the Edmund Switching Station- Owens Corning 115 kV Line to feed new \nWagener Distribution substation."
+        },
+        {
+          "pdf_page": 24,
+          "printed_page": "24",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/25"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06372 A",
+      "project_name": "Church Creek - Ritter 230kV - Replace 38 Large Angles and Dead Ends",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Church Creek",
+      "terminal_b": "Ritter",
+      "terminal_basis": "title",
+      "in_service_date": "2024-06-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "printed_page": "25",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nChurch Creek - Ritter 230kV - Replace 38 Large Angles and Dead Ends\nProject ID\n06372 A"
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": "25",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplace 6.5 miles of aging conductor."
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": "25",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n6/1/2024"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06810 F",
+      "project_name": "VCS2-Ward 230kV: Rebuild Line",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "VCS2",
+      "terminal_b": "Ward",
+      "terminal_basis": "title",
+      "in_service_date": "2029-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nVCS2-Ward 230kV: Rebuild Line\nProject ID\n06810 F"
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nRebuild 40 miles of 230 kV line."
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/29"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06810 G",
+      "project_name": "Goose Creek Reservoir: Rebuild Transmission Line Crossings",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": null,
+      "terminal_b": null,
+      "terminal_basis": null,
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Project involves rebuilding multiple line crossings across Goose Creek Reservoir: Williams Goose Creek 230 and 115 kV lines, and Williams - Faber Place 230 kV line."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nGoose Creek Reservoir: Rebuild Transmission Line Crossings\nProject ID\n06810 G"
+        },
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nRebuilding the Williams Goose Creek 230 and 115 kV lines and the Williams - Faber Place 230 kV line \nacross the Goose Creek Reservoir."
+        },
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/24"
+        }
+      ]
+    },
+    {
+      "source_project_id": "06810 H",
+      "project_name": "Summerville 115kV Loop: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Summerville",
+      "terminal_b": null,
+      "terminal_basis": "title",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Project involves replacing wood pole sections on the Summerville 115 kV Loop; single distinct endpoints are not applicable to a loop."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nSummerville 115kV Loop: Rebuild\nProject ID\n06810 H"
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nReplacing several wood pole sections on the Summerville 115 kV Loop that have reached the end of life."
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/24"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6809 M",
+      "project_name": "St George - Sumter 230kV Tie: Rebuild Line from Santee Substation - Duke/Progress Energy Tie",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Santee Substation",
+      "terminal_b": "Duke/Progress Energy Tie",
+      "terminal_basis": "both",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Overall tie line is St George - Sumter 230kV Tie, but rebuild section is from Santee Substation to Duke/Progress Energy Tie."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 29,
+          "printed_page": "29",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nSt George - Sumter 230kV Tie: Rebuild Line from Santee Substation -\nDuke/Progress Energy Tie\nProject ID\n6809 M"
+        },
+        {
+          "pdf_page": 29,
+          "printed_page": "29",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuild Line from Santee Substation - Duke/Progress Energy Tie."
+        },
+        {
+          "pdf_page": 29,
+          "printed_page": "29",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2025"
+        }
+      ]
+    },
+    {
+      "source_project_id": "5392 A-C",
+      "project_name": "Coit – Gills Creek 115kV: Construct",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Coit",
+      "terminal_b": "Gills Creek",
+      "terminal_basis": "both",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 30,
+          "printed_page": "30",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nCoit – Gills Creek 115kV: Construct\nProject ID\n5392 A-C"
+        },
+        {
+          "pdf_page": 30,
+          "printed_page": "30",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConvert the existing Coit - Gills Creek 33 kV Line to 115 kV. Approximately 1.25 miles. Construct Gills \nCreek Terminal at Coit Bus #1."
+        },
+        {
+          "pdf_page": 30,
+          "printed_page": "30",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2024"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6810 A",
+      "project_name": "Hooks - Thurmond 115kV Tie: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Hooks",
+      "terminal_b": "Thurmond",
+      "terminal_basis": "both",
+      "in_service_date": "2024-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 31,
+          "printed_page": "31",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nHooks - Thurmond 115kV Tie: Rebuild\nProject ID\n6810 A"
+        },
+        {
+          "pdf_page": 31,
+          "printed_page": "31",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuilding section of line between Hooks and Thurmond. Approximately 2.3 miles. The line will be \nrebuilt on existing R/W using steel poles, 115 kV insulation, and 1272 ACSR conductor."
+        },
+        {
+          "pdf_page": 31,
+          "printed_page": "31",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2024"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6809 N",
+      "project_name": "Batesburg - Saluda County 115kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Batesburg",
+      "terminal_b": "Saluda County",
+      "terminal_basis": "title",
+      "in_service_date": "2025-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 32,
+          "printed_page": "32",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nBatesburg - Saluda County 115kV: Rebuild\nProject ID\n6809 N"
+        },
+        {
+          "pdf_page": 32,
+          "printed_page": "32",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nRebuild 13.5 miles of conductor."
+        },
+        {
+          "pdf_page": 32,
+          "printed_page": "32",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2025"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6853 B-F",
+      "project_name": "Scout 230 kV Sub and Fold-in: Construct",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Scout Customer Substation",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": "2026-03-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Description states: Construct 230kV Transmission Line for Scout Customer Substation and modify VCS1 and Killian terminals."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 33,
+          "printed_page": "33",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nScout 230 kV Sub and Fold-in: Construct\nProject ID\n6853 B-F"
+        },
+        {
+          "pdf_page": 33,
+          "printed_page": "33",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct 230kV Transmission Line for Scout Customer Substation and modify VCS1 and Killian \nterminals."
+        },
+        {
+          "pdf_page": 33,
+          "printed_page": "33",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n3/31/2026"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6859",
+      "project_name": "Dawson 230kV Sub and Fold-in: Construct and Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "substation",
+      "terminal_a": "Canadys",
+      "terminal_b": "Dawson",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": "10/1/2025 (phase 1) and 10/1/2026 (phase 2)",
+      "uncertainties": [
+        "Scope includes constructing Dawson 230kV substation, fold-in of Canadys - Church Creek and Canadys - Faber Place lines, and rebuilding Canadys - Dawson 230kV #1 and #2.",
+        "in_service_date contains multiple or unsupported source dates; review schedule_text."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 34,
+          "printed_page": "34",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nDawson 230kV Sub and Fold-in: Construct and Rebuild\nProject ID\n6859"
+        },
+        {
+          "pdf_page": 34,
+          "printed_page": "34",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct Dawson 230kV substation. Fold in the existing Canadys – Church Creek and Canadys – Faber \nPlace 230kV lines at the Dawson 230kV substation (phase 1). Rebuild Canadys – Dawson 230kV #1 and \n#2 with B1272 ACSR (phase 2)."
+        },
+        {
+          "pdf_page": 34,
+          "printed_page": "34",
+          "supports": [
+            "in_service_date",
+            "schedule_text"
+          ],
+          "text": "Planned In-Service Date\n10/1/2025 (phase 1) and 10/1/2026 (phase 2)"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6852",
+      "project_name": "Urquhart – Toolebeck 115kV line: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Urquhart",
+      "terminal_b": "Toolebeck",
+      "terminal_basis": "both",
+      "in_service_date": "2026-08-12",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "printed_page": "35",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nUrquhart – Toolebeck 115kV line: Rebuild\nProject ID\n6852"
+        },
+        {
+          "pdf_page": 35,
+          "printed_page": "35",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nUpgrade the 477 ACSR portions of the Urquhart – Toolebeck 115 kV line to 1272 ACSR. Replace existing \nstructures with Single Pole Double Circuit Structures. Approximately 12.5 miles."
+        },
+        {
+          "pdf_page": 35,
+          "printed_page": "35",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n8/12/2026"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6388 A",
+      "project_name": "Williams-Summerville 230kV: Upgrade to SPDC B1272 ACSR",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Ladson Jct",
+      "terminal_b": "Williams",
+      "terminal_basis": "description",
+      "in_service_date": "2027-05-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Title indicates Williams-Summerville 230kV line, but description specifies rebuild section is from Ladson Jct to Williams."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "36",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nWilliams-Summerville 230kV: Upgrade to SPDC B1272 ACSR\nProject ID\n6388 A"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "36",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuild the section of the Williams - Summerville 230 kV line from Ladson Jct to Williams. Line to \nupgraded to B-1272 and designed for a future second circuit. Approximately 10 miles."
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "36",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n5/1/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "0147 C, K",
+      "project_name": "Cainhoy 115 kV Tap: Construct",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Cainhoy",
+      "terminal_b": "Clements Ferry",
+      "terminal_basis": "both",
+      "in_service_date": "2027-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 37,
+          "printed_page": "37",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nCainhoy 115 kV Tap: Construct\nProject ID\n0147 C, K"
+        },
+        {
+          "pdf_page": 37,
+          "printed_page": "37",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct a 115 kV tap from Cainhoy to Clements Ferry. Approximately 2.8 miles. Construct terminal at \nCainhoy."
+        },
+        {
+          "pdf_page": 37,
+          "printed_page": "37",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "0147 B, J",
+      "project_name": "Jack Primus 115 kV Tap: Construct",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Jack Primus",
+      "terminal_b": "Clements Ferry",
+      "terminal_basis": "both",
+      "in_service_date": "2027-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 38,
+          "printed_page": "38",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nJack Primus 115 kV Tap: Construct\nProject ID\n0147 B, J"
+        },
+        {
+          "pdf_page": 38,
+          "printed_page": "38",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct a 115 kV tap from Jack Primus to Clements Ferry. Approximately 2.2 miles. Construct \nterminals at Jack Primus."
+        },
+        {
+          "pdf_page": 38,
+          "printed_page": "38",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6847 A-B, D-H",
+      "project_name": "Church Creek – Faber Place – Charleston Transmission: Add 230kV Line",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Church Creek",
+      "terminal_b": "Charleston Transmission",
+      "terminal_basis": "both",
+      "in_service_date": "2027-05-01",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Scope includes Church Creek - Faber Place rebuild and adding a 230kV line between Faber Place and Charleston Transmission, plus substation upgrades."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 39,
+          "printed_page": "39",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nChurch Creek – Faber Place – Charleston Transmission: Add 230kV Line\nProject ID\n6847 A-B, D-H"
+        },
+        {
+          "pdf_page": 39,
+          "printed_page": "39",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nConstruct a 230 kV transmission line from Church Creek to Charleston Transmission. The Church Creek –\nFaber Place 230kV and 115kV lines will be rebuilt, and a 230kV line will be added between Faber Place \nand Charleston Transmission. Add 230/115kV transformer at Charleston Transmission. Add/upgrade \nterminals and bus work at impacted substations."
+        },
+        {
+          "pdf_page": 39,
+          "printed_page": "39",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n05/01/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6846 A",
+      "project_name": "Eastover – Sumter 115kV DEP Tie: Rebuild with 1272 ACSR",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Eastover",
+      "terminal_b": "Sumter",
+      "terminal_basis": "title",
+      "in_service_date": "2026-05-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Description states work upgrades the DESC section (approx. 1 mile) of the tie line."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 40,
+          "printed_page": "40",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nEastover – Sumter 115kV DEP Tie: Rebuild with 1272 ACSR\nProject ID\n6846 A"
+        },
+        {
+          "pdf_page": 40,
+          "printed_page": "40",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Project Description\nUpgrade the DESC section (approx. 1 mile) of the tie line from 397.5 ACSR Ibis to 1272 ACSR."
+        },
+        {
+          "pdf_page": 40,
+          "printed_page": "40",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n05/31/2026"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6810 U",
+      "project_name": "Cameron Jct – Elloree 46 kV Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Cameron Jct",
+      "terminal_b": "Elloree",
+      "terminal_basis": "both",
+      "in_service_date": "2026-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 41,
+          "printed_page": "41",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nCameron Jct – Elloree 46 kV Rebuild\nProject ID\n6810 U"
+        },
+        {
+          "pdf_page": 41,
+          "printed_page": "41",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuilding the Cameron Jct – Elloree 46 kV Line. 7.3 miles."
+        },
+        {
+          "pdf_page": 41,
+          "printed_page": "41",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2026"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6810 J",
+      "project_name": "Elloree – Santee City 46 kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Elloree",
+      "terminal_b": "Santee City",
+      "terminal_basis": "both",
+      "in_service_date": "2027-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [],
+      "evidence": [
+        {
+          "pdf_page": 42,
+          "printed_page": "42",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nElloree – Santee City 46 kV: Rebuild\nProject ID\n6810 J"
+        },
+        {
+          "pdf_page": 42,
+          "printed_page": "42",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuilding the 46 kV line between Elloree and Santee City. 7 miles."
+        },
+        {
+          "pdf_page": 42,
+          "printed_page": "42",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6810 O",
+      "project_name": "Urquhart – Aiken PSA 46 kV: Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Urquhart",
+      "terminal_b": "Aiken PSA tap point",
+      "terminal_basis": "description",
+      "in_service_date": "2027-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Description states: Rebuilding the section of 46 kV line from Urquhart to the Aiken PSA tap point. TBD if the scope of this project includes rebuilding the actual tap Aiken PSA."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 43,
+          "printed_page": "43",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nUrquhart – Aiken PSA 46 kV: Rebuild\nProject ID\n6810 O"
+        },
+        {
+          "pdf_page": 43,
+          "printed_page": "43",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuilding the section of 46 kV line from Urquhart to the Aiken PSA tap point. TBD if the scope of this \nproject includes rebuilding the actual tap Aiken PSA. 4.5 miles."
+        },
+        {
+          "pdf_page": 43,
+          "printed_page": "43",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2027"
+        }
+      ]
+    },
+    {
+      "source_project_id": "6810 T",
+      "project_name": "Cameron Jct – Cameron – St Matthews 46 kV Rebuild",
+      "company": "Dominion Energy South Carolina",
+      "project_type": "transmission_line",
+      "terminal_a": "Cameron Jct",
+      "terminal_b": "St Matthews",
+      "terminal_basis": "both",
+      "in_service_date": "2028-12-31",
+      "construction_start": null,
+      "construction_end": null,
+      "need_date": null,
+      "schedule_text": null,
+      "uncertainties": [
+        "Title includes Cameron: Cameron Jct – Cameron – St Matthews 46 kV Rebuild, but description notes between Cameron Jct and St Matthews."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 44,
+          "printed_page": "44",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Dominion Energy South Carolina\nPlanned Transmission Projects $2M and above Total\n5 Year Budget\nCameron Jct – Cameron – St Matthews 46 kV Rebuild\nProject ID\n6810 T"
+        },
+        {
+          "pdf_page": 44,
+          "printed_page": "44",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Project Description\nRebuilding the 46 kV line between Cameron Jct and St Matthews. 9.8 miles."
+        },
+        {
+          "pdf_page": 44,
+          "printed_page": "44",
+          "supports": [
+            "in_service_date"
+          ],
+          "text": "Planned In-Service Date\n12/31/2028"
+        }
+      ]
+    }
+  ]
+}

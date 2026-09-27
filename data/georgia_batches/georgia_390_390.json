@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21094",
+      "project_name": "GTC: TIGER CREEK-ROCKVILLE-NORTH SPA 230KV PROJECT",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Tiger Creek",
+      "terminal_b": "North Spa",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": null,
+      "uncertainties": [
+        "Project document contains Critical Energy Infrastructure Information (CEII) and confidential markings.",
+        "The project title indicates 'TIGER CREEK-ROCKVILLE-NORTH SPA 230KV PROJECT' while the description involves multiple segments and facilities: building a new 4-breaker 230kV ring bus at Rockville substation, looping in the Eatonton Primary #2 - Wallace Dam 230kV line, building a new 230kV line to Tiger Creek, and building a new 230kV line to North Spa."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 390,
+          "printed_page": "220 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "GTC: TIGER CREEK-ROCKVILLE-NORTH SPA 230KV PROJECT\nTeams # 21094"
+        },
+        {
+          "pdf_page": 390,
+          "printed_page": "220 of 304",
+          "supports": [
+            "need_date",
+            "construction_start"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 01/01/2025"
+        },
+        {
+          "pdf_page": 390,
+          "printed_page": "220 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Build a new 4 - breaker 230kV ring bus at Rockville substation (no auto transformer to be added at this time). Loop in the Eatonton Primary #2 - Wallace Dam 230kV line. Build a new line 230kV line to Tiger Creek. Build a new 230kV line to North Spa."
+        }
+      ]
+    }
+  ]
+}

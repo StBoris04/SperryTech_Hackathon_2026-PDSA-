@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "20783",
+      "project_name": "SAV: COLEMAN - DEAN FOREST 115KV LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Coleman",
+      "terminal_b": "Dean Forest",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2028-06-01",
+      "schedule_text": "Need Date 06/01/2028 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 334,
+          "printed_page": "164 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "SAV: COLEMAN - DEAN FOREST 115KV LINE REBUILD\nTeams # 20783\nNeed Date 06/01/2028 Start Date 06/01/2025\nDescription\nRebuild entire line from Coleman to Dean Forest. 6.67 miles of 100C 477 Hawk Conductor with 200C 1351 ACSS Martin conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20407",
+      "project_name": "SAV: MAGNOLIA - TRUMAN PARKWAY 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Magnolia",
+      "terminal_b": "Truman Parkway",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2028-06-01",
+      "schedule_text": "Need Date 06/01/2028 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 335,
+          "printed_page": "165 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "SAV: MAGNOLIA - TRUMAN PARKWAY 115KV REBUILD\nTeams # 20407\nNeed Date 06/01/2028 Start Date 06/01/2025\nDescription\nRebuild 3 miles of the Magnolia - Truman Parkway 115kV from 75C 927 ACAR to 200C 1351 ACSS Martin conductor or higher rated conductor. Upgrade 1200A switches at Magnolia substation to 2000A switches and jumpers at Truman Parkway."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21069",
+      "project_name": "SMART VALVES AT EAST VILLA RICA SWITCHING STATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "East Villa Rica",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2028-06-01",
+      "construction_end": null,
+      "need_date": "2028-06-01",
+      "schedule_text": "Need Date 06/01/2028 Start Date 06/01/2028",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 336,
+          "printed_page": "166 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "SMART VALVES AT EAST VILLA RICA SWITCHING STATION\nTeams # 21069\nNeed Date 06/01/2028 Start Date 06/01/2028\nDescription\nInstallation of Power Flow Controllers at the new East Villa Rica Switching Station on the Douglasville - Villa Rica 230kV and Summer Lake - Villa Rica 230kV lines. The Power Flow Controllers will be removed when GTCs strategic project at Cavender Drive goes in service."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20768",
+      "project_name": "SOUTH MACON 115KV BUSES 1 & 2 REPLACEMENT",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "South Macon",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-01-15",
+      "construction_end": null,
+      "need_date": "2028-06-01",
+      "schedule_text": "Need Date 06/01/2028 Start Date 01/15/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 337,
+          "printed_page": "167 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "SOUTH MACON 115KV BUSES 1 & 2 REPLACEMENT\nTeams # 20768\nNeed Date 06/01/2028 Start Date 01/15/2025\nDescription\nReplace the 115kV buses 1 and 2 at South Macon with (2) 1590 AAC."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20274",
+      "project_name": "UNION CITY - YATES 230KV (BLACK) LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Union City",
+      "terminal_b": "Yates",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2028-06-01",
+      "schedule_text": "Need Date 06/01/2028 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 338,
+          "printed_page": "168 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "UNION CITY - YATES 230KV (BLACK) LINE REBUILD\nTeams # 20274\nNeed Date 06/01/2028 Start Date 06/01/2025\nDescription\nRebuild the Union City - Yates 230kV Black line with bundled 200C 1351 ACSS Martin conductor. Replace limiting elements at Union City, Fairburn #1 and Line Creek substations."
+        }
+      ]
+    },
+    {
+      "source_project_id": "13166",
+      "project_name": "FIRST AVENUE - NORTH COLUMBUS 115KV LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "First Avenue",
+      "terminal_b": "North Columbus",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2028-01-01",
+      "construction_end": null,
+      "need_date": "2028-12-01",
+      "schedule_text": "Need Date 12/01/2028 Start Date 01/01/2028",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 339,
+          "printed_page": "169 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "FIRST AVENUE - NORTH COLUMBUS 115KV LINE REBUILD\nTeams # 13166\nNeed Date 12/01/2028 Start Date 01/01/2028\nDescription\nRebuild the 0.9 miles North Columbus - First Avenue 115kV line (currently 75C 657 ACAR) with 200C 1351 ACSS conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20586",
+      "project_name": "GTC: NORTH DUBLIN 230/115KV TRANSFORMERS AND BUS-TIE BREAKER",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "North Dublin",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-11-01",
+      "construction_end": null,
+      "need_date": "2028-12-01",
+      "schedule_text": "Need Date 12/01/2028 Start Date 11/01/2023",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 340,
+          "printed_page": "170 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: NORTH DUBLIN 230/115KV TRANSFORMERS AND BUS-TIE BREAKER\nTeams # 20586\nNeed Date 12/01/2028 Start Date 11/01/2023\nDescription\nReplace 230/115kV auto transformers A & B with (2) new 230/115kV, 400 MVA auto transformers. Replace 230kV bus tie breaker with a new 2000A breaker. Replace 115kV bus tie breaker with a new 2000A breaker."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21062",
+      "project_name": "ASHLEY PARK-WANSLEY 500KV",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Ashley Park",
+      "terminal_b": "Wansley",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-12-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 12/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 341,
+          "printed_page": "171 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "ASHLEY PARK-WANSLEY 500KV\nTeams # 21062\nNeed Date 06/01/2029 Start Date 12/01/2024\nDescription\nConstruct a 500kV line from Ashley Park to Wansley, approximately 35 miles long."
+        }
+      ]
+    },
+    {
+      "source_project_id": "10222",
+      "project_name": "BLAKELY PRIMARY - HUCKLEBERRY 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Blakely Primary",
+      "terminal_b": "Huckleberry",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 342,
+          "printed_page": "172 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "BLAKELY PRIMARY - HUCKLEBERRY 115KV REBUILD\nTeams # 10222\nNeed Date 06/01/2029 Start Date 06/01/2025\nDescription\nRebuild the Blakley Primary - Huckleberry 115kV line from 75C 477 ACSR to 200C 1351 ACSS. (13.5 miles)\nGPC: Replace jumpers at Blakely Primary\nGTC: Replace jumpers at Blakely and Huckleberry"
+        }
+      ]
+    },
+    {
+      "source_project_id": "21047",
+      "project_name": "BROADWAY - ECHECONNEE 115 KV LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Broadway",
+      "terminal_b": "Echeconnee",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 01/01/2025",
+      "uncertainties": [
+        "Title states 'BROADWAY - ECHECONNEE 115 KV LINE REBUILD' but work description specifies rebuilding the 'Griffin Rd – Echeconnee line section of Broadway - Echeconnee line'.",
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 343,
+          "printed_page": "173 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "BROADWAY - ECHECONNEE 115 KV LINE REBUILD\nTeams # 21047\nNeed Date 06/01/2029 Start Date 01/01/2025\nDescription\nRebuild the Griffin Rd – Echeconnee line section of Broadway - Echeconnee line with 200C 1351 ACSS conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "16887",
+      "project_name": "BUTLER - THOMASTON 230KV LINE CONVERSION",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Butler",
+      "terminal_b": "Thomaston",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 01/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 344,
+          "printed_page": "174 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "BUTLER - THOMASTON 230KV LINE CONVERSION\nTeams # 16887\nNeed Date 06/01/2029 Start Date 01/01/2025\nDescription\nRebuild the radial Thomaston - Butler 115kV line to 230kV network operation. Make all necessary upgrades and accommodations at Butler and Thomaston. Convert the Wesley substation from 115kV to 230kV."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21036",
+      "project_name": "BUZZARD ROOST - FACTORY SHOALS 230KV NEW LINE",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Buzzard Roost",
+      "terminal_b": "Factory Shoals",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2026",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 345,
+          "printed_page": "175 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "BUZZARD ROOST - FACTORY SHOALS 230KV NEW LINE\nTeams # 21036\nNeed Date 06/01/2029 Start Date 06/01/2026\nDescription\nA new 2 mile 230kV line is being built from Buzzard Roost to Factory Shoals with 200C 1351 ACSS Martin conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21142",
+      "project_name": "CONYERS - KLONDIKE 230 KV SECOND LINE",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Conyers",
+      "terminal_b": "Klondike",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2026",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 346,
+          "printed_page": "176 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "CONYERS - KLONDIKE 230 KV SECOND LINE\nTeams # 21142\nNeed Date 06/01/2029 Start Date 06/01/2026\nDescription\nBuild a new 6.56 mile line from Conyers to Klondike with 200C (2) 1351 ACSS Martin conductor. Build one new 230kV breaker terminal at Conyers and one new 230kV terminal at Klondike."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21138",
+      "project_name": "GLENWOOD SPRINGS - PORTERDALE PRIMARY 230KV LINE SWITCH REPL",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Porterdale Primary",
+      "terminal_b": null,
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2029-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2029",
+      "uncertainties": [
+        "Title indicates line endpoints 'GLENWOOD SPRINGS - PORTERDALE PRIMARY', but description defines work at Porterdale Primary substation on the 230kV line switch.",
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 347,
+          "printed_page": "177 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GLENWOOD SPRINGS - PORTERDALE PRIMARY 230KV LINE SWITCH REPL\nTeams # 21138\nNeed Date 06/01/2029 Start Date 06/01/2029\nDescription\nReplace the 600A line switch at Porterdale Primary on the Glenwood Springs - Porterdale Primary 230kV Line with 1200A switch."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21112",
+      "project_name": "GTC: BARNESVILLE PRIMARY - THOMASTON 230KV",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Barnesville Primary",
+      "terminal_b": "Thomaston",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2027-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2027",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 348,
+          "printed_page": "178 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: BARNESVILLE PRIMARY - THOMASTON 230KV\nTeams # 21112\nNeed Date 06/01/2029 Start Date 06/01/2027\nDescription\nRebuild Barnesville Primary - Thomaston 230kV line (13.24 miles) with 100C 1351 ACSS; Replace 1200A switches at Barnesville Primary & Thomaston with 3000A switch; replace associated jumper at both stations."
+        }
+      ]
+    },
+    {
+      "source_project_id": "10814",
+      "project_name": "GTC: BAY CREEK 230/115KV SECOND AUTO TRANSFORMER",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "Bay Creek",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2028-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2028",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 349,
+          "printed_page": "179 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: BAY CREEK 230/115KV SECOND AUTO TRANSFORMER\nTeams # 10814\nNeed Date 06/01/2029 Start Date 06/01/2028\nDescription\nInstall a second 230/115kV, 400 MVA auto transformer at the Bay Creek substation."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21140",
+      "project_name": "GTC: BONAIRE PRIMARY - EASTMAN PRIMARY 115 KV LINE REBUILD",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Bonaire Primary",
+      "terminal_b": "Eastman Primary",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-01-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 01/01/2026",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 350,
+          "printed_page": "180 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: BONAIRE PRIMARY - EASTMAN PRIMARY 115 KV LINE REBUILD\nTeams # 21140\nNeed Date 06/01/2029 Start Date 01/01/2026\nDescription\nRebuild 41.08 miles of the Bonaire Primary - Eastman Primary 115kV Line using 200C 1351ACSS Martin and upgrade the bus at Roddy substation."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20849",
+      "project_name": "GTC: CLIFTONDALE - LINE CREEK 230KV LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Cliftondale",
+      "terminal_b": "Line Creek",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2026",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 351,
+          "printed_page": "181 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: CLIFTONDALE - LINE CREEK 230KV LINE\nTeams # 20849\nNeed Date 06/01/2029 Start Date 06/01/2026\nDescription\nAn 11.6 mile 230kV line is being built form Cliftondale to Line Creek with 200C 1351 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19950",
+      "project_name": "GTC: DRESDEN - TALBOT 500KV LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Talbot",
+      "terminal_b": "Dresden",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 352,
+          "printed_page": "182 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: DRESDEN - TALBOT 500KV LINE\nTeams # 19950\nNeed Date 06/01/2029 Start Date 06/01/2025\nDescription\nGTC will build a new 500kV line from Talbot to Dresden (75 miles). This project will create a new Talbot 500/230kV substation with a 500/230kV auto transformers. The low side of the auto transformers will connect to the Talbot County #1 and #2 230kV buses."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20760",
+      "project_name": "GTC: HOPEWELL 230/115 KV BANK A",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "Hopewell",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2028-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2028",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 353,
+          "printed_page": "183 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: HOPEWELL 230/115 KV BANK A\nTeams # 20760\nNeed Date 06/01/2029 Start Date 06/01/2028\nDescription\nReplace the Hopewell 230/115kV auto transformer with a 400 MVA auto transformer."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21123",
+      "project_name": "GTC: TENASKA - WANSLEY 500KV NEW LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Tenaska",
+      "terminal_b": "Wansley",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-12-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 12/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 354,
+          "printed_page": "184 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "GTC: TENASKA - WANSLEY 500KV NEW LINE\nTeams # 21123\nNeed Date 06/01/2029 Start Date 12/01/2024\nDescription\nConstruct a 5 mile long 500kV line between Tenaska and Wansley. Make all necessary accommodations at the substations for the line termination."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21141",
+      "project_name": "LLOYD SHOALS - PORTERDALE PRIMARY 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Lloyd Shoals",
+      "terminal_b": "Porterdale Primary",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2026-03-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 03/01/2026",
+      "uncertainties": [
+        "Title states 'LLOYD SHOALS - PORTERDALE PRIMARY 115KV REBUILD' but work description specifies segments 'from Jackson Lake to Lloyd Shoals and Jackson Lake to South. Covington Junction'.",
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 355,
+          "printed_page": "185 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "LLOYD SHOALS - PORTERDALE PRIMARY 115KV REBUILD\nTeams # 21141\nNeed Date 06/01/2029 Start Date 03/01/2026\nDescription\nRebuild 15.8 miles of 50C 397.5 ACSR Ibis with 200C 1351 ACSS Martin from Jackson Lake to Lloyd Shoals and Jackson Lake to South. Covington Junction."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20285",
+      "project_name": "LOWER RIVER - WEBB (APC) 115KV RECONDUCTOR",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Lower River",
+      "terminal_b": "Webb (APC)",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 356,
+          "printed_page": "186 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "LOWER RIVER - WEBB (APC) 115KV RECONDUCTOR\nTeams # 20285\nNeed Date 06/01/2029 Start Date 06/01/2025\nDescription\nReconductor 0.97 miles of 100C 636 Grosbeak Lower River - Webb 115kV line with 200C 795 ACSS Drake conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19621",
+      "project_name": "MCEVER ROAD - SHOAL CREEK 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "McEver Road",
+      "terminal_b": "Shoal Creek",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2024-12-31",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 12/31/2024",
+      "uncertainties": [
+        "Title states 'MCEVER ROAD - SHOAL CREEK 115KV REBUILD' but work description specifies segments 'McEver Road - College Square section, and ... College Square to Lakeside WTP B line section'.",
+        "Document contains CEII and confidential notices; cost details and supporting statements are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 357,
+          "printed_page": "187 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b",
+            "schedule_text",
+            "project_type"
+          ],
+          "text": "MCEVER ROAD - SHOAL CREEK 115KV REBUILD\nTeams # 19621\nNeed Date 06/01/2029 Start Date 12/31/2024\nDescription\nRebuild the 636 ACSR (1 mile) of the McEver Road - College Square section, and 2 - 4/0 copper part (2.05 miles) of the College Square to Lakeside WTP B line section, part of the McEver Road - Shoal Creek 115kV line, using 200C 1351 ACSS conductor."
+        }
+      ]
+    }
+  ]
+}

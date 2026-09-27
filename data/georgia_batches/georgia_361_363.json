@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "20757",
+      "project_name": "NORCROSS - NORTH DRUID HILLS 115KV REBUILD",
+      "company": "GPC",
+      "project_type": "transmission_line",
+      "terminal_a": "Norcross",
+      "terminal_b": "North Druid Hills",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 01/01/2025",
+      "uncertainties": [
+        "The project title indicates endpoints Norcross and North Druid Hills, but the project description specifies rebuilding only the segment from Norcross to Norcross Junction (674) (approximately 3.9 miles).",
+        "The document contains Critical Energy Infrastructure Information (CEII) and confidential notices restricting disclosure, and project cost details are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 361,
+          "printed_page": "191 of 304",
+          "supports": [
+            "project_name",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "NORCROSS - NORTH DRUID HILLS 115KV REBUILD"
+        },
+        {
+          "pdf_page": 361,
+          "printed_page": "191 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 20757"
+        },
+        {
+          "pdf_page": 361,
+          "printed_page": "191 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2029 Start Date 01/01/2025"
+        },
+        {
+          "pdf_page": 361,
+          "printed_page": "191 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Rebuild the Norcross - Norcross Junction (674) segment, approximately 3.9 miles, from 100C 477 ACSR Hawk conductor to 200C 1351 ACSS \"Martin\" conductor."
+        },
+        {
+          "pdf_page": 361,
+          "printed_page": "191 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC REDACTED"
+        }
+      ]
+    },
+    {
+      "source_project_id": "21006",
+      "project_name": "SAV: BOULEVARD - MAGNOLIA 115 KV LINE REBUILD",
+      "company": "SAV",
+      "project_type": "transmission_line",
+      "terminal_a": "Boulevard",
+      "terminal_b": "Magnolia",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2027-01-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 01/01/2027",
+      "uncertainties": [
+        "The document contains Critical Energy Infrastructure Information (CEII) and confidential notices restricting disclosure, and project cost and supporting statement details are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 362,
+          "printed_page": "192 of 304",
+          "supports": [
+            "project_name",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "SAV: BOULEVARD - MAGNOLIA 115 KV LINE REBUILD"
+        },
+        {
+          "pdf_page": 362,
+          "printed_page": "192 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 21006"
+        },
+        {
+          "pdf_page": 362,
+          "printed_page": "192 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2029 Start Date 01/01/2027"
+        },
+        {
+          "pdf_page": 362,
+          "printed_page": "192 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the entire line from Boulevard to Magnolia (4.56 miles) from 100C 795 ACSR Drake to 200C 1351 ACSS Martin"
+        }
+      ]
+    },
+    {
+      "source_project_id": "21023",
+      "project_name": "SAV: DEAN FOREST - LITTLE OGEECHEE 230 KV REBUILD",
+      "company": "SAV",
+      "project_type": "transmission_line",
+      "terminal_a": "Dean Forest",
+      "terminal_b": "Little Ogeechee",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-01-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 01/01/2026",
+      "uncertainties": [
+        "The project description mentions rebuilding segments Little Ogeechee - Salt Creek and Salt Creek - Dean Forest, as well as upgrading jumpers at the Little Ogeechee terminal.",
+        "The document contains Critical Energy Infrastructure Information (CEII) and confidential notices restricting disclosure, and project cost and supporting statement details are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 363,
+          "printed_page": "193 of 304",
+          "supports": [
+            "project_name",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "SAV: DEAN FOREST - LITTLE OGEECHEE 230 KV REBUILD"
+        },
+        {
+          "pdf_page": 363,
+          "printed_page": "193 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 21023"
+        },
+        {
+          "pdf_page": 363,
+          "printed_page": "193 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2029 Start Date 01/01/2026"
+        },
+        {
+          "pdf_page": 363,
+          "printed_page": "193 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the entire line from Little Ogeechee - Salt Creek and Salt Creek - Dean Forest, approximately 8 miles, using 200C 1351 ACSS/Martin. Upgrade jumpers at the Little Ogeechee terminal."
+        }
+      ]
+    }
+  ]
+}

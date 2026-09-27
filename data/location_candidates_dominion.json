@@ -1,0 +1,688 @@
+{
+  "schema_version": "1.0",
+  "source": "https://overpass-api.de/api/interpreter",
+  "bbox": "32.0,-83.5,35.3,-78.4",
+  "projects_reference": "data/gemini_dominion_candidates.json",
+  "terminals": [
+    {
+      "terminal": "Aiken PSA tap point",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Batesburg",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Batesburg Substation",
+          "latitude": 33.9134867,
+          "longitude": -81.5644353,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 178951280,
+          "source": "https://www.openstreetmap.org/way/178951280",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Bayfront",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Blue Circle tap",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Bluffton",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Bluffton Substation",
+          "latitude": 32.2350272,
+          "longitude": -80.8533836,
+          "operator": "South Carolina Electric & Gas",
+          "osm_type": "way",
+          "osm_id": 498967268,
+          "source": "https://www.openstreetmap.org/way/498967268",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Burton Substation",
+          "latitude": 32.4364883,
+          "longitude": -80.7210159,
+          "operator": "South Carolina Electric & Gas Company",
+          "osm_type": "way",
+          "osm_id": 185362029,
+          "source": "https://www.openstreetmap.org/way/185362029",
+          "name_score": 0.7143,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Burton",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Burton Substation",
+          "latitude": 32.4364883,
+          "longitude": -80.7210159,
+          "operator": "South Carolina Electric & Gas Company",
+          "osm_type": "way",
+          "osm_id": 185362029,
+          "source": "https://www.openstreetmap.org/way/185362029",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Bluffton Substation",
+          "latitude": 32.2350272,
+          "longitude": -80.8533836,
+          "operator": "South Carolina Electric & Gas",
+          "osm_type": "way",
+          "osm_id": 498967268,
+          "source": "https://www.openstreetmap.org/way/498967268",
+          "name_score": 0.7143,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "CIP",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cainhoy",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Cainhoy Substation",
+          "latitude": 32.941402,
+          "longitude": -79.8422757,
+          "operator": "Dominion Energy South Carolina",
+          "osm_type": "way",
+          "osm_id": 229116275,
+          "source": "https://www.openstreetmap.org/way/229116275",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Cameron Jct",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Canadys",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Canadys Substation",
+          "latitude": 33.0640963,
+          "longitude": -80.6205999,
+          "operator": "South Carolina Electric & Gas Company",
+          "osm_type": "way",
+          "osm_id": 185032900,
+          "source": "https://www.openstreetmap.org/way/185032900",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Charleston Transmission",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Church Creek",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Church Creek Substation",
+          "latitude": 32.8303196,
+          "longitude": -80.0702792,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 185330726,
+          "source": "https://www.openstreetmap.org/way/185330726",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Clements Ferry",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Coit",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Dawson",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Duke/Progress Energy Tie",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Eastover",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Edenwood Substation",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Edmund Switching Station- Owens Corning 115 kV Line",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Elloree",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Elloree Substation",
+          "latitude": 33.5323844,
+          "longitude": -80.5797245,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1075509549,
+          "source": "https://www.openstreetmap.org/way/1075509549",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Frogmore",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Frogmore Substation",
+          "latitude": 32.3991323,
+          "longitude": -80.5711266,
+          "operator": "South Carolina Electric & Gas",
+          "osm_type": "way",
+          "osm_id": 1064802545,
+          "source": "https://www.openstreetmap.org/way/1064802545",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Frogmore Distribution Tap",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ft Johnson",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Gills Creek",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hamlin",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Hamlin Substation",
+          "latitude": 32.859937,
+          "longitude": -79.7884409,
+          "operator": "South Carolina Gas & Electric",
+          "osm_type": "way",
+          "osm_id": 229116306,
+          "source": "https://www.openstreetmap.org/way/229116306",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Harleyville substation",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Harleyville Substation",
+          "latitude": 33.2099069,
+          "longitude": -80.4511658,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1075801506,
+          "source": "https://www.openstreetmap.org/way/1075801506",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hooks",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Hopkins",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Jack Primus",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Jack Primus Substation",
+          "latitude": 32.9193841,
+          "longitude": -79.9044954,
+          "operator": "South Carolina Gas & Electric",
+          "osm_type": "way",
+          "osm_id": 1097237376,
+          "source": "https://www.openstreetmap.org/way/1097237376",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Jasper",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Jasper Substation",
+          "latitude": 32.3606993,
+          "longitude": -81.1241523,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 185380597,
+          "source": "https://www.openstreetmap.org/way/185380597",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Killian",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Williams Substation",
+          "latitude": 33.0176985,
+          "longitude": -79.9321678,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 184867924,
+          "source": "https://www.openstreetmap.org/way/184867924",
+          "name_score": 0.6667,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ladson Jct",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "North Bridge Terrace",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Okatie",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Queensboro",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ritter",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Riverport",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Saluda County",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Santee City",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Santee Substation",
+          "latitude": 33.4234139,
+          "longitude": -80.125292,
+          "operator": "Berkeley Electric Cooperative",
+          "osm_type": "way",
+          "osm_id": 184966103,
+          "source": "https://www.openstreetmap.org/way/184966103",
+          "name_score": 0.7059,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Santee Substation",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Santee Substation",
+          "latitude": 33.4234139,
+          "longitude": -80.125292,
+          "operator": "Berkeley Electric Cooperative",
+          "osm_type": "way",
+          "osm_id": 184966103,
+          "source": "https://www.openstreetmap.org/way/184966103",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Wateree Substation",
+          "latitude": 33.8262718,
+          "longitude": -80.6240763,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1082130490,
+          "source": "https://www.openstreetmap.org/way/1082130490",
+          "name_score": 0.6154,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Scout Customer Substation",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Square D",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "St Matthews",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "St. Helena",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Stevens Creek",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Summerville",
+      "status": "needs_review",
+      "candidates": [
+        {
+          "name": "Sumter Substation",
+          "latitude": 33.8976611,
+          "longitude": -80.3239761,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 185032893,
+          "source": "https://www.openstreetmap.org/way/185032893",
+          "name_score": 0.5882,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Summerville 230kV Sub",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Sumter",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Sumter Substation",
+          "latitude": 33.8976611,
+          "longitude": -80.3239761,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 185032893,
+          "source": "https://www.openstreetmap.org/way/185032893",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Thurmond",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Thurmond Substation",
+          "latitude": 33.6601273,
+          "longitude": -82.1959307,
+          "operator": "Georgia Power",
+          "osm_type": "way",
+          "osm_id": 52102019,
+          "source": "https://www.openstreetmap.org/way/52102019",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Toolebeck",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Toolebeck Substation",
+          "latitude": 33.5346321,
+          "longitude": -81.6693272,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1073259467,
+          "source": "https://www.openstreetmap.org/way/1073259467",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Union Pier",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Urquhart",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Urquhart Substation",
+          "latitude": 33.4328703,
+          "longitude": -81.9110807,
+          "operator": null,
+          "osm_type": "relation",
+          "osm_id": 14317637,
+          "source": "https://www.openstreetmap.org/relation/14317637",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "VCS2",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Wagener Distribution substation",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Ward",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Ward Substation",
+          "latitude": 33.87218,
+          "longitude": -81.6977228,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 185197506,
+          "source": "https://www.openstreetmap.org/way/185197506",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Wateree",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Wateree Substation",
+          "latitude": 33.8262718,
+          "longitude": -80.6240763,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 1082130490,
+          "source": "https://www.openstreetmap.org/way/1082130490",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        },
+        {
+          "name": "Santee Substation",
+          "latitude": 33.4234139,
+          "longitude": -80.125292,
+          "operator": "Berkeley Electric Cooperative",
+          "osm_type": "way",
+          "osm_id": 184966103,
+          "source": "https://www.openstreetmap.org/way/184966103",
+          "name_score": 0.6154,
+          "exact_normalized_name": false
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Williams",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Williams Substation",
+          "latitude": 33.0176985,
+          "longitude": -79.9321678,
+          "operator": null,
+          "osm_type": "way",
+          "osm_id": 184867924,
+          "source": "https://www.openstreetmap.org/way/184867924",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    },
+    {
+      "terminal": "Yemassee",
+      "status": "exact_candidate",
+      "candidates": [
+        {
+          "name": "Yemassee Substation",
+          "latitude": 32.6974259,
+          "longitude": -80.8637929,
+          "operator": "South Carolina Electric & Gas Company",
+          "osm_type": "way",
+          "osm_id": 185317032,
+          "source": "https://www.openstreetmap.org/way/185317032",
+          "name_score": 1.0,
+          "exact_normalized_name": true
+        }
+      ],
+      "notes": "Coordinates are OSM candidates only; confirm against the project PDF and another public source before validation."
+    }
+  ]
+}

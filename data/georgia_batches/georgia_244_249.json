@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "19631",
+      "project_name": "PINE GROVE PRIMARY 115 KV DUAL STAGE CAPACITOR BANK",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": "Pine Grove Primary",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-11-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 11/01/2023",
+      "uncertainties": [
+        "Confidential CEII subject to CFR Sec. 388.113 and FERC policy; supporting statement and cost estimates are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 244,
+          "printed_page": "74 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "PINE GROVE PRIMARY 115 KV DUAL STAGE CAPACITOR BANK Teams # 19631 Need Date 06/01/2025 Start Date 11/01/2023"
+        },
+        {
+          "pdf_page": 244,
+          "printed_page": "74 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Install a Dual Stage 30MVAR capacitor bank at Pine Grove Primary."
+        },
+        {
+          "pdf_page": 244,
+          "printed_page": "74 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC REDACTED"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20067",
+      "project_name": "SAV: DEPTFORD - MAGNOLIA 115KV RECONDUCTOR",
+      "company": "SAV",
+      "project_type": "transmission_line",
+      "terminal_a": "Deptford",
+      "terminal_b": "Magnolia",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-01-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 01/01/2023",
+      "uncertainties": [
+        "Confidential CEII subject to CFR Sec. 388.113 and FERC policy; supporting statement and cost estimates are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 245,
+          "printed_page": "75 of 304",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "SAV: DEPTFORD - MAGNOLIA 115KV RECONDUCTOR Teams # 20067 Need Date 06/01/2025 Start Date 01/01/2023"
+        },
+        {
+          "pdf_page": 245,
+          "printed_page": "75 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Reconductor the Deptford - Magnolia 115kV line (approximately 5 miles) using 973.1 C7 ACCS (Everglades) conductor and upgrade the Deptford main bus."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20466",
+      "project_name": "SMART VALVE INSTALLATION",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": "Eatonton Primary",
+      "terminal_b": null,
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2023-10-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 10/01/2023",
+      "uncertainties": [
+        "Confidential CEII subject to CFR Sec. 388.113 and FERC policy; supporting statement and cost estimates are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 246,
+          "printed_page": "76 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "SMART VALVE INSTALLATION Teams # 20466 Need Date 06/01/2025 Start Date 10/01/2023"
+        },
+        {
+          "pdf_page": 246,
+          "printed_page": "76 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Installation of Smart Valve devices inside the Eatonton Primary substation on the Branch - Oasis 230kV and Eatonton Primary - Oasis 230kV lines."
+        },
+        {
+          "pdf_page": 246,
+          "printed_page": "76 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC REDACTED"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20431",
+      "project_name": "VILLA RICA LOW SIDE BREAKER",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": "Villa Rica",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-06-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 06/01/2024",
+      "uncertainties": [
+        "Confidential CEII subject to CFR Sec. 388.113 and FERC policy; supporting statement and cost estimates are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 247,
+          "printed_page": "77 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "VILLA RICA LOW SIDE BREAKER Teams # 20431 Need Date 06/01/2025 Start Date 06/01/2024"
+        },
+        {
+          "pdf_page": 247,
+          "printed_page": "77 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Replace a low side breaker at Villa Rica with a 4000A breaker."
+        },
+        {
+          "pdf_page": 247,
+          "printed_page": "77 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC REDACTED"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20684",
+      "project_name": "CAMDEN INDUSTRIAL PARK (GPC)",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": "Camden Industrial Park",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2025-06-30",
+      "schedule_text": "Need Date 06/30/2025 Start Date 01/01/2024",
+      "uncertainties": [
+        "Confidential CEII subject to CFR Sec. 388.113 and FERC policy; supporting statement and cost estimates are redacted.",
+        "Project loops the existing Colerain to Thalman 230kV line into Camden Industrial Park station, and relocates GPC Kingsland termination at Kinlaw substation to a new 115kV bay."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 248,
+          "printed_page": "78 of 304",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CAMDEN INDUSTRIAL PARK (GPC) Teams # 20684 Need Date 06/30/2025 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 248,
+          "printed_page": "78 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "This project will loop in GPC's existing Colerain to Thalman 230kV line into GTC's new Camden Industrial Park station. GPC's Kingsland termination at GTC's Kinlaw sub will be relocated to a new 115kV bay position."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18774",
+      "project_name": "GTC: HEARD COUNTY - TENASKA 500KV (SECOND LINE)",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Heard County",
+      "terminal_b": "Tenaska",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2021-12-01",
+      "construction_end": null,
+      "need_date": "2025-12-01",
+      "schedule_text": "Need Date 12/01/2025 Start Date 12/01/2021",
+      "uncertainties": [
+        "Confidential CEII subject to CFR Sec. 388.113 and FERC policy; supporting statement and cost estimates are redacted.",
+        "Scope involves both GTC and GPC: GTC builds 0.8-mile line and adds 500kV breaker at Heard County; GPC adds 500kV breaker at Tenaska."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 249,
+          "printed_page": "79 of 304",
+          "supports": [
+            "project_name",
+            "company",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "GTC: HEARD COUNTY - TENASKA 500KV (SECOND LINE) Teams # 18774 Need Date 12/01/2025 Start Date 12/01/2021"
+        },
+        {
+          "pdf_page": 249,
+          "printed_page": "79 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "GTC: Build a second Heard County - Tenaska 500kV line, 0.8 miles, with 100C (3) 1113 ACSR Bluejay conductors. Add a 500kV breaker at Heard County. GPC: Add a 500kV breaker at Tenaska."
+        }
+      ]
+    }
+  ]
+}

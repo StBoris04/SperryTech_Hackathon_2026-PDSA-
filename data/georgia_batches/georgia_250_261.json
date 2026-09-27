@@ -1,0 +1,513 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "18889",
+      "project_name": "JEFFERSON STREET#3 - NORTHWEST (WHITE) 115 KV RECONDUCTOR",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Northwest",
+      "terminal_b": "Jefferson Street #3",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2025-12-01",
+      "schedule_text": "Need Date 12/01/2025 Start Date 01/01/2024",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 250,
+          "printed_page": "80 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "JEFFERSON STREET#3 - NORTHWEST (WHITE) 115 KV RECONDUCTOR\nTeams # 18889\nNeed Date 12/01/2025 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 250,
+          "printed_page": "80 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the 115kV White line from Northwest to Jefferson Street #3 (1.2 miles) with 200C 1351 ACSS conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20152",
+      "project_name": "CC - CASS PINE- HILL VIEW 230 KV LINE- CC IMPROVEMENTS",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Cass Pine",
+      "terminal_b": "Hill View",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2025-12-31",
+      "schedule_text": "Need Date 12/31/2025 Start Date 06/01/2023",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 251,
+          "printed_page": "81 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - CASS PINE- HILL VIEW 230 KV LINE- CC IMPROVEMENTS\nTeams # 20152\nNeed Date 12/31/2025 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 251,
+          "printed_page": "81 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Build a new 7.58 mile 200C 1351 ACSS conductor 230kV line between new Cass Pine and Hill View 230kV substations."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20175",
+      "project_name": "CC - PROJECT CHRONOS- SK/HYUNDAI",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": null,
+      "terminal_b": null,
+      "terminal_basis": null,
+      "in_service_date": null,
+      "construction_start": "2023-07-31",
+      "construction_end": null,
+      "need_date": "2025-12-31",
+      "schedule_text": "Need Date 12/31/2025 Start Date 07/31/2023",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 252,
+          "printed_page": "82 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - PROJECT CHRONOS- SK/HYUNDAI\nTeams # 20175\nNeed Date 12/31/2025 Start Date 07/31/2023"
+        },
+        {
+          "pdf_page": 252,
+          "printed_page": "82 of 304",
+          "supports": [
+            "company",
+            "project_type"
+          ],
+          "text": "GPC will build a 230/25kV station named Two Run Ranch and loop it into the Cartersville - Pinson 230kV line to serve SK Battery/Hyundai and new load in the area."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20010",
+      "project_name": "GTC: ANTHONY SHOALS - WASHINGTON 115 KV LINE REBUILD",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Anthony Shoals",
+      "terminal_b": "Washington",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2025-12-31",
+      "schedule_text": "Need Date 12/31/2025 Start Date 01/01/2024",
+      "uncertainties": [
+        "Project title identifies the line as Anthony Shoals - Washington 115 KV, but the scope of work description describes rebuilding the Double Branches Junction - Washington 115kV line section.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 253,
+          "printed_page": "83 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "GTC: ANTHONY SHOALS - WASHINGTON 115 KV LINE REBUILD\nTeams # 20010\nNeed Date 12/31/2025 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": "83 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Rebuild 21 miles of the Double Branches Junction - Washington 115kV line section with 100C 795 ACSR conductor or higher rated conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18691",
+      "project_name": "GTC: LIZARD LOPE - WESTOVER 115 KV NEW LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Lizard Lope",
+      "terminal_b": "Westover",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2021-06-01",
+      "construction_end": null,
+      "need_date": "2026-03-01",
+      "schedule_text": "Need Date 03/01/2026 Start Date 06/01/2021",
+      "uncertainties": [
+        "Project title indicates Lizard Lope - Westover, while description specifies building new stations Lizard Lope and Westover and 19.8 miles of line from Lizard Lope to Gillionville.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 254,
+          "printed_page": "84 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "GTC: LIZARD LOPE - WESTOVER 115 KV NEW LINE\nTeams # 18691\nNeed Date 03/01/2026 Start Date 06/01/2021"
+        },
+        {
+          "pdf_page": 254,
+          "printed_page": "84 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Construct two new 115kV stations, Lizard Lope and Westover, and build a new 19.8 miles of 115kV line from Lizard Lope to Gillionville"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20018",
+      "project_name": "CC - QTS FAYETTEVILLE TRANSMISSION NEEDS",
+      "company": null,
+      "project_type": "other",
+      "terminal_a": "Ashley Park",
+      "terminal_b": "customer substations",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2026-04-01",
+      "schedule_text": "Need Date 04/01/2026 Start Date 06/01/2023",
+      "uncertainties": [
+        "Project type encompasses both building a new 500/230kV substation (Ashley Park) and constructing two new 230kV transmission lines (~6 miles each).",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 255,
+          "printed_page": "85 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - QTS FAYETTEVILLE TRANSMISSION NEEDS\nTeams # 20018\nNeed Date 04/01/2026 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 255,
+          "printed_page": "85 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Build a new 500/230kV substation (Ashley Park) splitting the Ohara - Union City 500kV line. Install two 500/230kV auto transformers at the Ashley Park station. At Ashley Park, the 500kV side will be a 4 - breaker ring bus, while the 230kV side will be a 2 - rung Breaker and a Half configuration. Build two new 230kV lines (~6 miles each) from Ashley Park to the high side of customer substations."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19597",
+      "project_name": "ADAMSVILLE - BUZZARD ROOST 230KV REBUILD AND JUMPER UPGRADE",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Adamsville",
+      "terminal_b": "Buzzard Roost",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2024-06-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 06/01/2024",
+      "uncertainties": [
+        "Title states Adamsville - Buzzard Roost, but description specifies rebuilding sections from Adamsville to Boat Rock Road (8.08 miles) on the Adamsville - Buzzard Roost 230kV line.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "86 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "ADAMSVILLE - BUZZARD ROOST 230KV REBUILD AND JUMPER UPGRADE\nTeams # 19597\nNeed Date 06/01/2026 Start Date 06/01/2024"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "86 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Rebuild the line sections from Adamsville to Boat Rock Road (8.08 miles) on the Adamsville - Buzzard Roost 230kV line with 200C 1351 ACSS Martin conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18960",
+      "project_name": "BLANKETS CREEK – WOODSTOCK 115KV LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Blankets Creek",
+      "terminal_b": "Woodstock",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 257,
+          "printed_page": "87 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "BLANKETS CREEK – WOODSTOCK 115KV LINE REBUILD\nTeams # 18960\nNeed Date 06/01/2026 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 257,
+          "printed_page": "87 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the entire Blankets Creek - Woodstock 115kV line, approximately 7.1 miles, with 200C 795 ACSS conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20243",
+      "project_name": "CC - GARRETT ROAD SWITCHING STATION - TRAE LANE",
+      "company": null,
+      "project_type": "other",
+      "terminal_a": "Garrett Road",
+      "terminal_b": "Trae Lane",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-04-30",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 04/30/2023",
+      "uncertainties": [
+        "Project combines the construction of a new switching station (Garrett Road 230kV) and a new 8.6-mile 230kV transmission line from Trae Lane substation to Garrett Road switching station.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 258,
+          "printed_page": "88 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - GARRETT ROAD SWITCHING STATION - TRAE LANE\nTeams # 20243\nNeed Date 06/01/2026 Start Date 04/30/2023"
+        },
+        {
+          "pdf_page": 258,
+          "printed_page": "88 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Build the new Garrett Road 230kV switching station (three - element ring bus) splitting the Villa Rica - West Marietta 230kV line. Build a new 230kV line (8.6 miles) from the Trae Lane substation to the Garrett Road switching station with bundled 100C 1351 ACSR conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20216",
+      "project_name": "CC - STONEWALL TELL ROAD (TA REALTY)",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Stonewall Tell Road (TA Realty)",
+      "terminal_b": "East Point - Union City 230kV Black line",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 01/01/2025",
+      "uncertainties": [
+        "Work is a tap/loop-in line segment connecting the customer station into an existing transmission line.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 259,
+          "printed_page": "89 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - STONEWALL TELL ROAD (TA REALTY)\nTeams # 20216\nNeed Date 06/01/2026 Start Date 01/01/2025"
+        },
+        {
+          "pdf_page": 259,
+          "printed_page": "89 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Build 230kV line segment, using 200C 1351 ACSS Martin conductor, to loop in the Stonewall Tell Road (TA Realty) customer station into the East Point - Union City 230kV Black line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18679",
+      "project_name": "DU: EAST DALTON - OOSTANAULA 115KV REBUILD",
+      "company": "DU",
+      "project_type": "transmission_line",
+      "terminal_a": "East Dalton",
+      "terminal_b": "Oostanaula",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 06/01/2023",
+      "uncertainties": [
+        "Title specifies East Dalton - Oostanaula, whereas description describes rebuilding the portion of East Dalton - Oostanaula and Dalton - East Dalton 115kV double circuit lines between East Dalton substation and the Dalton substation frame.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 260,
+          "printed_page": "90 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "DU: EAST DALTON - OOSTANAULA 115KV REBUILD\nTeams # 18679\nNeed Date 06/01/2026 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 260,
+          "printed_page": "90 of 304",
+          "supports": [
+            "project_type",
+            "company"
+          ],
+          "text": "DU: Rebuild the portion of East Dalton - Oostanaula and Dalton - East Dalton 115kV double circuit lines between East Dalton substation and the Dalton substation frame with 200C 795 ACSS."
+        }
+      ]
+    },
+    {
+      "source_project_id": "16007",
+      "project_name": "FENWICK STREET - SAND BAR FERRY 115KV (RECONDUCTOR/REBUILD)",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Fenwick Street",
+      "terminal_b": "Sand Bar Ferry",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2022-09-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 09/01/2022",
+      "uncertainties": [
+        "Title states Fenwick Street - Sand Bar Ferry 115KV, but description specifies reconductoring from Fenwick St to East Augusta Jct.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and public disclosure restrictions."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 261,
+          "printed_page": "91 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "FENWICK STREET - SAND BAR FERRY 115KV (RECONDUCTOR/REBUILD)\nTeams # 16007\nNeed Date 06/01/2026 Start Date 09/01/2022"
+        },
+        {
+          "pdf_page": 261,
+          "printed_page": "91 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Reconductor approximately 2.72 miles of transmission line from Fenwick St to East Augusta Jct. with 100C 1351 ACSR conductor."
+        }
+      ]
+    }
+  ]
+}

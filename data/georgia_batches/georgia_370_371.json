@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21130",
+      "project_name": "CC - NORTH GEORGIA DATA NETWORK UPGRADES",
+      "company": "Georgia Power Company",
+      "project_type": "transmission_line",
+      "terminal_a": "Gillsville Tap Junction",
+      "terminal_b": "Midway",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2026",
+      "uncertainties": [
+        "Portions of the page contain Critical Energy Infrastructure Information (CEII) / Confidential public disclosure warnings, and financial/cost details are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 370,
+          "printed_page": "Page 200 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id"
+          ],
+          "text": "CC - NORTH GEORGIA DATA NETWORK UPGRADES\nTeams # 21130"
+        },
+        {
+          "pdf_page": 370,
+          "printed_page": "Page 200 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2026"
+        },
+        {
+          "pdf_page": 370,
+          "printed_page": "Page 200 of 304",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "Construct approximately 7 miles of 115kV line with minimum 170C 1351 ACSS conductor from Gillsville Tap Junction to Midway. Utilize the existing GPC owned North Jackson - Lawrence Smith 46kV ROW that is to be retired. Disconnect the East Maysville 115kV tap at Midway 115kV and terminate the new Pond Fork - Midway 115kV line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "10478",
+      "project_name": "CORNELIA - TALLULAH LODGE 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Cornelia",
+      "terminal_b": "Tallulah Lodge",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2027-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2027",
+      "uncertainties": [
+        "Portions of the page contain Critical Energy Infrastructure Information (CEII) / Confidential public disclosure warnings, and financial/cost details are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 371,
+          "printed_page": "Page 201 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id"
+          ],
+          "text": "CORNELIA - TALLULAH LODGE 115KV REBUILD\nTeams # 10478"
+        },
+        {
+          "pdf_page": 371,
+          "printed_page": "Page 201 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2027"
+        },
+        {
+          "pdf_page": 371,
+          "printed_page": "Page 201 of 304",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild approximately 9.7 miles of the Cornelia - Chase Road - Clarksville - Hollywood segments of the Cornelia - Tallulah Lodge 115kV line with 200C 795 ACSS conductor."
+        }
+      ]
+    }
+  ]
+}

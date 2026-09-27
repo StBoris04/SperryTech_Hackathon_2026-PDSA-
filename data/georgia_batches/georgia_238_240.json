@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "20342",
+      "project_name": "GTC: CAMDEN INDUSTRIAL PARK 230/115KV NEW SUBSTATION",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "Camden Industrial Park",
+      "terminal_b": "Kinlaw",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": null,
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential notices; financial and supporting statement details are redacted.",
+        "The project primarily constructs the Camden Industrial Park 230/115kV substation, but also includes building a new 115kV line to Kinlaw substation."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 238,
+          "printed_page": "68 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "company",
+            "terminal_a",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "GTC: CAMDEN INDUSTRIAL PARK 230/115KV NEW SUBSTATION\nTeams # 20342\nNeed Date 06/01/2025 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 238,
+          "printed_page": "68 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC will construct a new 230/115kV substation with a three element 230kV ring bus, two element 115kV ring bus, and one new 230/115kV 400MVA transformer. A new 115kV line to Kinlaw substation will be built also."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20590",
+      "project_name": "GTC: EATONTON PRIMARY - LICK CREEK 115KV LINE SWITCH REPLACEMENT",
+      "company": "GTC",
+      "project_type": "other",
+      "terminal_a": "Eatonton Primary",
+      "terminal_b": "Lick Creek",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-12-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": null,
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential notices; financial and supporting statement details are redacted.",
+        "The project is a switch replacement on the Eatonton Primary - Lick Creek 115kV section of the Eatonton Primary - Lake Oconee 115kV Line."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 239,
+          "printed_page": "69 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "GTC: EATONTON PRIMARY - LICK CREEK 115KV LINE SWITCH REPLACEMENT\nTeams # 20590\nNeed Date 06/01/2025 Start Date 12/01/2023"
+        },
+        {
+          "pdf_page": 239,
+          "printed_page": "69 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Replace a 1200A RLB line switch on the Eatonton - Lake Oconee 115kV line with a with motor operator and SCADA controls. This switch is located on GTC's Eatonton Primary - Lick Creek 115kV section of the Eatonton Primary - Lake Oconee 115kV Line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "11821",
+      "project_name": "JESUP - LUDOWICI PRIMARY 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Jesup",
+      "terminal_b": "Ludowici Primary",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": null,
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential notices; financial and supporting statement details are redacted.",
+        "Project title indicates 'JESUP - LUDOWICI PRIMARY', but description specifies work on approximately 7.5 miles of the 'Jesup - North Jesup - Rayonier section'."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 240,
+          "printed_page": "70 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "terminal_a",
+            "terminal_b",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "JESUP - LUDOWICI PRIMARY 115KV REBUILD\nTeams # 11821\nNeed Date 06/01/2025 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 240,
+          "printed_page": "70 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Rebuild approximately 7.5 miles of the Jesup - North Jesup - Rayonier section of the Jesup - Ludowici Primary 115kV line from 100C 336.4 ACSR Linnet conductor to 100C 795 ACSR Drake conductor."
+        }
+      ]
+    }
+  ]
+}

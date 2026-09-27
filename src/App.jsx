@@ -1,4 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 
 const fallbackProjects = [
   { id:"DESC_2", utility:"Dominion Energy SC", short:"DESC", name:"Hooks – Thurmond 115kV Tie: Rebuild", location:"Hooks – Thurmond, SC", type:"Transmission line", milestone:"In service Dec 2024", window:"Construction window unavailable", quality:"Approximate", review:"Validated", description:"Rebuild a section of the 115 kV line between Hooks and Thurmond.", source:"Dominion project listing · PDF page 3", x:40, y:32 },
@@ -30,6 +32,62 @@ const normalizeProject = (project) => {
 
 const distanceMiles=(a,b)=>{if(a?.latitude==null||a?.longitude==null||b?.latitude==null||b?.longitude==null)return null;const rad=value=>value*Math.PI/180;const dLat=rad(b.latitude-a.latitude);const dLon=rad(b.longitude-a.longitude);const h=Math.sin(dLat/2)**2+Math.cos(rad(a.latitude))*Math.cos(rad(b.latitude))*Math.sin(dLon/2)**2;return 3958.8*2*Math.asin(Math.sqrt(h))};
 
+function ProjectMap({projects,selectedId,compareIds,layer,onSelect}){
+  const containerRef=useRef(null);
+  const mapRef=useRef(null);
+  const projectLayerRef=useRef(null);
+
+  useEffect(()=>{
+    if(!containerRef.current||mapRef.current)return;
+    const map=L.map(containerRef.current,{zoomControl:false,minZoom:5,maxZoom:17}).setView([32.65,-81.35],7);
+    L.control.zoom({position:"topright"}).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom:19,
+    }).addTo(map);
+    projectLayerRef.current=L.layerGroup().addTo(map);
+    mapRef.current=map;
+    window.setTimeout(()=>map.invalidateSize(),0);
+    return()=>{map.remove();mapRef.current=null;projectLayerRef.current=null};
+  },[]);
+
+  useEffect(()=>{
+    const map=mapRef.current;
+    const group=projectLayerRef.current;
+    if(!map||!group)return;
+    group.clearLayers();
+    const located=projects.filter(project=>project.latitude!=null&&project.longitude!=null);
+    const visibleIds=layer==="Opportunities"&&compareIds.length===2?new Set(compareIds):null;
+    located.forEach(project=>{
+      if(visibleIds&&!visibleIds.has(project.id))return;
+      const color=tone(project.utility)==="green"?"#24714a":"#dd8735";
+      const active=selectedId===project.id||compareIds.includes(project.id);
+      const icon=L.divIcon({
+        className:"gridlock-marker-shell",
+        html:`<span class="gridlock-marker ${active?"active":""}" style="--marker-color:${color}"><b>${project.short}</b><small>${project.id}</small></span>`,
+        iconSize:[48,48],iconAnchor:[24,24],popupAnchor:[0,-22],
+      });
+      const marker=L.marker([project.latitude,project.longitude],{icon}).addTo(group);
+      marker.bindPopup(`<strong>${project.name}</strong><br><span>${project.id} · ${project.utility}</span><br><small>${project.quality} location</small>`);
+      marker.on("click",()=>onSelect(project.id));
+    });
+
+    const compared=compareIds.map(id=>located.find(project=>project.id===id)).filter(Boolean);
+    if(compared.length===2){
+      const points=compared.map(project=>[project.latitude,project.longitude]);
+      const distance=distanceMiles(compared[0],compared[1]);
+      L.polyline(points,{color:"#173923",weight:4,dashArray:"9 7",opacity:.9}).bindTooltip(`${distance.toFixed(2)} mi`,{permanent:true,direction:"center",className:"distance-tooltip"}).addTo(group);
+      map.fitBounds(L.latLngBounds(points),{padding:[70,70],maxZoom:11});
+    }else{
+      const selected=located.find(project=>project.id===selectedId);
+      if(selected)map.flyTo([selected.latitude,selected.longitude],Math.max(map.getZoom(),9),{duration:.55});
+      else if(located.length)map.fitBounds(L.latLngBounds(located.map(project=>[project.latitude,project.longitude])),{padding:[35,35],maxZoom:8});
+    }
+  },[projects,selectedId,compareIds,layer,onSelect]);
+
+  return <div ref={containerRef} className="leaflet-map" aria-label="Interactive map of utility projects"/>;
+}
+
 export default function App(){
   const [projects,setProjects]=useState(fallbackProjects);
   const [dataState,setDataState]=useState("loading");
@@ -48,9 +106,9 @@ export default function App(){
   const selected=projects.find(p=>p.id===selectedId)??projects[0];
   const compared=compareIds.map(id=>projects.find(p=>p.id===id)).filter(Boolean);
   const comparedDistance=compared.length===2?distanceMiles(compared[0],compared[1]):null;
-  const mappedComparison=compared.length===2&&compared.every(project=>project.x!=null&&project.y!=null)?compared:null;
-  const filtered=useMemo(()=>projects.filter(p=>(utility==="All"||p.short===utility)&&`${p.id} ${p.name} ${p.location}`.toLowerCase().includes(query.toLowerCase())),[query,utility]);
-  const chooseProject=(id)=>{setSelectedId(id);setPanel("project")};
+  const mappedComparison=compared.length===2&&compared.every(project=>project.latitude!=null&&project.longitude!=null)?compared:null;
+  const filtered=useMemo(()=>projects.filter(p=>(utility==="All"||p.short===utility)&&`${p.id} ${p.name} ${p.location}`.toLowerCase().includes(query.toLowerCase())),[projects,query,utility]);
+  const chooseProject=useCallback((id)=>{setSelectedId(id);setPanel("project")},[]);
   const chooseOpp=(opp)=>{setSelectedOpp(opp);setSelectedId(opp.a);setPanel("opportunity")};
   const toggleCompare=(id)=>{setCompareIds(current=>{if(current.includes(id))return current.filter(item=>item!==id);const next=current.length>=2?[current[1],id]:[...current,id];if(next.length===2){setPanel("compare");window.setTimeout(()=>navigateTo("top"),0)}return next})};
   const navigateTo=(id)=>{setActiveSection(id);document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"})};
@@ -70,18 +128,13 @@ export default function App(){
     {page==="workspace"?<main id="top">
       <section className="intro">
         <div><p className="kicker"><span>01</span> Cross-utility intelligence</p><h1>See where the grid<br/><em>can work together.</em></h1></div>
-        <div className="intro-copy"><p>Find nearby transmission projects, understand timing, and turn public planning data into an evidence-backed coordination review.</p><div className="quick-stats"><span><b>166</b> projects</span><span><b>2</b> utilities</span><span><b>25 mi</b> radius</span></div></div>
+        <div className="intro-copy"><p>Find nearby transmission projects, understand timing, and turn public planning data into an evidence-backed coordination review.</p><div className="quick-stats"><span><b>{projects.length}</b> projects</span><span><b>{new Set(projects.map(project=>project.utility)).size}</b> utilities</span><span><b>25 mi</b> radius</span></div></div>
       </section>
 
       <section className="explorer">
           <div className="map-stage">
-          <div className="map-noise"/><div className="contour c1"/><div className="contour c2"/><div className="contour c3"/><div className="route r1"/><div className="route r2"/><div className="water"/>
-          <span className="map-place augusta">AUGUSTA</span><span className="map-place columbia">COLUMBIA</span><span className="map-place savannah">SAVANNAH</span><span className="map-place charleston">CHARLESTON</span><span className="map-state ga">GEORGIA</span><span className="map-state sc">SOUTH CAROLINA</span>
-          {mappedComparison&&<svg className="connection active-connection" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1={mappedComparison[0].x} y1={mappedComparison[0].y} x2={mappedComparison[1].x} y2={mappedComparison[1].y}/></svg>}
-          {projects.filter(p=>p.x!=null&&p.y!=null).map(p=><button key={p.id} style={{left:`${p.x}%`,top:`${p.y}%`}} onClick={()=>chooseProject(p.id)} className={`project-marker ${tone(p.utility)} ${selectedId===p.id?"selected":""} ${compareIds.includes(p.id)?"comparing":""}`}><span>{p.short}</span><small>{p.id}</small></button>)}
-          {mappedComparison&&<div className="distance-chip" style={{left:`${(mappedComparison[0].x+mappedComparison[1].x)/2}%`,top:`${(mappedComparison[0].y+mappedComparison[1].y)/2}%`}}>{comparedDistance?.toFixed(2)} mi <small>selected pair</small></div>}
+          <ProjectMap projects={projects} selectedId={selectedId} compareIds={compareIds} layer={layer} onSelect={chooseProject}/>
           {!mappedComparison&&compareIds.length===2&&<div className="map-data-warning">A map line requires coordinates for both selected projects.</div>}
-          <div className="map-toolbar"><button>＋</button><button>－</button><button>⌖</button></div>
           <div className="layer-switch">{["Projects","Opportunities"].map(x=><button onClick={()=>setLayer(x)} className={layer===x?"active":""} key={x}>{x}</button>)}</div>
           <div className="map-caption"><span><i className="dot green"/> Dominion</span><span><i className="dot orange"/> Georgia Power</span><b>{projects.filter(p=>p.x!=null).length} located · {projects.length-projects.filter(p=>p.x!=null).length} location unknown</b></div>
         </div>

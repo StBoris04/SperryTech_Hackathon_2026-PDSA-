@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "source": "https://nominatim.openstreetmap.org/search",
+  "method": "one-time sequential cached search, maximum one request per second",
+  "terminals": [
+    {
+      "terminal": "Aiken PSA tap point",
+      "normalized_terminal": "aiken psa tap point",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Bayfront",
+      "normalized_terminal": "bayfront",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Blue Circle tap",
+      "normalized_terminal": "blue circle tap",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "CIP",
+      "normalized_terminal": "cip",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Cameron Jct",
+      "normalized_terminal": "cameron jct",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Charleston Transmission",
+      "normalized_terminal": "charleston transmission",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Clements Ferry",
+      "normalized_terminal": "clements ferry",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Coit",
+      "normalized_terminal": "coit",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Dawson",
+      "normalized_terminal": "dawson",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Duke/Progress Energy Tie",
+      "normalized_terminal": "duke progress energy tie",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Eastover",
+      "normalized_terminal": "eastover",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Edenwood Substation",
+      "normalized_terminal": "edenwood",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Edmund Switching Station- Owens Corning 115 kV Line",
+      "normalized_terminal": "edmund switching owens corning 115 kv line",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Frogmore Distribution Tap",
+      "normalized_terminal": "frogmore distribution tap",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Ft Johnson",
+      "normalized_terminal": "ft johnson",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Gills Creek",
+      "normalized_terminal": "gills creek",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Hooks",
+      "normalized_terminal": "hooks",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Hopkins",
+      "normalized_terminal": "hopkins",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Killian",
+      "normalized_terminal": "killian",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Ladson Jct",
+      "normalized_terminal": "ladson jct",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "North Bridge Terrace",
+      "normalized_terminal": "north bridge terrace",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Okatie",
+      "normalized_terminal": "okatie",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Queensboro",
+      "normalized_terminal": "queensboro",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Ritter",
+      "normalized_terminal": "ritter",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Riverport",
+      "normalized_terminal": "riverport",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Saluda County",
+      "normalized_terminal": "saluda county",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Santee City",
+      "normalized_terminal": "santee city",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Scout Customer Substation",
+      "normalized_terminal": "scout customer",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Square D",
+      "normalized_terminal": "square d",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "St Matthews",
+      "normalized_terminal": "st matthews",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "St. Helena",
+      "normalized_terminal": "st helena",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Stevens Creek",
+      "normalized_terminal": "stevens creek",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Summerville",
+      "normalized_terminal": "summerville",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Summerville 230kV Sub",
+      "normalized_terminal": "summerville 230kv",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Union Pier",
+      "normalized_terminal": "union pier",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "VCS2",
+      "normalized_terminal": "vcs2",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    },
+    {
+      "terminal": "Wagener Distribution substation",
+      "normalized_terminal": "wagener distribution",
+      "status": "unknown",
+      "candidates": [],
+      "notes": "Search result only; coordinates require independent HIFLD corroboration."
+    }
+  ]
+}

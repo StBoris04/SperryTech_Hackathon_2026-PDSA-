@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0",
+  "method": "exact normalized terminal name plus OSM/HIFLD separation <= tolerance",
+  "tolerance_miles": 2.0,
+  "spatial_tolerance_miles": 0.1,
+  "hifld_source": "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8",
+  "terminals": [
+    {
+      "terminal": "Batesburg",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0059,
+      "recommended_latitude": 33.9134867,
+      "recommended_longitude": -81.5644353,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Batesburg Substation",
+        "latitude": 33.9134867,
+        "longitude": -81.5644353,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 178951280,
+        "source": "https://www.openstreetmap.org/way/178951280",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "116732",
+        "NAME": "UNKNOWN116732",
+        "CITY": "BATESBURG",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.91355586000003,
+        "LONGITUDE": -81.56449658399998,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1409702400000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1409702400000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/178951280",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Bluffton",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0,
+      "recommended_latitude": 32.2350272,
+      "recommended_longitude": -80.8533836,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Bluffton Substation",
+        "latitude": 32.2350272,
+        "longitude": -80.8533836,
+        "operator": "South Carolina Electric & Gas",
+        "osm_type": "way",
+        "osm_id": 498967268,
+        "source": "https://www.openstreetmap.org/way/498967268",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "157626",
+        "NAME": "UNKNOWN157626",
+        "CITY": "BLUFFTON",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.23502718300006,
+        "LONGITUDE": -80.85338360299994,
+        "SOURCE": "OpenStreetMap",
+        "SOURCEDATE": 1507507200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1508112000000,
+        "MAX_VOLT": -999999
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/498967268",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Burton",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0157,
+      "recommended_latitude": 32.4364883,
+      "recommended_longitude": -80.7210159,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Burton Substation",
+        "latitude": 32.4364883,
+        "longitude": -80.7210159,
+        "operator": "South Carolina Electric & Gas Company",
+        "osm_type": "way",
+        "osm_id": 185362029,
+        "source": "https://www.openstreetmap.org/way/185362029",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "154175",
+        "NAME": "BURTON",
+        "CITY": "BEAUFORT",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.43655608300003,
+        "LONGITUDE": -80.72075811599996,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1424304000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1424822400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185362029",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Cainhoy",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0136,
+      "recommended_latitude": 32.941402,
+      "recommended_longitude": -79.8422757,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Cainhoy Substation",
+        "latitude": 32.941402,
+        "longitude": -79.8422757,
+        "operator": "Dominion Energy South Carolina",
+        "osm_type": "way",
+        "osm_id": 229116275,
+        "source": "https://www.openstreetmap.org/way/229116275",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "170081",
+        "NAME": "UNKNOWN170081",
+        "CITY": "CHARLESTON",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.94121308100006,
+        "LONGITUDE": -79.84220719599995,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1580774400000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1580774400000,
+        "MAX_VOLT": -999999
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/229116275",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Canadys",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0205,
+      "recommended_latitude": 33.0640963,
+      "recommended_longitude": -80.6205999,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Canadys Substation",
+        "latitude": 33.0640963,
+        "longitude": -80.6205999,
+        "operator": "South Carolina Electric & Gas Company",
+        "osm_type": "way",
+        "osm_id": 185032900,
+        "source": "https://www.openstreetmap.org/way/185032900",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "148537",
+        "NAME": "CANADYS",
+        "CITY": "WALTERBORO",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.06433632900007,
+        "LONGITUDE": -80.62039299099996,
+        "SOURCE": "IMAGERY, http://www.oasis.oati.com/SCEG/SCEGdocs/SCEG_OUTAGE_SUMMARY.pdf",
+        "SOURCEDATE": 1422403200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1443657600000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185032900",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Church Creek",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0103,
+      "recommended_latitude": 32.8303196,
+      "recommended_longitude": -80.0702792,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Church Creek Substation",
+        "latitude": 32.8303196,
+        "longitude": -80.0702792,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 185330726,
+        "source": "https://www.openstreetmap.org/way/185330726",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "120998",
+        "NAME": "UNKNOWN120998",
+        "CITY": "CHARLESTON",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.830172051000034,
+        "LONGITUDE": -80.07025981499999,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1423785600000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1424822400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185330726",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Elloree",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0248,
+      "recommended_latitude": 33.5323844,
+      "recommended_longitude": -80.5797245,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Elloree Substation",
+        "latitude": 33.5323844,
+        "longitude": -80.5797245,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 1075509549,
+        "source": "https://www.openstreetmap.org/way/1075509549",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "167381",
+        "NAME": "DEADEND167381",
+        "CITY": "ELLOREE",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.532307967000065,
+        "LONGITUDE": -80.58014437799994,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1567036800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1567036800000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1075509549",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Frogmore",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0055,
+      "recommended_latitude": 32.3991323,
+      "recommended_longitude": -80.5711266,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Frogmore Substation",
+        "latitude": 32.3991323,
+        "longitude": -80.5711266,
+        "operator": "South Carolina Electric & Gas",
+        "osm_type": "way",
+        "osm_id": 1064802545,
+        "source": "https://www.openstreetmap.org/way/1064802545",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "162031",
+        "NAME": "UNKNOWN162031",
+        "CITY": "ST HELENA",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.399209307000035,
+        "LONGITUDE": -80.57110438999996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1553644800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1553644800000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1064802545",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Hamlin",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0062,
+      "recommended_latitude": 32.859937,
+      "recommended_longitude": -79.7884409,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Hamlin Substation",
+        "latitude": 32.859937,
+        "longitude": -79.7884409,
+        "operator": "South Carolina Gas & Electric",
+        "osm_type": "way",
+        "osm_id": 229116306,
+        "source": "https://www.openstreetmap.org/way/229116306",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "121118",
+        "NAME": "UNKNOWN121118",
+        "CITY": "MT PLEASANT",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.86000767100006,
+        "LONGITUDE": -79.78837566099998,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1425513600000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1432771200000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/229116306",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Harleyville substation",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0064,
+      "recommended_latitude": 33.2099069,
+      "recommended_longitude": -80.4511658,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Harleyville Substation",
+        "latitude": 33.2099069,
+        "longitude": -80.4511658,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 1075801506,
+        "source": "https://www.openstreetmap.org/way/1075801506",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "160693",
+        "NAME": "UNKNOWN160693",
+        "CITY": "HARLEYVILLE",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.209882755000024,
+        "LONGITUDE": -80.45105967999996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1550793600000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1550793600000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1075801506",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Jack Primus",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0075,
+      "recommended_latitude": 32.9193841,
+      "recommended_longitude": -79.9044954,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Jack Primus Substation",
+        "latitude": 32.9193841,
+        "longitude": -79.9044954,
+        "operator": "South Carolina Gas & Electric",
+        "osm_type": "way",
+        "osm_id": 1097237376,
+        "source": "https://www.openstreetmap.org/way/1097237376",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "160695",
+        "NAME": "JACK PRIMUS",
+        "CITY": "CHARLESTON",
+        "STATE": "SC",
+        "STATUS": "UNDER CONST",
+        "LATITUDE": 32.919444456000065,
+        "LONGITUDE": -79.90460193599995,
+        "SOURCE": "IMAGERY, https://www.sceg.com/docs/librariesprovider5/default-document-library/thomas-island-notice-of-planned-activities-map-08-23-2017.pdf?sfvrsn=2",
+        "SOURCEDATE": 1550793600000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1550793600000,
+        "MAX_VOLT": -999999
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1097237376",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Jasper",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0048,
+      "recommended_latitude": 32.3606993,
+      "recommended_longitude": -81.1241523,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Jasper Substation",
+        "latitude": 32.3606993,
+        "longitude": -81.1241523,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 185380597,
+        "source": "https://www.openstreetmap.org/way/185380597",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "121076",
+        "NAME": "UNKNOWN121076",
+        "CITY": "HARDEEVILLE",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.36070803300004,
+        "LONGITUDE": -81.12407120899996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1424908800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1432771200000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185380597",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Santee Substation",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0028,
+      "recommended_latitude": 33.4234139,
+      "recommended_longitude": -80.125292,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Santee Substation",
+        "latitude": 33.4234139,
+        "longitude": -80.125292,
+        "operator": "Berkeley Electric Cooperative",
+        "osm_type": "way",
+        "osm_id": 184966103,
+        "source": "https://www.openstreetmap.org/way/184966103",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "151891",
+        "NAME": "UNKNOWN151891",
+        "CITY": "PINEVILLE",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.423373421000065,
+        "LONGITUDE": -80.12529710199993,
+        "SOURCE": "OpenStreetMap",
+        "SOURCEDATE": 1470268800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1478044800000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/184966103",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Sumter",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0029,
+      "recommended_latitude": 33.8976611,
+      "recommended_longitude": -80.3239761,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Sumter Substation",
+        "latitude": 33.8976611,
+        "longitude": -80.3239761,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 185032893,
+        "source": "https://www.openstreetmap.org/way/185032893",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "120918",
+        "NAME": "UNKNOWN120918",
+        "CITY": "SUMTER",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.89761963800004,
+        "LONGITUDE": -80.32396623299996,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1422403200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1422403200000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185032893",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Thurmond",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0069,
+      "recommended_latitude": 33.6601273,
+      "recommended_longitude": -82.1959307,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Thurmond Substation",
+        "latitude": 33.6601273,
+        "longitude": -82.1959307,
+        "operator": "Georgia Power",
+        "osm_type": "way",
+        "osm_id": 52102019,
+        "source": "https://www.openstreetmap.org/way/52102019",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "116807",
+        "NAME": "UNKNOWN116807",
+        "CITY": "CLARKS HILL",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.66018211100004,
+        "LONGITUDE": -82.19603107099994,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1409011200000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1409011200000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/52102019",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Toolebeck",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.016,
+      "recommended_latitude": 33.5346321,
+      "recommended_longitude": -81.6693272,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Toolebeck Substation",
+        "latitude": 33.5346321,
+        "longitude": -81.6693272,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 1073259467,
+        "source": "https://www.openstreetmap.org/way/1073259467",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "170032",
+        "NAME": "UNKNOWN170032",
+        "CITY": "AIKEN",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.534622901000034,
+        "LONGITUDE": -81.66905002999994,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1580688000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1580688000000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1073259467",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Urquhart",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0423,
+      "recommended_latitude": 33.4328703,
+      "recommended_longitude": -81.9110807,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Urquhart Substation",
+        "latitude": 33.4328703,
+        "longitude": -81.9110807,
+        "operator": null,
+        "osm_type": "relation",
+        "osm_id": 14317637,
+        "source": "https://www.openstreetmap.org/relation/14317637",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "120770",
+        "NAME": "UNKNOWN120770",
+        "CITY": "BEECH ISLAND",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.43273113600003,
+        "LONGITUDE": -81.91179577899999,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1421020800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1421020800000,
+        "MAX_VOLT": 115
+      },
+      "sources": [
+        "https://www.openstreetmap.org/relation/14317637",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Ward",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.011,
+      "recommended_latitude": 33.87218,
+      "recommended_longitude": -81.6977228,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Ward Substation",
+        "latitude": 33.87218,
+        "longitude": -81.6977228,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 185197506,
+        "source": "https://www.openstreetmap.org/way/185197506",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "116730",
+        "NAME": "UNKNOWN116730",
+        "CITY": "WARD",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.87224798600005,
+        "LONGITUDE": -81.69755015299995,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1409702400000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1409702400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185197506",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Wateree",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0048,
+      "recommended_latitude": 33.8262718,
+      "recommended_longitude": -80.6240763,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Wateree Substation",
+        "latitude": 33.8262718,
+        "longitude": -80.6240763,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 1082130490,
+        "source": "https://www.openstreetmap.org/way/1082130490",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "150417",
+        "NAME": "WATEREE STATION",
+        "CITY": "EASTOVER",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.82624299500003,
+        "LONGITUDE": -80.62399930699996,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1412208000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1412208000000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/1082130490",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    },
+    {
+      "terminal": "Williams",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0127,
+      "recommended_latitude": 33.0176985,
+      "recommended_longitude": -79.9321678,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Williams Substation",
+        "latitude": 33.0176985,
+        "longitude": -79.9321678,
+        "operator": null,
+        "osm_type": "way",
+        "osm_id": 184867924,
+        "source": "https://www.openstreetmap.org/way/184867924",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "120971",
+        "NAME": "UNKNOWN120971",
+        "CITY": "GOOSE CREEK",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 33.01784308500004,
+        "LONGITUDE": -79.93203144599994,
+        "SOURCE": "IMAGERY",
+        "SOURCEDATE": 1423612800000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1424822400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/184867924",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact PDF/OSM name plus colocated HIFLD facility."
+    },
+    {
+      "terminal": "Yemassee",
+      "status": "confirmed",
+      "distance_between_sources_miles": 0.0347,
+      "recommended_latitude": 32.6974259,
+      "recommended_longitude": -80.8637929,
+      "location_quality": "verified",
+      "osm": {
+        "name": "Yemassee Substation",
+        "latitude": 32.6974259,
+        "longitude": -80.8637929,
+        "operator": "South Carolina Electric & Gas Company",
+        "osm_type": "way",
+        "osm_id": 185317032,
+        "source": "https://www.openstreetmap.org/way/185317032",
+        "name_score": 1.0,
+        "exact_normalized_name": true
+      },
+      "hifld": {
+        "ID": "154240",
+        "NAME": "YEMASSEE",
+        "CITY": "YEMASSEE",
+        "STATE": "SC",
+        "STATUS": "IN SERVICE",
+        "LATITUDE": 32.69792762800006,
+        "LONGITUDE": -80.86376335199998,
+        "SOURCE": "IMAGERY, OpenStreetMap",
+        "SOURCEDATE": 1423440000000,
+        "VAL_METHOD": "IMAGERY",
+        "VAL_DATE": 1424822400000,
+        "MAX_VOLT": 230
+      },
+      "sources": [
+        "https://www.openstreetmap.org/way/185317032",
+        "https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8"
+      ],
+      "notes": "Confirmed by exact name across OSM and HIFLD."
+    }
+  ]
+}

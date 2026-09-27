@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21128",
+      "project_name": "GOAT ROCK REACTORS INSTALLATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Goat Rock",
+      "terminal_b": null,
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2028-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2028",
+      "uncertainties": [
+        "Project document includes CEII/Confidentiality and Public Disclosure restriction notices.",
+        "Cost estimates and supporting statements are redacted in the public disclosure filing."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 379,
+          "printed_page": "209 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "terminal_a"
+          ],
+          "text": "GOAT ROCK REACTORS INSTALLATION\n\nTeams # 21128"
+        },
+        {
+          "pdf_page": 379,
+          "printed_page": "209 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2028"
+        },
+        {
+          "pdf_page": 379,
+          "printed_page": "209 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Install 1% series reactors on the Fortson - Goat Rock (Black) 230kV and Fortson - Goat Rock (White) 230kV."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19996",
+      "project_name": "GOLDENS CREEK - WARRENTON PRIMARY 230KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Goldens Creek",
+      "terminal_b": "Warrenton Primary",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2028-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2028",
+      "uncertainties": [
+        "Project document includes CEII/Confidentiality and Public Disclosure restriction notices.",
+        "Cost estimates and supporting statements are redacted in the public disclosure filing.",
+        "Work is specified for approximately 0.34 miles of the Goldens Creek - Warrenton Primary 230kV line."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 380,
+          "printed_page": "210 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GOLDENS CREEK - WARRENTON PRIMARY 230KV REBUILD\n\nTeams # 19996"
+        },
+        {
+          "pdf_page": 380,
+          "printed_page": "210 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2028"
+        },
+        {
+          "pdf_page": 380,
+          "printed_page": "210 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild approximately 0.34 miles of the Goldens Creek - Warrenton Primary 230kV line from 100C 1 - 1351.5 ACSR Martin conductor to 200C 1351 ACCR Martin conductor or equivalent."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20428",
+      "project_name": "GORDON-SANDERSVILLE #1 115KV LINE REBUILD (DEEPSTEP-SAND #6)",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Gordon",
+      "terminal_b": "Sandersville #1",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-12-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 12/01/2023",
+      "uncertainties": [
+        "Project document includes CEII/Confidentiality and Public Disclosure restriction notices.",
+        "Cost estimates and supporting statements are redacted in the public disclosure filing.",
+        "The project title notes '(DEEPSTEP-SAND #6)' and the description scopes rebuilding sections Deepstep - Robins Spring, Robins Spring - Kaolin J, and Kaolin J - Sandersville #6 totaling 10.49 miles along the Gordon - Sandersville #1 115kV line."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 381,
+          "printed_page": "211 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GORDON-SANDERSVILLE #1 115KV LINE REBUILD (DEEPSTEP-SAND #6)\n\nTeams # 20428"
+        },
+        {
+          "pdf_page": 381,
+          "printed_page": "211 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 12/01/2023"
+        },
+        {
+          "pdf_page": 381,
+          "printed_page": "211 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the Deepstep - Robins Spring (7.6 miles) Robins Spring - Kaolin J (2.23mi), and Kaolin J - Sandersville #6 (0.66 miles) line sections of the Gordon - Sandersville #1 115kV line. Rebuild a total of 10.49 miles from 100C 336 ACSR to 100C ACSR 795 conductor."
+        }
+      ]
+    }
+  ]
+}

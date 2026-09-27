@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21129",
+      "project_name": "ANNISTON - HAMMOND 230KV LINE",
+      "company": "GPC",
+      "project_type": "transmission_line",
+      "terminal_a": "Anniston",
+      "terminal_b": "Hammond",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2025",
+      "uncertainties": [
+        "Project title identifies endpoints as Anniston - Hammond, but the description specifies rebuilding a 28.12 miles section between Hammond and the Goshen tap.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and Confidentiality notices; cost and supporting statement information are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 367,
+          "printed_page": "Page 197 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id"
+          ],
+          "text": "ANNISTON - HAMMOND 230KV LINE\nTeams # 21129"
+        },
+        {
+          "pdf_page": 367,
+          "printed_page": "Page 197 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 367,
+          "printed_page": "Page 197 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Rebuild the 28.12 miles section between Hammond and the Goshen tap with 200C 1351 ACSS Martin conductor."
+        },
+        {
+          "pdf_page": 367,
+          "printed_page": "Page 197 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20764",
+      "project_name": "ATKINSON - NORTHSIDE DRIVE 115KV REBUILD",
+      "company": "GPC",
+      "project_type": "transmission_line",
+      "terminal_a": "Atkinson",
+      "terminal_b": "Northside Drive",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2027-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2027",
+      "uncertainties": [
+        "Project title identifies endpoints as Atkinson - Northside Drive, but the description specifies rebuilding a portion approximately 3.2 miles from Atkinson to Chattahoochee.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and Confidentiality notices; cost and supporting statement information are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 368,
+          "printed_page": "Page 198 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id"
+          ],
+          "text": "ATKINSON - NORTHSIDE DRIVE 115KV REBUILD\nTeams # 20764"
+        },
+        {
+          "pdf_page": 368,
+          "printed_page": "Page 198 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2027"
+        },
+        {
+          "pdf_page": 368,
+          "printed_page": "Page 198 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Rebuild a portion of the Atkinson - Northside 115kV line, approximately 3.2 miles from Atkinson to Chattahoochee with 200C 1351 ACSS Martin."
+        },
+        {
+          "pdf_page": 368,
+          "printed_page": "Page 198 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20761",
+      "project_name": "ATKINSON - NORTHWEST 115KV REBUILD",
+      "company": "GPC",
+      "project_type": "transmission_line",
+      "terminal_a": "Atkinson",
+      "terminal_b": "Northwest",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2027-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2027",
+      "uncertainties": [
+        "Project title identifies endpoints as Atkinson - Northwest, but the description specifies rebuilding the 1.2 mile Atkinson - Tilford Yards section.",
+        "Document contains Critical Energy Infrastructure Information (CEII) and Confidentiality notices; cost and supporting statement information are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 369,
+          "printed_page": "Page 199 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id"
+          ],
+          "text": "ATKINSON - NORTHWEST 115KV REBUILD\nTeams # 20761"
+        },
+        {
+          "pdf_page": 369,
+          "printed_page": "Page 199 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2027"
+        },
+        {
+          "pdf_page": 369,
+          "printed_page": "Page 199 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "Rebuild the 1.2 mile Atkinson - Tilford Yards section of the Atkinson - Northwest 115kV with 200C 1351 ACSS Martin."
+        },
+        {
+          "pdf_page": 369,
+          "printed_page": "Page 199 of 304",
+          "supports": [
+            "company"
+          ],
+          "text": "Estimated Cost – GPC"
+        }
+      ]
+    }
+  ]
+}

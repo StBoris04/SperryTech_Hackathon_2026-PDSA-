@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21014",
+      "project_name": "GTC: BUZZARD ROOST - CAVENDER DRIVE 230KV NEW LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Buzzard Roost",
+      "terminal_b": "Cavender Drive",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": null,
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential markings; supporting statement and project costs are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 384,
+          "printed_page": "214 of 304",
+          "supports": [
+            "project_name",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: BUZZARD ROOST - CAVENDER DRIVE 230KV NEW LINE"
+        },
+        {
+          "pdf_page": 384,
+          "printed_page": "214 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 21014"
+        },
+        {
+          "pdf_page": 384,
+          "printed_page": "214 of 304",
+          "supports": [
+            "need_date",
+            "construction_start"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2026"
+        },
+        {
+          "pdf_page": 384,
+          "printed_page": "214 of 304",
+          "supports": [
+            "project_type",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC is building a new 7 mile 230kV line from Cavender Drive to Buzzard Roost with 200C 1351 ACSS Martin."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21077",
+      "project_name": "GTC: ROCKVILLE - TIGER CREEK -WARTHEN 500KV LINES",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Rockville",
+      "terminal_b": "Warthen",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-12-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": null,
+      "uncertainties": [
+        "Document is marked Confidential / Critical Energy Infrastructure Information (CEII) subject to regulation by CFR Sec. 388.113.",
+        "The project consists of two separate line segments (Rockville to Tiger Creek, approximately 20 miles; and Tiger Creek to Warthen, approximately 9 miles), as well as building a 500kV yard and installing a 500/230kV auto transformer at Tiger Creek.",
+        "Project cost and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 388,
+          "printed_page": "218",
+          "supports": [
+            "project_name",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: ROCKVILLE - TIGER CREEK -WARTHEN 500KV LINES"
+        },
+        {
+          "pdf_page": 388,
+          "printed_page": "218",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 21077"
+        },
+        {
+          "pdf_page": 388,
+          "printed_page": "218",
+          "supports": [
+            "need_date"
+          ],
+          "text": "Need Date 06/01/2030"
+        },
+        {
+          "pdf_page": 388,
+          "printed_page": "218",
+          "supports": [
+            "construction_start"
+          ],
+          "text": "Start Date 12/01/2024"
+        },
+        {
+          "pdf_page": 388,
+          "printed_page": "218",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Build the new 500kV line from Rockville to Tiger Creek and Tiger Creek to Warthen, approximately 20 miles and 9 miles long respectively. Build a 500kV yard at Tiger Creek and install a 500/230kV auto transformer. Make all necessary accommodations at Warthen and Rockville for the new 500kV breakers."
+        }
+      ]
+    }
+  ]
+}

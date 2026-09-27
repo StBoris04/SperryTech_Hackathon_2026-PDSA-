@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21013",
+      "project_name": "GTC: CAVENDER DRIVE 500/230KV AUTOBANK",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "Cavender Drive",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2026",
+      "uncertainties": [
+        "Financial cost estimates and supporting statement are redacted due to Critical Energy Infrastructure Information (CEII) confidentiality requirements."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 385,
+          "printed_page": "Page 215 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id"
+          ],
+          "text": "GTC: CAVENDER DRIVE 500/230KV AUTOBANK\nTeams # 21013"
+        },
+        {
+          "pdf_page": 385,
+          "printed_page": "Page 215 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2026"
+        },
+        {
+          "pdf_page": 385,
+          "printed_page": "Page 215 of 304",
+          "supports": [
+            "company",
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "GTC will turn Cavender Drive into a 500/230kV station looping in the Villa Rica - Union City 500kV line, installing a 2016 MVA auto transformer."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20375",
+      "project_name": "GTC: EAST WATKINSVILLE 230 KV STATION MODIFICATION",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "East Watkinsville",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2028-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2028",
+      "uncertainties": [
+        "Financial cost estimates and supporting statement are redacted due to Critical Energy Infrastructure Information (CEII) confidentiality requirements."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 386,
+          "printed_page": "Page 216 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "company"
+          ],
+          "text": "GTC: EAST WATKINSVILLE 230 KV STATION MODIFICATION\nTeams # 20375"
+        },
+        {
+          "pdf_page": 386,
+          "printed_page": "Page 216 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2028"
+        },
+        {
+          "pdf_page": 386,
+          "printed_page": "Page 216 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Replace the 1600A reactors at East Watkinsville on the Russell Dam 230kV line with larger size."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21131",
+      "project_name": "GTC: POND FORK - MIDWAY 115KV LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Pond Fork",
+      "terminal_b": "Midway",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2026-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2026",
+      "uncertainties": [
+        "The project title designates the line as 'POND FORK - MIDWAY 115KV LINE', while the description details constructing approximately 6 miles from Gillsville Tap Junction to Pond Fork and terminating the Pond Fork - Midway 115kV line.",
+        "Financial cost estimates and supporting statement are redacted due to Critical Energy Infrastructure Information (CEII) confidentiality requirements."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 387,
+          "printed_page": "Page 217 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "company"
+          ],
+          "text": "GTC: POND FORK - MIDWAY 115KV LINE\nTeams # 21131"
+        },
+        {
+          "pdf_page": 387,
+          "printed_page": "Page 217 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2030 Start Date 06/01/2026"
+        },
+        {
+          "pdf_page": 387,
+          "printed_page": "Page 217 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: Construct approximately 6 miles of 115kV line with minimum 170C 1351 ACSS conductor from Gillsville Tap Junction to Pond Fork, utilizing the existing GTC owned portion of the North Jackson - Lawrence Smith 46kV ROW.\nAt Pond Fork, install a second 230/115kV 400MVA auto transformer and terminate the Pond Fork - Midway 115kV line."
+        }
+      ]
+    }
+  ]
+}

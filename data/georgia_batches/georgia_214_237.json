@@ -1,0 +1,886 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "21046",
+      "project_name": "THALMANN AND COLERAIN 23O KV LINE RELAY PANEL UPGRADES",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": "Thalmann",
+      "terminal_b": "Colerain",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-12-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 12/01/2024",
+      "uncertainties": [
+        "Project title contains a typo: '23O KV' instead of '230 KV'.",
+        "Document contains CEII and confidential notifications; cost estimates and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "44 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "THALMANN AND COLERAIN 23O KV LINE RELAY PANEL UPGRADES\nTeams # 21046\nNeed Date 06/01/2025 Start Date 12/01/2024"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "44 of 304",
+          "supports": [
+            "company",
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Relay protection modifications at GPC's Thalmann and Colerain substations to match relay scheme used at GTC's new Camden Industrial Park 230/115kV substation."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20326",
+      "project_name": "ANTHONY SHOALS STATCOM SYSTEM",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Anthony Shoals",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-08-04",
+      "construction_end": null,
+      "need_date": "2025-12-31",
+      "schedule_text": "Need Date 12/31/2025 Start Date 08/04/2023",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 215,
+          "printed_page": "45 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "ANTHONY SHOALS STATCOM SYSTEM\nTeams # 20326\nNeed Date 12/31/2025 Start Date 08/04/2023"
+        },
+        {
+          "pdf_page": 215,
+          "printed_page": "45 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Install a + 150 / - 150 MVAR turnkey STATCOM system at Anthony Shoals 230kV substation."
+        }
+      ]
+    },
+    {
+      "source_project_id": "17075",
+      "project_name": "SAV: LITTLE OGEECHEE 230-115KV: RELAY MODERNIZATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Little Ogeechee",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2022-06-01",
+      "construction_end": null,
+      "need_date": "2025-12-31",
+      "schedule_text": "Need Date 12/31/2025 Start Date 06/01/2022",
+      "uncertainties": [
+        "Project delayed in 2025.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "46 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "SAV: LITTLE OGEECHEE 230-115KV: RELAY MODERNIZATION\nTeams # 17075\nNeed Date 12/31/2025 Start Date 06/01/2022"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "46 of 304",
+          "supports": [
+            "project_type"
+          ],
+          "text": "Relay modernization with conversion of the 230kV ring bus to BAAH topology and addition of BAAH rung for Big Ogeechee - Little Ogeechee (Red) 230kV Line. Rebuild 115kV straight bus to BAAH design."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20491",
+      "project_name": "EAST POINT RELAY MODERNIZATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "East Point",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 01/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 217,
+          "printed_page": "47 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "EAST POINT RELAY MODERNIZATION\nTeams # 20491\nNeed Date 06/01/2026 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 217,
+          "printed_page": "47 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Upgrade protection on 230kV buses, 115kV buses, and 230/115kV auto transformer at the East Point station. Add adequate monitoring on DC supply."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20474",
+      "project_name": "GRADY 230/115KV RELAY MODERNIZATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Grady",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 01/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 218,
+          "printed_page": "48 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "GRADY 230/115KV RELAY MODERNIZATION\nTeams # 20474\nNeed Date 06/01/2026 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 218,
+          "printed_page": "48 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Upgrade protection on 230kV bus, all 115kV buses, and both 230/115kV auto transformers at Grady. Add adequate monitoring on DC supply. Install a 230kV breaker and associated switches on the high side of Grady 230/115kV auto transformer D."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20490",
+      "project_name": "KLONDIKE RELAY MODERNIZATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Klondike",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 01/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 219,
+          "printed_page": "49 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "KLONDIKE RELAY MODERNIZATION\nTeams # 20490\nNeed Date 06/01/2026 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 219,
+          "printed_page": "49 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Upgrade protection on 230kV buses at the Klondike station. Add adequate monitoring on DC supply."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20300",
+      "project_name": "MORROW 115KV RELAY UPGRADE",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Morrow",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-06-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 06/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 220,
+          "printed_page": "50 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "MORROW 115KV RELAY UPGRADE\nTeams # 20300\nNeed Date 06/01/2026 Start Date 06/01/2024"
+        },
+        {
+          "pdf_page": 220,
+          "printed_page": "50 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Upgrade protection scheme on all three 115kV buses at Morrow."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20489",
+      "project_name": "SCOTTDALE RELAY MODERNIZATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Scottdale",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 01/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 221,
+          "printed_page": "51 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "SCOTTDALE RELAY MODERNIZATION\nTeams # 20489\nNeed Date 06/01/2026 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 221,
+          "printed_page": "51 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Upgrade protection on 230kV bus and 230/115kV auto transformers at the Scottdale station. Add adequate monitoring on DC supply."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20668",
+      "project_name": "DRESDEN LINE PROTECTIVE RELAYING",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "O'Hara",
+      "terminal_b": "Wansley",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2024-12-01",
+      "construction_end": null,
+      "need_date": "2026-12-01",
+      "schedule_text": "Need Date 12/01/2026 Start Date 12/01/2024",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 222,
+          "printed_page": "52 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "DRESDEN LINE PROTECTIVE RELAYING\nTeams # 20668\nNeed Date 12/01/2026 Start Date 12/01/2024"
+        },
+        {
+          "pdf_page": 222,
+          "printed_page": "52 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "On the O'Hara - Wansley 500kV line, replace the protective relay panels associated with the 500kV line terminal facing Dresden, at both O'Hara and Wansley."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18832",
+      "project_name": "MEAG: FORTSON SUBSTATION MODERNIZATION",
+      "company": "MEAG",
+      "project_type": "substation",
+      "terminal_a": "Fortson",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2027-01-13",
+      "schedule_text": "Need Date 01/13/2027 Start Date 01/01/2025",
+      "uncertainties": [
+        "Project delayed from 2025 to 2027 in the Ten Year Plan, and from 2024 to 2027 from previous IRP.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 223,
+          "printed_page": "53 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a"
+          ],
+          "text": "MEAG: FORTSON SUBSTATION MODERNIZATION\nTeams # 18832\nNeed Date 01/13/2027 Start Date 01/01/2025"
+        },
+        {
+          "pdf_page": 223,
+          "printed_page": "53 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Complete modernization and replacement of obsolete equipment and relays for the 500kV, 230kV, and 115kV yards. Add a redundant relay scheme at Fortson."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21022",
+      "project_name": "OHARA BREAKER REPLACEMENT",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Ohara",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-10-01",
+      "construction_end": null,
+      "need_date": "2026-10-01",
+      "schedule_text": "Need Date 10/01/2026 Start Date 10/01/2025",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 225,
+          "printed_page": "55 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a"
+          ],
+          "text": "OHARA BREAKER REPLACEMENT\nTeams # 21022\nNeed Date 10/01/2026 Start Date 10/01/2025"
+        },
+        {
+          "pdf_page": 225,
+          "printed_page": "55 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a"
+          ],
+          "text": "Replace Breaker on the Ohara - Tara 115kV Line at the Ohara Substation."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20277",
+      "project_name": "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS",
+      "company": "GPC",
+      "project_type": "other",
+      "terminal_a": "McIntosh",
+      "terminal_b": "Purrysburg",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2026-06-01",
+      "schedule_text": "Need Date 06/01/2026 Start Date 01/01/2024",
+      "uncertainties": [
+        "Project involves both reactor installation at McIntosh and line rebuilding (0.1 miles). Classified as 'other' due to mixed components.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 227,
+          "printed_page": "57 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "SAV: MCINTOSH - PURRYSBURG 230KV REACTORS\nTeams # 20277\nNeed Date 06/01/2026 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 227,
+          "printed_page": "57 of 304",
+          "supports": [
+            "company",
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Install reactors on the McIntosh - Purrysburg (Black and White) 230kV tie lines at McIntosh. Rebuild 0.1 miles (GPC portion) for both lines to (2) 200C 1351 ACSS conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21111",
+      "project_name": "GTC: HARTWELL DAM - HARTWELL ENERGY 230KV SERIES REACTORS",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Hartwell Dam",
+      "terminal_b": "Hartwell Energy",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2027-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2027",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 228,
+          "printed_page": "58 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: HARTWELL DAM - HARTWELL ENERGY 230KV SERIES REACTORS\nTeams # 21111\nNeed Date 06/01/2030 Start Date 06/01/2027"
+        },
+        {
+          "pdf_page": 228,
+          "printed_page": "58 of 304",
+          "supports": [
+            "company",
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: Replace the 1600A series reactors on the Hartwell Dam - Hartwell Energy 230kV line with 3000A."
+        }
+      ]
+    },
+    {
+      "source_project_id": "21113",
+      "project_name": "GTC: HARTWELL ENERGY - MIDDLE FORK 230KV LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Hartwell Energy",
+      "terminal_b": "Middle Fork",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2027-06-01",
+      "construction_end": null,
+      "need_date": "2030-06-01",
+      "schedule_text": "Need Date 06/01/2030 Start Date 06/01/2027",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 229,
+          "printed_page": "59 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: HARTWELL ENERGY - MIDDLE FORK 230KV LINE\nTeams # 21113\nNeed Date 06/01/2030 Start Date 06/01/2027"
+        },
+        {
+          "pdf_page": 229,
+          "printed_page": "59 of 304",
+          "supports": [
+            "company",
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Construct a new 230kV line, approx. 35 miles, from Hartwell Energy to Middle Fork with 200C (2) 1351 ACSS conductor. GTC: Expand Hartwell Energy 230kV and Middle Fork 230kV as necessary to install breakers to accept new line termination."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19523",
+      "project_name": "SAV: CC - HYUNDAI MOTORS SAVANNAH AKA. PROJECT EA",
+      "company": null,
+      "project_type": "other",
+      "terminal_a": "Hyundai",
+      "terminal_b": "Newton Rd",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2022-06-01",
+      "construction_end": null,
+      "need_date": "2025-04-25",
+      "schedule_text": "Need Date 04/25/2025 Start Date 06/01/2022",
+      "uncertainties": [
+        "Multi-component project including construction of multiple substations (Hyundai, Newton Rd) and multiple transmission lines (Hyundai - Newton Rd 230kV, Hyundai - Meldrim 230kV, Interstate Centre - Hyundai 115kV).",
+        "Page 177 list showed Need Date 1/1/2025; detail sheet on page 231 specifies Need Date 04/25/2025.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 231,
+          "printed_page": "61 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "SAV: CC - HYUNDAI MOTORS SAVANNAH AKA. PROJECT EA\nTeams # 19523\nNeed Date 04/25/2025 Start Date 06/01/2022"
+        },
+        {
+          "pdf_page": 231,
+          "printed_page": "61 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Construct a new Hyundai 230kV substation with an eight element 230kV ring bus and four 230/25kV banks. Construct a new Newton Rd 230kV substation with a five element 230kV ring bus and loop through the Little Ogeechee - Meldrim Black and White 230kV lines. Build two new 230kV lines connecting from Hyundai - Newton Rd (12 miles) and Hyundai - Meldrim (10 miles). At Meldrim, add a breaker to accommodate for the new Hyundai line. Install a 115/25kV bank at Interstate Centre and build a new 115kV line from Interstate Centre - Hyundai (2.3 miles) for bridge power."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18670",
+      "project_name": "GTC: BANKS CROSSING - POND FORK 115 KV",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "McClure Industrial",
+      "terminal_b": "Ridgeway Church Road Junction",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2021-06-01",
+      "construction_end": null,
+      "need_date": "2025-05-01",
+      "schedule_text": "Need Date 05/01/2025 Start Date 06/01/2021",
+      "uncertainties": [
+        "Title indicates 'BANKS CROSSING - POND FORK 115 KV' whereas line construction is described from McClure Industrial to structure 21N on the Ridgeway Church Road Junction to establish the Banks Crossing - Pond Fork 115kV line.",
+        "Project advanced in 2025; delayed from 2024 to 2025 in previous IRP.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 232,
+          "printed_page": "62 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company"
+          ],
+          "text": "GTC: BANKS CROSSING - POND FORK 115 KV\nTeams # 18670\nNeed Date 05/01/2025 Start Date 06/01/2021"
+        },
+        {
+          "pdf_page": 232,
+          "printed_page": "62 of 304",
+          "supports": [
+            "company",
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC will build a new 115kV line from McClure Industrial to structure 21N on the Ridgeway Church Road Junction or tap point (approximately 3 miles). Close normally open switch at Ridgeway Church Road to establish the Banks Crossing - Pond Fork 115kV line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18492",
+      "project_name": "MITCHELL - NORTH TIFTON 230KV RECONDUCTOR",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Mitchell",
+      "terminal_b": "North Tifton",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2021-12-31",
+      "construction_end": null,
+      "need_date": "2025-05-01",
+      "schedule_text": "Need Date 05/01/2025 Start Date 12/31/2021",
+      "uncertainties": [
+        "Title states 'RECONDUCTOR' but description indicates 'Rebuild 35.21 miles'.",
+        "Project advanced in 2025; delayed from 2024 to 2025 in previous IRP.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 233,
+          "printed_page": "63 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "MITCHELL - NORTH TIFTON 230KV RECONDUCTOR\nTeams # 18492\nNeed Date 05/01/2025 Start Date 12/31/2021"
+        },
+        {
+          "pdf_page": 233,
+          "printed_page": "63 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild 35.21 miles of the Mitchell - North Tifton 230kV line from 100C 795 ACSR to 100C 1351 ACSR."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19676",
+      "project_name": "ADAMSVILLE - JACK MCDONOUGH 230KV LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Adamsville",
+      "terminal_b": "Jack McDonough",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 06/01/2023",
+      "uncertainties": [
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 234,
+          "printed_page": "64 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "ADAMSVILLE - JACK MCDONOUGH 230KV LINE REBUILD\nTeams # 19676\nNeed Date 06/01/2025 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 234,
+          "printed_page": "64 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the entire 6.1 mile Adamsville - Jack McDonough 230kV line with 160C 1351 ACSS."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18800",
+      "project_name": "ECHECONNEE-WELLSTON 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "South Warner Robins",
+      "terminal_b": "Wellston",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 01/01/2024",
+      "uncertainties": [
+        "Title endpoints are Echeconnee and Wellston, but description specifies rebuilding the South Warner Robins to Wellston section (1.2 miles).",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 235,
+          "printed_page": "65 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "ECHECONNEE-WELLSTON 115KV REBUILD\nTeams # 18800\nNeed Date 06/01/2025 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 235,
+          "printed_page": "65 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild the South Warner Robins to Wellston section (1.2 miles) with 100C 1351.5 ACSR Martin conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19187",
+      "project_name": "GRID - BREMEN - CROOKED CREEK (APC) 115 KV PROJECT",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Bremen",
+      "terminal_b": "Indian Creek Road",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2021-09-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 09/01/2021",
+      "uncertainties": [
+        "Title indicates line endpoints 'Bremen - Crooked Creek (APC)', but work scope is 'from Bremen to Indian Creek Road, on the Bremen - Crooked Creek 115kV line (14 miles)'.",
+        "Project delayed from 2024 to 2025.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 236,
+          "printed_page": "66 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start"
+          ],
+          "text": "GRID - BREMEN - CROOKED CREEK (APC) 115 KV PROJECT\nTeams # 19187\nNeed Date 06/01/2025 Start Date 09/01/2021"
+        },
+        {
+          "pdf_page": 236,
+          "printed_page": "66 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild from Bremen to Indian Creek Road, on the Bremen - Crooked Creek 115kV line (14 miles), using 795 ACSR conductor at 100C."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18153",
+      "project_name": "GTC: BONAIRE PRI-ECHECONNEE 115 KV PARTIAL REBUILD",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Bonaire Primary",
+      "terminal_b": "Echeconnee",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-01-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 01/01/2023",
+      "uncertainties": [
+        "Rebuild covers 2.3 miles of the line (partial rebuild).",
+        "Project advanced from 2030 to 2025.",
+        "Document contains CEII and confidential notifications; costs and supporting statement are redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 237,
+          "printed_page": "67 of 304",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "company",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "GTC: BONAIRE PRI-ECHECONNEE 115 KV PARTIAL REBUILD\nTeams # 18153\nNeed Date 06/01/2025 Start Date 01/01/2023"
+        },
+        {
+          "pdf_page": 237,
+          "printed_page": "67 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b"
+          ],
+          "text": "Rebuild 2.3 miles of the Bonaire Primary - Echeconnee 115kV line with 100C ACSR 795 conductor."
+        }
+      ]
+    }
+  ]
+}

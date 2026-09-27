@@ -1,0 +1,1000 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "19287",
+      "project_name": "GRADY-WEST END 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Grady",
+      "terminal_b": "West End",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2022-06-01",
+      "construction_end": null,
+      "need_date": "2026-12-31",
+      "schedule_text": "Need Date 12/31/2026 Start Date 06/01/2022",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 286,
+          "printed_page": "116",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "GRADY-WEST END 115KV REBUILD\nTeams # 19287\nNeed Date 12/31/2026 Start Date 06/01/2022"
+        },
+        {
+          "pdf_page": 286,
+          "printed_page": "116",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Reconductor the Grady - West End 115kV line (2.6 miles) using 200C 1351 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19363",
+      "project_name": "MORROW - MOUNTAIN VIEW 115 KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Morrow",
+      "terminal_b": "Mountain View",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2024-01-01",
+      "construction_end": null,
+      "need_date": "2026-12-31",
+      "schedule_text": "Need Date 12/31/2026 Start Date 01/01/2024",
+      "uncertainties": [
+        "Title indicates line endpoints Morrow and Mountain View, but description specifies work is on the Mountain View - Barnett Road section.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 287,
+          "printed_page": "117",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "MORROW - MOUNTAIN VIEW 115 KV REBUILD\nTeams # 19363\nNeed Date 12/31/2026 Start Date 01/01/2024"
+        },
+        {
+          "pdf_page": 287,
+          "printed_page": "117",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild the Mountain View - Barnett Road section of the Morrow - Mountain View 115kV line with 200C 1351 ACSS Martin conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20509",
+      "project_name": "CC - EMBLEM RIVERSIDE CUSTOMER SUB (FLEXENTIAL)",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Emblem Riverside",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2027-03-01",
+      "schedule_text": "Need Date 03/01/2027 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 288,
+          "printed_page": "118",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - EMBLEM RIVERSIDE CUSTOMER SUB (FLEXENTIAL)\nTeams # 20509\nNeed Date 03/01/2027 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 288,
+          "printed_page": "118",
+          "supports": [
+            "terminal_a",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "A new customer substation, Emblem Riverside, is being built along the Buzzard Roost - Douglasville 230kV line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19635",
+      "project_name": "GTC: HICKORY LEVEL - VILLA RICA 230KV LINE RECONDUCTOR",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Hickory Level",
+      "terminal_b": "Villa Rica",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-05-01",
+      "construction_end": null,
+      "need_date": "2027-05-01",
+      "schedule_text": "Need Date 05/01/2027 Start Date 05/01/2024",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 289,
+          "printed_page": "119",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: HICKORY LEVEL - VILLA RICA 230KV LINE RECONDUCTOR\nTeams # 19635\nNeed Date 05/01/2027 Start Date 05/01/2024"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": "119",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "GTC will reconductor from 100C 1351 ACSR to 160C 1351 ACSS on 8.6 miles of 230kV line. A 2000A line trap at Villa Rica will also be replaced with a 3000A line trap."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19601",
+      "project_name": "MORROW - YATES COMMON 115KV LINE UPGRADE",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Morrow",
+      "terminal_b": "Yates Common",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2024-05-01",
+      "construction_end": null,
+      "need_date": "2027-05-01",
+      "schedule_text": "Need Date 05/01/2027 Start Date 05/01/2024",
+      "uncertainties": [
+        "Title indicates line endpoints Morrow and Yates Common, but description specifies rebuild is on the Fife - Fairburn SW - Owens Corning Tap sections.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 290,
+          "printed_page": "120",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "MORROW - YATES COMMON 115KV LINE UPGRADE\nTeams # 19601\nNeed Date 05/01/2027 Start Date 05/01/2024"
+        },
+        {
+          "pdf_page": 290,
+          "printed_page": "120",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "On the Fife - Fairburn SW - Owens Corning Tap sections of the Morrow - Yates Common 115kV line, rebuild approximately 5.8 miles of 50C 477 ACSR with 210C 1334 T13 ACCR Martin or 200C 1351.0 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "15879",
+      "project_name": "POSSUM BRANCH - YATES COMMON 115KV REBUILD (YATES TO CLEM)",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Possum Branch",
+      "terminal_b": "Yates Common",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2027-05-01",
+      "schedule_text": "Need Date 05/01/2027 Start Date 06/01/2025",
+      "uncertainties": [
+        "Title indicates Possum Branch - Yates Common (Yates to Clem), but description describes rebuilding between Yates Common to Oak Mountain.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 291,
+          "printed_page": "121",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "POSSUM BRANCH - YATES COMMON 115KV REBUILD (YATES TO CLEM)\nTeams # 15879\nNeed Date 05/01/2027 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 291,
+          "printed_page": "121",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild 11.2 miles of 100C 477 ACSR with 200C 1334 T13 ACCR Martin or 200C 1351.0 ACSS between Yates Common to Oak Mountain. Replace limiting elements along the line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20771",
+      "project_name": "CC - GULLATT ROAD TRANSMISSION IMPROVEMENTS",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Line Creek",
+      "terminal_b": "Gullatt Road",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2024-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2024",
+      "uncertainties": [
+        "Project involves multiple line rebuilds and additions to connect to Gullatt Road customer station, including from Line Creek and North Coweta to Str 1.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 292,
+          "printed_page": "122",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - GULLATT ROAD TRANSMISSION IMPROVEMENTS\nTeams # 20771\nNeed Date 06/01/2027 Start Date 06/01/2024"
+        },
+        {
+          "pdf_page": 292,
+          "printed_page": "122",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild the Morrow - Yates Common 115kV line from Line Creek to the new Gullatt Road customer station. Rebuild the Line Creek - Fairburn #2 115kV line from Line Creek to the new Gullatt Road customer station. Remove the Owens Corning Tap Connection on the Morrow - Yates Common 115kV line and rebuild the line from North Coweta to Str 1. Build new line section from Str 1 to the new Gullatt Road customer station"
+        }
+      ]
+    },
+    {
+      "source_project_id": "18736",
+      "project_name": "CC - MICROSOFT - SHUGART (CCO06)",
+      "company": "GPC",
+      "project_type": "substation",
+      "terminal_a": "Line Creek",
+      "terminal_b": "Shugart Farms",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2022-12-31",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 12/31/2022",
+      "uncertainties": [
+        "Project encompasses rebuilding the Line Creek substation and constructing two short line sections to Shugart Farms.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 293,
+          "printed_page": "123",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - MICROSOFT - SHUGART (CCO06)\nTeams # 18736\nNeed Date 06/01/2027 Start Date 12/31/2022"
+        },
+        {
+          "pdf_page": 293,
+          "printed_page": "123",
+          "supports": [
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "GPC will rebuild the Line Creek 230kV substation as breaker and a half configuration and connect the Morrow - Yates 230kV line and the Union City - Yates 230kV White line into Line Creek. For the Union City - Yates 230kV Black line, terminate the line from the Yates side into Shugart Farms, and the line from the Union City side into Line Creek. Build two short lines from Line Creek to Shugart Farms (0.3 miles each) with 100C 1351 ACSR Martin conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20781",
+      "project_name": "CC - SUMMER LAKE - VILLA RICA 230KV REBUILD (CC IMPROVEMENT)",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Summer Lake",
+      "terminal_b": "Villa Rica",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2025",
+      "uncertainties": [
+        "Title indicates line endpoints Summer Lake and Villa Rica, but description specifies rebuild is on the 2.5 mile section from Villa Rica to the new East Villa Rica Switching station.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "124",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - SUMMER LAKE - VILLA RICA 230KV REBUILD (CC IMPROVEMENT)\nTeams # 20781\nNeed Date 06/01/2027 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "124",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild the 2.5 mile section from Villa Rica to the new East Villa Rica Switching station on the Summer Lake - Villa Rica 230kV line with bundled 200C 1351 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20736",
+      "project_name": "CC - TA REALTY ELLENWOOD NETWORK IMPROVEMENTS",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Austin Drive",
+      "terminal_b": "Morrow",
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2024-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2024",
+      "uncertainties": [
+        "Project includes rebuilding the Austin Drive - Morrow 115kV line as well as transformer replacement at Austin Drive substation.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 295,
+          "printed_page": "125",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "CC - TA REALTY ELLENWOOD NETWORK IMPROVEMENTS\nTeams # 20736\nNeed Date 06/01/2027 Start Date 06/01/2024"
+        },
+        {
+          "pdf_page": 295,
+          "printed_page": "125",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild the ~14.9mi Austin Drive - Morrow 115kV with 200C 1351.5 ACSS Martin. At Austin Drive 115kV, replace the 115/230kV auto transformer along with upgrades other limiting elements at the station."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20234",
+      "project_name": "DOYLE - LG&E MONROE 230KV - JACKS CREEK LOOP IN",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Doyle",
+      "terminal_b": "LG&E Monroe",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2027-01-03",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 01/03/2027",
+      "uncertainties": [
+        "Work entails looping the Doyle - LG&E Monroe line in and out of the new Jack's Creek 230kV switching station.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 296,
+          "printed_page": "126",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "DOYLE - LG&E MONROE 230KV - JACKS CREEK LOOP IN\nTeams # 20234\nNeed Date 06/01/2027 Start Date 01/03/2027"
+        },
+        {
+          "pdf_page": 296,
+          "printed_page": "126",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Loop in and out the new Jack's Creek 230kV switching station into the Doyle - LG&E Monroe 230kV line. This is coordinated with the East Walton Project (TEAMS #09662)."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20858",
+      "project_name": "GTC: ADAMSVILLE - BUZZARD ROOST 230KV REBUILD",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Adamsville",
+      "terminal_b": "Buzzard Roost",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2025",
+      "uncertainties": [
+        "Title indicates line endpoints Adamsville and Buzzard Roost, but description specifies rebuild of 5 miles from Buzzard Roost to Boat Rock Road.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 297,
+          "printed_page": "127",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: ADAMSVILLE - BUZZARD ROOST 230KV REBUILD\nTeams # 20858\nNeed Date 06/01/2027 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 297,
+          "printed_page": "127",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "GTC plans to rebuild 5 miles of line from Buzzard Roost to Boat Rock Road with 200C 1351 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20776",
+      "project_name": "GTC: DOUGLASVILLE - VILLA RICA 230KV REBUILD (CC IMPROVEMENT)",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Douglasville",
+      "terminal_b": "Villa Rica",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2025",
+      "uncertainties": [
+        "Title indicates line endpoints Douglasville and Villa Rica, but description specifies rebuild is on the 2.5 mile section from Villa to the new East Villa Rica Switching station.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 298,
+          "printed_page": "128",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: DOUGLASVILLE - VILLA RICA 230KV REBUILD (CC IMPROVEMENT)\nTeams # 20776\nNeed Date 06/01/2027 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 298,
+          "printed_page": "128",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild the 2.5 mile section from Villa to the new East Villa Rica Switching station on the Douglasville - Villa Rica 230kV line with bundled 200C 1351 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20778",
+      "project_name": "GTC: DOYLE - WINDER PRIMARY 230KV LINE JUMPER REPLACEMENT",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "Doyle",
+      "terminal_b": "Winder Primary",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2025-12-31",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 12/31/2025",
+      "uncertainties": [
+        "Work is localized jumper replacement at Doyle substation on the Doyle - Winder Primary line.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 299,
+          "printed_page": "129",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: DOYLE - WINDER PRIMARY 230KV LINE JUMPER REPLACEMENT\nTeams # 20778\nNeed Date 06/01/2027 Start Date 12/31/2025"
+        },
+        {
+          "pdf_page": 299,
+          "printed_page": "129",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Replace the limiting AAC 1033 jumper with AAC 1590 at Doyle on the Doyle - Winder Primary 230kV line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19358",
+      "project_name": "GTC: EAST MOULTRIE - HIGHWAY 112 230 KV LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "East Moultrie",
+      "terminal_b": "Highway 112",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2022-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2022",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 300,
+          "printed_page": "130",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: EAST MOULTRIE - HIGHWAY 112 230 KV LINE\nTeams # 19358\nNeed Date 06/01/2027 Start Date 06/01/2022"
+        },
+        {
+          "pdf_page": 300,
+          "printed_page": "130",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Build a new 27 miles of 230kV line between HWY 112 and East Moultrie substations with 100C 1351 ACSR conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "09662",
+      "project_name": "GTC: EAST WALTON 500/230KV PROJECT",
+      "company": "GTC",
+      "project_type": "other",
+      "terminal_a": null,
+      "terminal_b": null,
+      "terminal_basis": null,
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2023",
+      "uncertainties": [
+        "Complex project involving multiple substations, switching stations, and 500kV/230kV line segments constructed by GTC, GPC, and MEAG.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 301,
+          "printed_page": "131",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: EAST WALTON 500/230KV PROJECT\nTeams # 09662\nNeed Date 06/01/2027 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 301,
+          "printed_page": "131",
+          "supports": [
+            "project_type"
+          ],
+          "text": "GTC:\n- Construct the East Walton 500/230kV substation.\n- Construct the Bostwick 230kV switching station.\n- Construct the East Walton - Rockville 500kV line (3 - 100C 1113 ACSR).\n- Construct the Bethabara - East Walton 230kV line (170C 1351.5 ACSS).\n- Construct the Bostwick - East Walton 230kV line (170C 1351.5 ACSS).\n- Construct the East Walton - Jack's Creek 230kV line (170C 1351.5 ACSS).\n- At Bethabara, terminate the East Walton 230kV line.\n- Loop the East Social Circle - East Watkinsville 230kV line into Bostwick.\n- Replace line trap at East Watkinsville on the Bostwick 230kV line.\nGPC:\n- Construct the Rockville 500kV switching station.\n- Loop the Scherer - Warthen 500kV line into Rockville.\n- Loop the Doyle - LG&E Monroe 230kV line into Jack's Creek.\nMEAG:\n- Construct the Jack's Creek 230kV switching station."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20505",
+      "project_name": "GTC: GARRETT RD - V. RICA 230KV LINE RECONDUCTOR (CC NET IM)",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Garrett Rd",
+      "terminal_b": "V. Rica",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2027-01-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 01/01/2027",
+      "uncertainties": [
+        "Title specifies line as Garrett Rd - V. Rica; description indicates reconductoring from East Villa Rica Switching station to Garrett Rd (11.5 miles) and rebuilding from East Villa Rica Switching Station to Villa Rica (2.5 miles).",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 303,
+          "printed_page": "133",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: GARRETT RD - V. RICA 230KV LINE RECONDUCTOR (CC NET IM)\nTeams # 20505\nNeed Date 06/01/2027 Start Date 01/01/2027"
+        },
+        {
+          "pdf_page": 303,
+          "printed_page": "133",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "GTC will reconductor the section from East Villa Rica Switching station to Garrett Rd with 160C 1351 ACSS on 11.5 miles of the Garrett Road - Villa Rica 230kV line. Additionally, the 2.5 miles section from East Villa Rica Switching Station to Villa Rica will be rebuilt with bundled 200C 1351 ACSS Martin."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19622",
+      "project_name": "GTC: RIDDLEVILLE BUS REPLACEMENT",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "Riddleville",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-01-09",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 01/09/2023",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 304,
+          "printed_page": "134",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: RIDDLEVILLE BUS REPLACEMENT\nTeams # 19622\nNeed Date 06/01/2027 Start Date 01/09/2023"
+        },
+        {
+          "pdf_page": 304,
+          "printed_page": "134",
+          "supports": [
+            "terminal_a",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "GTC will replace the main 115kV bus at Riddleville substation with higher rating."
+        }
+      ]
+    },
+    {
+      "source_project_id": "19606",
+      "project_name": "GTC: SKC 115KV BUS AND JUMPER REPLACEMENT",
+      "company": "GTC",
+      "project_type": "substation",
+      "terminal_a": "SKC",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 305,
+          "printed_page": "135",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: SKC 115KV BUS AND JUMPER REPLACEMENT\nTeams # 19606\nNeed Date 06/01/2027 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 305,
+          "printed_page": "135",
+          "supports": [
+            "terminal_a",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Replace the 115kV bus and jumpers at SKC substation with higher rated bus and jumpers with rating higher than 255MVA."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20020",
+      "project_name": "GTC: SOUTH HAZLEHURST - NEW LACY 230KV LINE",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "South Hazlehurst",
+      "terminal_b": "New Lacy",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2024-01-15",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 01/15/2024",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 306,
+          "printed_page": "136",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: SOUTH HAZLEHURST - NEW LACY 230KV LINE\nTeams # 20020\nNeed Date 06/01/2027 Start Date 01/15/2024"
+        },
+        {
+          "pdf_page": 306,
+          "printed_page": "136",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "GTC will build a new 230kV transmission line between South Hazlehurst (bus 2) and New Lacy substation (approximately 25 miles) with 100C ACSR 1351 Martin conductor. Do all the necessary upgrade work to accommodate the additional line in both facilities."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20506",
+      "project_name": "GTC: SWITCH WAY - THORNTON ROAD 230KV LINE REBUILD",
+      "company": "GTC",
+      "project_type": "transmission_line",
+      "terminal_a": "Switch Way",
+      "terminal_b": "Thornton Road",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-01-01",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 01/01/2025",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 307,
+          "printed_page": "137",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text",
+            "company"
+          ],
+          "text": "GTC: SWITCH WAY - THORNTON ROAD 230KV LINE REBUILD\nTeams # 20506\nNeed Date 06/01/2027 Start Date 01/01/2025"
+        },
+        {
+          "pdf_page": 307,
+          "printed_page": "137",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type",
+            "company"
+          ],
+          "text": "GTC will rebuild the 1.3 mile Switchway - Thornton Rd 230kV line with 200C 1351 ACSS."
+        }
+      ]
+    },
+    {
+      "source_project_id": "18668",
+      "project_name": "JESUP - OFFERMAN 115KV REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Jesup",
+      "terminal_b": "Offerman",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2021-04-06",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 04/06/2021",
+      "uncertainties": [
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 308,
+          "printed_page": "138",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "JESUP - OFFERMAN 115KV REBUILD\nTeams # 18668\nNeed Date 06/01/2027 Start Date 04/06/2021"
+        },
+        {
+          "pdf_page": 308,
+          "printed_page": "138",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild 20 miles of 100C 4/0 ACSR Penguin conductor along the Jesup - Offerman 115kV line, with 100C 795 ACSR Drake conductor."
+        }
+      ]
+    },
+    {
+      "source_project_id": "10143",
+      "project_name": "LAWRENCEVILLE - WINDER 115KV LINE REBUILD",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "Lawrenceville",
+      "terminal_b": "Winder",
+      "terminal_basis": "title",
+      "in_service_date": null,
+      "construction_start": "2026-10-15",
+      "construction_end": null,
+      "need_date": "2027-06-01",
+      "schedule_text": "Need Date 06/01/2027 Start Date 10/15/2026",
+      "uncertainties": [
+        "Title indicates line endpoints Lawrenceville and Winder, but description specifies rebuild is from Johns Manville to Winder Primary.",
+        "Document contains CEII and Confidentiality notices."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 309,
+          "printed_page": "139",
+          "supports": [
+            "project_name",
+            "source_project_id",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "LAWRENCEVILLE - WINDER 115KV LINE REBUILD\nTeams # 10143\nNeed Date 06/01/2027 Start Date 10/15/2026"
+        },
+        {
+          "pdf_page": 309,
+          "printed_page": "139",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis",
+            "project_type"
+          ],
+          "text": "Rebuild approximately 1.2 miles of 100C 636 ACSR conductor from Johns Manville to Winder Primary with 200C 795 ACSS conductor."
+        }
+      ]
+    }
+  ]
+}

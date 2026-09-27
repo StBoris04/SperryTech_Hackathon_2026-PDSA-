@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "13753",
+      "project_name": "MEAG: ALCOVY ROAD - SKC 115 KV RECONDUCTOR",
+      "company": "MEAG",
+      "project_type": "transmission_line",
+      "terminal_a": "Alcovy Road",
+      "terminal_b": "SKC",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 06/01/2023",
+      "uncertainties": [
+        "The project title designates terminals as Alcovy Road - SKC, while the project description specifies reconductoring 0.53 miles from Alcovy Road to Alcovy Road Jct. on the Alcovy Road - SKC 115kV line.",
+        "Document contains CEII and confidentiality notices regarding transmission planning information."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 241,
+          "printed_page": "71 of 304",
+          "supports": [
+            "project_name",
+            "company"
+          ],
+          "text": "MEAG: ALCOVY ROAD - SKC 115 KV RECONDUCTOR"
+        },
+        {
+          "pdf_page": 241,
+          "printed_page": "71 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 13753"
+        },
+        {
+          "pdf_page": 241,
+          "printed_page": "71 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2025 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 241,
+          "printed_page": "71 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "MEAG will reconductor approximately 0.53 miles of 100C 336 ACSR conductor with 100C 1033 ACSR conductor from Alcovy Road to Alcovy Road Jct. on the Alcovy Road - SKC 115kV line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "13787",
+      "project_name": "MEAG: AULTMAN ROAD - BONAIRE PRIMARY 115 KV REBUILD",
+      "company": "MEAG",
+      "project_type": "transmission_line",
+      "terminal_a": "Aultman Road",
+      "terminal_b": "Bonaire Primary",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-06-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 06/01/2023",
+      "uncertainties": [
+        "The project title designates the line as Aultman Road - Bonaire Primary, while the description specifies work on the Sleepy Hollow - Peach Blossom 115kV section and replacing jumpers at Sleepy Hollow. GTC is also listed as performing jumper work.",
+        "Document contains CEII and confidentiality notices regarding transmission planning information."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 242,
+          "printed_page": "72 of 304",
+          "supports": [
+            "project_name",
+            "company"
+          ],
+          "text": "MEAG: AULTMAN ROAD - BONAIRE PRIMARY 115 KV REBUILD"
+        },
+        {
+          "pdf_page": 242,
+          "printed_page": "72 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 13787"
+        },
+        {
+          "pdf_page": 242,
+          "printed_page": "72 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2025 Start Date 06/01/2023"
+        },
+        {
+          "pdf_page": 242,
+          "printed_page": "72 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_b",
+            "terminal_basis"
+          ],
+          "text": "MEAG: Rebuild approximately 1.99 miles of Sleepy Hollow - Peach Blossom 115kV section of the Aultman Road - Bonaire Primary 115kV line from 100C 336 ACSR to 100C 795 ACSR. GTC: Replace the jumpers at Sleepy Hollow with 1590 AAC."
+        }
+      ]
+    },
+    {
+      "source_project_id": "20464",
+      "project_name": "NORCROSS 230KV BUS 1-3 SERIES BUS TIE BREAKER INSTALLATION",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Norcross",
+      "terminal_b": null,
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2023-11-01",
+      "construction_end": null,
+      "need_date": "2025-06-01",
+      "schedule_text": "Need Date 06/01/2025 Start Date 11/01/2023",
+      "uncertainties": [
+        "Document contains CEII and confidentiality notices regarding transmission planning information."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 243,
+          "printed_page": "73 of 304",
+          "supports": [
+            "project_name"
+          ],
+          "text": "NORCROSS 230KV BUS 1-3 SERIES BUS TIE BREAKER INSTALLATION"
+        },
+        {
+          "pdf_page": 243,
+          "printed_page": "73 of 304",
+          "supports": [
+            "source_project_id"
+          ],
+          "text": "Teams # 20464"
+        },
+        {
+          "pdf_page": 243,
+          "printed_page": "73 of 304",
+          "supports": [
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "Need Date 06/01/2025 Start Date 11/01/2023"
+        },
+        {
+          "pdf_page": 243,
+          "printed_page": "73 of 304",
+          "supports": [
+            "project_type",
+            "terminal_a",
+            "terminal_basis"
+          ],
+          "text": "Install a bus tie breaker in series with existing bus tie breaker between 230kV Bus 1 and Bus 3 at Norcross."
+        }
+      ]
+    }
+  ]
+}

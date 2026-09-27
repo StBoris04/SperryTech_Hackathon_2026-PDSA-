@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "source_reference": "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf",
+  "model": "gemini-3.8-flash",
+  "review_status": "needs_review",
+  "projects": [
+    {
+      "source_project_id": "20989",
+      "project_name": "SAV: RICE HOPE NEW AUTO TRANSFORMER",
+      "company": null,
+      "project_type": "substation",
+      "terminal_a": "Rice Hope",
+      "terminal_b": null,
+      "terminal_basis": "description",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential notices, and all cost information is redacted."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 364,
+          "printed_page": "194 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "SAV: RICE HOPE NEW AUTO TRANSFORMER\nTeams # 20989\nNeed Date 06/01/2029 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 364,
+          "printed_page": "194 of 304",
+          "supports": [
+            "terminal_a",
+            "project_type"
+          ],
+          "text": "Install a new 230/115kV 400MVA auto transformer at Rice Hope and loop in the Crossgate - McIntosh 230kV line."
+        }
+      ]
+    },
+    {
+      "source_project_id": "13628",
+      "project_name": "SOUTH BAINBRIDGE - SINAI (FPL) 115KV LINE RECONDUCTOR",
+      "company": null,
+      "project_type": "transmission_line",
+      "terminal_a": "South Bainbridge",
+      "terminal_b": "Sinai (FPL)",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2025-06-01",
+      "construction_end": null,
+      "need_date": "2029-06-01",
+      "schedule_text": "Need Date 06/01/2029 Start Date 06/01/2025",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential notices, and all cost information is redacted.",
+        "Work involves specific segments between Four Mile tap - Recovery - Sinai (FPL) on the Sinai (FPL) - South Bainbridge line, split across FPL and GPC territories."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 365,
+          "printed_page": "195 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "SOUTH BAINBRIDGE - SINAI (FPL) 115KV LINE RECONDUCTOR\nTeams # 13628\nNeed Date 06/01/2029 Start Date 06/01/2025"
+        },
+        {
+          "pdf_page": 365,
+          "printed_page": "195 of 304",
+          "supports": [
+            "terminal_a",
+            "terminal_b",
+            "project_type"
+          ],
+          "text": "Rebuild the Four Mile tap - Recovery - Sinai (FPL) segment of the Sinai (FPL) - South Bainbridge 115kV line from 100C 336.4 ACSR to 200C 1351 ACSS. 9.8 miles in FPL and 13.75 miles in GPC"
+        }
+      ]
+    },
+    {
+      "source_project_id": "20248",
+      "project_name": "BAY CREEK - CONYERS 230KV REBUILD",
+      "company": "GPC",
+      "project_type": "transmission_line",
+      "terminal_a": "Bay Creek",
+      "terminal_b": "Conyers",
+      "terminal_basis": "both",
+      "in_service_date": null,
+      "construction_start": "2031-06-01",
+      "construction_end": null,
+      "need_date": "2029-12-31",
+      "schedule_text": "Need Date 12/31/2029 Start Date 06/01/2031",
+      "uncertainties": [
+        "Document contains Critical Energy Infrastructure Information (CEII) and confidential notices, and all cost information is redacted.",
+        "The start date is listed as 06/01/2031 which is chronologically after the need date of 12/31/2029."
+      ],
+      "evidence": [
+        {
+          "pdf_page": 366,
+          "printed_page": "196 of 304",
+          "supports": [
+            "source_project_id",
+            "project_name",
+            "need_date",
+            "construction_start",
+            "schedule_text"
+          ],
+          "text": "BAY CREEK - CONYERS 230KV REBUILD\nTeams # 20248\nNeed Date 12/31/2029 Start Date 06/01/2031"
+        },
+        {
+          "pdf_page": 366,
+          "printed_page": "196 of 304",
+          "supports": [
+            "company",
+            "terminal_a",
+            "terminal_b",
+            "project_type"
+          ],
+          "text": "GPC will rebuild the Bay Creek - Conyers 230kV line, approximately 15.29 miles, using 200C 1351 ACSS \"Martin\" conductor."
+        }
+      ]
+    }
+  ]
+}

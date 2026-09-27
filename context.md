@@ -217,14 +217,22 @@ mean every record is validated. The raw `all_pdf_project_candidates.json`
 contains 252 extraction candidates, including 86 from other utilities outside
 this two-utility contract. Those records must not be relabeled as Georgia Power.
 
-Tiger Cloud was synchronized to the master batch on 2026-09-27: 24 validated
-Dominion records and 142 records needing review. The latter retain null
-coordinates. `/projects` includes both groups; `/opportunities` excludes
-unvalidated records and records without coordinates. Known synthetic fixtures
-must use `sources[].reference = "synthetic-fixture"`; the view excludes them even
-if incorrectly marked validated. No synthetic fixtures are loaded in Tiger Cloud.
-The current real opportunity response is empty because no Georgia record is yet
-validated with coordinates. A Git checkout does not import JSON into the database.
+Tiger Cloud was synchronized to the master batch on 2026-09-27, then
+re-synchronized the same day after Georgia Power location enrichment
+([PR #7](https://github.com/StBoris04/SperryTech_Hackathon_2026-PDSA-/pull/7)):
+24 validated Dominion records, 6 validated Georgia Power records (of 122;
+OSM/HIFLD confirmed 17 of 205 unique terminal names), and 136 records needing
+review. The latter retain null coordinates. `/projects` includes both groups;
+`/opportunities` excludes unvalidated records and records without coordinates.
+Known synthetic fixtures must use `sources[].reference = "synthetic-fixture"`;
+the view excludes them even if incorrectly marked validated. No synthetic
+fixtures are loaded in Tiger Cloud.
+
+The real opportunity response is expected to still be empty: the closest
+validated Dominion-Georgia pair sits around 34 miles apart (a straight-line
+sanity check, not the authoritative PostGIS distance), outside the 25-mile
+boundary. Confirm against the live `/opportunities` response rather than
+assuming either way. A Git checkout does not import JSON into the database.
 
 ## Suggested 12-hour plan
 

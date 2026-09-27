@@ -253,9 +253,19 @@ export default function App(){
             </ul>
           </div>
         </div>
-        <div className="team-head"><div><p className="kicker">The team</p><h2>Four disciplines.<br/><em>One working demo.</em></h2></div><p>Designed and built during ShellHacks by a team spanning data, infrastructure, backend, and product experience.</p></div>
+        <div className="team-head"><div><p className="kicker">The team</p><h2>Four specialties.<br/><em>One decision workflow.</em></h2></div><p>Each teammate owns a verifiable part of the path—from public source evidence to a live coordination recommendation.</p></div>
         <div className="team-grid">
-          {[['PE','Piero Espinoza','Data Science','Extract · normalize · validate'],['BM','Boris Steeven Mino','Data Engineering','Tiger Data · PostGIS · import'],['AP','Adrian Perez','Backend / API','FastAPI · analysis · endpoints'],['DR','Diego Rios','Frontend','Interface · map · experience']].map(([initials,name,role,focus],index)=><article key={name}><span className={`avatar avatar-${index+1}`}>{initials}</span><div><small>0{index+1}</small><h3>{name}</h3><b>{role}</b><p>{focus}</p></div></article>)}
+          {[
+            {initials:'PE',name:'Piero Espinoza',role:'Data Science · Product Experience',summary:'Turned public utility documents into reviewable project records, then shaped the interface that makes the evidence easy to explore.',work:['Extracted, normalized, and validated utility projects','Preserved source evidence, nulls, and location quality','Built the map, project details, and comparison experience'],delivered:'Master dataset · Interactive review experience'},
+            {initials:'BM',name:'Boris Steeven Mino',role:'Data Engineering · Database',summary:'Built the dependable data path behind GridLock, from enriched locations to spatial queries in Tiger Cloud.',work:['Designed the PostgreSQL and PostGIS data layer','Built and verified the project import workflow','Enriched Georgia locations and supported opportunity queries'],delivered:'Tiger Cloud · PostGIS · Import pipeline'},
+            {initials:'AP',name:'Adrian Perez Galindo',role:'Backend · API',summary:'Made the validated data available to the product through a compact API designed for the live demo workflow.',work:['Implemented the FastAPI service and health checks','Served project and cross-utility opportunity endpoints','Connected database results to the frontend contract'],delivered:'FastAPI · Projects · Opportunities'},
+            {initials:'DR',name:'Diego Rios',role:'Recommendation Intelligence',summary:'Converted deterministic opportunity results into clear, evidence-aware next steps for project owners and planners.',work:['Built the recommendation engine and response structure','Explained why each pair was flagged for review','Surfaced uncertainty without inventing facts or savings'],delivered:'Recommendation agent · Decision guidance'}
+          ].map((member,index)=><article className="team-card" key={member.name}>
+            <div className="team-card-top"><span className={`avatar avatar-${index+1}`}>{member.initials}</span><small>0{index+1}</small></div>
+            <div className="team-card-copy"><b>{member.role}</b><h3>{member.name}</h3><p>{member.summary}</p></div>
+            <ul className="team-card-work">{member.work.map(item=><li key={item}>{item}</li>)}</ul>
+            <div className="team-delivery"><small>Delivered</small><strong>{member.delivered}</strong></div>
+          </article>)}
         </div>
       </section>
     </main>}

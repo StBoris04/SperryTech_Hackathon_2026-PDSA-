@@ -29,3 +29,25 @@
 .compare-empty p{font-size:10px}.compare-table b{font-size:9px}
 .about-intro>p,.team-head>p{font-size:13px}.about-story p{font-size:12px}
 .pipeline small,.sources-block small,.team-grid p{font-size:9px}
+
+/* Team contribution cards */
+.team-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.team-grid .team-card{position:relative;display:flex;min-height:390px;flex-direction:column;padding:26px;overflow:hidden;background:linear-gradient(145deg,#fbfcf8 0%,#f4f7f1 100%)}
+.team-grid .team-card::before{position:absolute;inset:0 0 auto;height:4px;background:var(--team-accent,#1f7049);content:""}
+.team-grid .team-card:nth-child(1){--team-accent:#1f7049}.team-grid .team-card:nth-child(2){--team-accent:#dd8735}.team-grid .team-card:nth-child(3){--team-accent:#3f6f9d}.team-grid .team-card:nth-child(4){--team-accent:#687a69}
+.team-grid .team-card>div{margin-top:0}
+.team-card-top{display:flex;align-items:flex-start;justify-content:space-between}
+.team-card-top small{padding-top:4px;color:#8d9991;font:700 9px "DM Sans";letter-spacing:.12em}
+.team-card .avatar{width:64px;height:64px;border-radius:19px 8px;font-size:14px;box-shadow:0 10px 24px #18302116}
+.team-card-copy{margin-top:25px!important}
+.team-grid .team-card-copy b{color:var(--team-accent);font-size:10px;line-height:1.4}
+.team-grid .team-card-copy h3{margin:8px 0 11px;font-size:22px;letter-spacing:-.04em}
+.team-grid .team-card-copy p{max-width:580px;margin:0;color:#647168;font-size:12px;line-height:1.65}
+.team-card-work{display:grid;gap:9px;margin:22px 0 24px;padding:18px 0;border-top:1px solid #d8dfd8;border-bottom:1px solid #d8dfd8;list-style:none}
+.team-card-work li{position:relative;padding-left:18px;color:#33483b;font-size:11px;line-height:1.5}
+.team-card-work li::before{position:absolute;left:0;top:.56em;width:7px;height:7px;border-radius:50%;background:var(--team-accent);content:""}
+.team-delivery{display:grid;gap:5px;margin-top:auto!important}
+.team-grid .team-delivery small{color:#8a968e;font-size:8px;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.team-delivery strong{color:#26392d;font:700 11px/1.5 "Manrope"}
+@media(max-width:760px){.team-grid{grid-template-columns:1fr}.team-grid .team-card{min-height:auto}.team-card-work{margin-bottom:18px}}
+@media(min-width:761px) and (max-width:1050px){.header{grid-template-columns:auto 1fr auto}.main-nav{display:flex;justify-self:center}.main-nav button{padding:8px 10px}}

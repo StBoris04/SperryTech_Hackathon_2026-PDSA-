@@ -26,7 +26,7 @@ supplied projects.
 | `project_id` | `project_id` | Preserve as the stable ID for this dataset |
 | `utility` | `utility_id` | Map to `dominion_sc` or `georgia_power` |
 | `project_name` | `project_name` | Preserve |
-| `state` | None currently | Keep in raw import data; propose adding it to the contract |
+| `state` | `state` | Accepted nullable two-letter field in the v1 contract; preserve source evidence |
 | `name_a`, `name_b` | `location_text` | Join as an endpoint description without implying a full route |
 | `lat_center`, `lon_center` | `latitude`, `longitude` | Use as the representative point after formula evaluation |
 | endpoint coordinates | `location_method` and raw import data | Describe whether the center used one known endpoint or the arithmetic midpoint of two endpoints |
@@ -69,13 +69,13 @@ review before a record can be marked validated.
   in-service date as a construction window.
 - Preserve the original workbook unchanged under `Challenge Docs/`.
 
-## Decisions required before implementation
+## Decision status after the initial audit
 
-1. Add a nullable two-letter `state` field to the shared project contract.
-2. For the 12-hour MVP, use the representative point in the contract while
+1. Accepted: the shared contract includes a nullable two-letter `state` field.
+2. Accepted: for the 12-hour MVP, use the representative point in the contract while
    preserving endpoint names and coordinates in raw import data. A future version
    can add route geometry or a separate project-location structure.
-3. Accept the workbook rows initially as `needs_review`; only promote records to
+3. Accepted: workbook rows start as `needs_review`; only promote records to
    `validated` after source locators are attached.
-4. Assign the overlap calculation to either data engineering or backend so one
-   implementation owns the result.
+4. Resolved: Boris maintains the authoritative PostGIS overlap view; the backend
+   consumes it. See context.md for the current dataset and API decisions.

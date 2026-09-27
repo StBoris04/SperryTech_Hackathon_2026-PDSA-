@@ -42,7 +42,8 @@ and connection environment-variable names. Never include secret values.
 
 ## 3. Calculate coordination opportunities
 
-**Lead:** Assign between data engineering and backend before implementation.
+**Lead:** Boris, data engineering, maintains the authoritative PostGIS view.
+Backend consumes that view for the approved API handoff in context.md.
 
 1. Use validated real projects with coordinates and compare different utilities.
 2. Choose one distance implementation after checking actual database support.

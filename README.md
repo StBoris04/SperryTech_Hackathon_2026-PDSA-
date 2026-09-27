@@ -88,6 +88,7 @@ and shared interfaces before making overlapping changes.
 | [context.md](context.md) | Requirements, proposed shared data contract, architecture decisions, and 12-hour plan |
 | [AGENTS.md](AGENTS.md) | Team and coding-agent working agreement, approval boundaries, and PR format |
 | [skills.md](skills.md) | Workflows and handoffs for extraction, storage, analysis, API, frontend, and demo |
+| [docs/data-audit.md](docs/data-audit.md) | Read-only audit and proposed import mapping for the supplied workbook |
 
 Use public information only and preserve original source files. The source
 inventory and review status are tracked in [context.md](context.md).

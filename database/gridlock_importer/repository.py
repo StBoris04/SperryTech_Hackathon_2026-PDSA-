@@ -32,7 +32,7 @@ values (
     %(description)s,
     %(location_text)s,
     case
-        when %(longitude)s is null then null
+        when %(longitude)s::double precision is null then null
         else st_setsrid(
             st_makepoint(%(longitude)s, %(latitude)s),
             4326

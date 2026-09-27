@@ -26,9 +26,15 @@ The server never imports JSON or migrates the database at startup.
 Base URL: `http://127.0.0.1:8000`. Interactive schemas and requests are at `/docs`;
 the machine-readable contract is `/openapi.json`. Responses include explicit
 nulls and preserve source date strings. No authentication, filters, pagination,
-ingestion endpoints, or CORS middleware are configured for this local read-only
-MVP. Unknown query parameters are ignored. Agree browser origins/deployment
-before connecting a frontend served from another origin.
+or ingestion endpoints are configured for this local read-only MVP. Unknown
+query parameters are ignored.
+
+CORS allows browser `GET` requests only from the origins in the comma-separated
+`GRIDLOCK_CORS_ORIGINS` environment variable, which defaults to the Vite dev
+server (`http://localhost:5173,http://127.0.0.1:5173`). Postman and curl ignore
+CORS, so a request that works there can still be blocked in a browser. Add the
+deployed frontend URL to this variable once deployment is agreed. See
+[frontend/README.md](../frontend/README.md) for the browser integration check.
 
 ## Endpoints
 

@@ -23,19 +23,19 @@ from database.gridlock_importer.validation import validate_batch
 ROOT = Path(__file__).resolve().parents[1]
 
 
-async def asgi_get(path):
+async def asgi_get(path, method="GET", headers=()):
     messages = []
     scope = {
         "type": "http",
         "asgi": {"version": "3.0"},
         "http_version": "1.1",
-        "method": "GET",
+        "method": method,
         "scheme": "http",
         "path": path,
         "raw_path": path.encode(),
         "query_string": b"",
         "root_path": "",
-        "headers": [],
+        "headers": [(k.encode(), v.encode()) for k, v in headers],
         "server": ("testserver", 80),
         "client": ("127.0.0.1", 12345),
     }
@@ -51,11 +51,14 @@ async def asgi_get(path):
     body = b"".join(
         m.get("body", b"") for m in messages if m["type"] == "http.response.body"
     )
-    return start["status"], dict(start["headers"]), json.loads(body)
+    headers = dict(start["headers"])
+    if headers.get(b"content-type") == b"application/json":
+        body = json.loads(body)
+    return start["status"], headers, body
 
 
-def get(path):
-    return asyncio.run(asgi_get(path))
+def get(path, method="GET", headers=()):
+    return asyncio.run(asgi_get(path, method, headers))
 
 
 class BackendApiTests(unittest.TestCase):
@@ -70,6 +73,28 @@ class BackendApiTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(headers[b"content-type"], b"application/json")
         self.assertEqual(body, {"status": "ok"})
+
+    def test_cors_allows_local_frontend_origin_for_get(self):
+        origin = ("origin", "http://localhost:5173")
+        status, headers, _ = get("/health", headers=[origin])
+        self.assertEqual(status, 200)
+        self.assertEqual(
+            headers[b"access-control-allow-origin"], b"http://localhost:5173"
+        )
+        status, headers, _ = get(
+            "/projects",
+            method="OPTIONS",
+            headers=[origin, ("access-control-request-method", "GET")],
+        )
+        self.assertEqual(status, 200)
+        self.assertIn(b"GET", headers[b"access-control-allow-methods"])
+
+    def test_cors_rejects_unlisted_origin(self):
+        status, headers, _ = get(
+            "/health", headers=[("origin", "https://example.invalid")]
+        )
+        self.assertEqual(status, 200)
+        self.assertNotIn(b"access-control-allow-origin", headers)
 
     def test_projects_preserve_contract_and_both_utilities(self):
         other = copy.deepcopy(self.sample)

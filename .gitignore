@@ -27,3 +27,16 @@ build/
 
 # Local logs
 *.log
+
+# Local database recovery snapshots; never publish these
+database/backups/
+
+# Reproducible extraction intermediates and public-source caches
+data/georgia_batches/
+data/hifld_substations_sc_ga.json
+data/osm_substations_sc_ga.json
+data/nominatim_dominion_cache.json
+data/nominatim_candidates_dominion.json
+data/location_candidates_dominion.json
+data/gemini_candidates.json
+data/gemini_georgia_410.json

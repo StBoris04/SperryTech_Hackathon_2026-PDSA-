@@ -4,8 +4,10 @@
 
 Initial team draft for a four-person hackathon with approximately 12 hours total.
 The repository contains the source documents, an XLSX workbook, and a Tiger Cloud
-PostgreSQL/PostGIS schema with a JSON importer. The application UI and API remain
-to be built.
+PostgreSQL/PostGIS schema with a JSON importer. The backend implements
+`GET /health`, `GET /projects`, and `GET /opportunities`; the application UI
+remains to be built. See [the backend validation report](docs/backend-api-validation.md)
+for verified behavior and remaining gaps.
 
 GridLock helps electric utilities identify potentially useful coordination between
 planned transmission projects: shared crews, equipment, rights-of-way, or other
@@ -37,7 +39,7 @@ Tiger Data prize submission requirements still need checking before submission.
 | --- | --- | --- |
 | Frontend | React + Tailwind CSS | Selected; implementation pending |
 | Map | Leaflet or Mapbox GL JS | Selection pending |
-| Backend | Python + FastAPI | Selected; implementation pending |
+| Backend | Python + FastAPI | Health, project, and opportunity endpoints implemented |
 | Storage | Tiger Data / PostgreSQL | Tiger Cloud service and initial schema verified |
 | AI | Gemini API for structured extraction; optional explanations | Selected track; integration pending |
 | Geography | PostGIS | Verified in Tiger Cloud |
@@ -48,22 +50,25 @@ Tiger Data prize submission requirements still need checking before submission.
 
 Intended flow: public PDF/XLSX -> extraction and validation -> shared JSON records
 -> Tiger Data -> overlap analysis and API -> interactive map and ranked list.
-The team must assign one owner for overlap computation across backend and data
-engineering so that there is one authoritative implementation.
+The PostGIS `coordination_opportunities` view is the authoritative overlap
+implementation, maintained by Boris in data engineering. The backend consumes it
+and applies the documented ordering and factual reason text; it does not compute
+a second set of distances or timeline classifications.
 
 ## Available source files
 
 - `Challenge Docs/ShellHacks_Challenge_Gridlock.pdf`: challenge requirements.
 - `Challenge Docs/Finding_Real_Locations_Guide.pdf`: location research guide; review before enrichment.
-- `Challenge Docs/Projects_Overlaps.xlsx`: supplied workbook; contents and assumptions not yet audited.
+- `Challenge Docs/Projects_Overlaps.xlsx`: supplied workbook; audit and limitations are in `docs/data-audit.md`.
 - `Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf`.
 - `Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf`.
 
-Start with Dominion Energy South Carolina and Georgia Power. Public project pages,
-SCRTP, and public GIS/HIFLD are potential enrichment sources, not yet verified
-matches for any record. Preserve original files.
+The selected utilities are Dominion Energy South Carolina and Georgia Power.
+Reviewed Dominion records include OSM/HIFLD location evidence; verify references
+per record. Public project pages and SCRTP remain potential enrichment sources.
+Preserve original files.
 
-## Shared project handoff contract: v1 draft
+## Shared project handoff contract: v1
 
 Selected contract: keep `construction_start`, `construction_end`, and
 `in_service_date` as separate fields. Missing construction dates remain null;
@@ -181,9 +186,45 @@ Selected initial endpoints for backend/frontend implementation:
 - `GET /projects`: `{ "schema_version": "1.0", "projects": [...] }`.
 - `GET /opportunities`: `{ "schema_version": "1.0", "opportunities": [...] }`.
 
-Opportunity object shape, filters, error responses, and pagination remain to be
-agreed before implementation. Postman examples and frontend fixtures should use
-the agreed payloads. No ingestion/admin endpoint is required for the MVP.
+The requesting user approved implementation of these backend fixes on 2026-09-27.
+The opportunity object has exactly these fields:
+
+| Field | Type | Meaning |
+| --- | --- | --- |
+| project_id_a, project_id_b | string | Canonical ascending IDs; join to `/projects` for project details |
+| distance_miles | number | Unrounded PostGIS geography distance in miles; round only for display |
+| distance_method | string | `postgis_geography` |
+| location_uncertain | boolean | True when either representative point is approximate |
+| timeline_status | string | `overlap`, `unknown`, or `no_overlap` |
+| reason | string | Deterministic explanation of distance, timing, uncertainty, and point limitations |
+
+No filters or pagination are implemented for this MVP; all eligible records are
+returned. Unknown query parameters are ignored, not interpreted as filters.
+`GET /health` is a liveness check returning `200 {"status":"ok"}`; it does not
+check database readiness. Database/configuration failures return HTTP 503 with
+`{"detail":"Project data is temporarily unavailable."}` or
+`{"detail":"Opportunity data is temporarily unavailable."}`, respectively.
+Empty results return HTTP 200 with the normal versioned envelope and an empty
+array. See [docs/api.md](docs/api.md) and the [Postman collection](postman/GridLock.postman_collection.json).
+No ingestion/admin endpoint is required for the MVP.
+
+## Dataset roles and synchronization
+
+`data/master_projects.json` is the current database import batch: 166 projects
+(44 Dominion, 122 Georgia Power). It supersedes the 45-record
+`data/validated_projects.json` batch for loading; that older filename does not
+mean every record is validated. The raw `all_pdf_project_candidates.json`
+contains 252 extraction candidates, including 86 from other utilities outside
+this two-utility contract. Those records must not be relabeled as Georgia Power.
+
+Tiger Cloud was synchronized to the master batch on 2026-09-27: 24 validated
+Dominion records and 142 records needing review. The latter retain null
+coordinates. `/projects` includes both groups; `/opportunities` excludes
+unvalidated records and records without coordinates. Known synthetic fixtures
+must use `sources[].reference = "synthetic-fixture"`; the view excludes them even
+if incorrectly marked validated. No synthetic fixtures are loaded in Tiger Cloud.
+The current real opportunity response is empty because no Georgia record is yet
+validated with coordinates. A Git checkout does not import JSON into the database.
 
 ## Suggested 12-hour plan
 
@@ -201,8 +242,7 @@ working demo and meaningful use of the selected sponsor technologies.
 
 ## Next team decisions
 
-1. Assign the overlap-computation owner; team roles are recorded in AGENTS.md.
-2. Define opportunity response details, filters, errors, and pagination with the
-   backend and frontend owners.
-3. Select Leaflet or Mapbox GL JS for the map.
-4. Choose the demo dataset and deployment destination.
+1. Validate source evidence and locations for Georgia Power records before ranking.
+2. Select Leaflet or Mapbox GL JS for the map and connect the documented API.
+3. Choose the deployment destination and agree browser-origin configuration.
+4. Confirm sponsor submission requirements and rehearse the full demo.

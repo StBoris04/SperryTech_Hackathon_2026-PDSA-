@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "properties": {
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_project_id": { "type": ["string", "null"] },
+          "project_name": { "type": ["string", "null"] },
+          "company": { "type": ["string", "null"] },
+          "project_type": {
+            "type": "string",
+            "enum": ["transmission_line", "substation", "other", "unknown"]
+          },
+          "terminal_a": { "type": ["string", "null"] },
+          "terminal_b": { "type": ["string", "null"] },
+          "terminal_basis": {
+            "type": ["string", "null"],
+            "enum": ["title", "description", "both", null]
+          },
+          "in_service_date": { "type": ["string", "null"] },
+          "construction_start": { "type": ["string", "null"] },
+          "construction_end": { "type": ["string", "null"] },
+          "need_date": { "type": ["string", "null"] },
+          "schedule_text": { "type": ["string", "null"] },
+          "uncertainties": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "pdf_page": { "type": "integer", "minimum": 1 },
+                "printed_page": { "type": ["string", "null"] },
+                "supports": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "text": { "type": "string" }
+              },
+              "required": ["pdf_page", "printed_page", "supports", "text"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "source_project_id",
+          "project_name",
+          "company",
+          "project_type",
+          "terminal_a",
+          "terminal_b",
+          "terminal_basis",
+          "in_service_date",
+          "construction_start",
+          "construction_end",
+          "need_date",
+          "schedule_text",
+          "uncertainties",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["projects"],
+  "additionalProperties": false
+}

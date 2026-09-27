@@ -1,0 +1,273 @@
+{
+  "info": {
+    "name": "GridLock API v1",
+    "description": "Local read-only backend handoff. See docs/api.md. Run health, projects, then opportunities; no credentials are needed in Postman.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "noauth"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET /health",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base_url}}/health",
+        "description": "Liveness only; does not query the database."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Health is live\", function () {",
+              "  pm.response.to.have.status(200);",
+              "  pm.expect(pm.response.json()).to.deep.equal({status: \"ok\"});",
+              "});"
+            ]
+          }
+        }
+      ],
+      "response": [
+        {
+          "name": "200 \u2014 current response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{base_url}}/health",
+            "description": "Liveness only; does not query the database."
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"ok\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET /projects",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base_url}}/projects",
+        "description": "All stored projects, including needs_review and null coordinates. Saved example is a two-record subset from the master dataset."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Versioned project response\", function () {",
+              "  pm.response.to.have.status(200);",
+              "  const body = pm.response.json();",
+              "  pm.expect(body).to.have.all.keys(\"schema_version\", \"projects\");",
+              "  pm.expect(body.schema_version).to.equal(\"1.0\");",
+              "  pm.expect(body.projects).to.be.an(\"array\");",
+              "  body.projects.forEach(function (p) {",
+              "    pm.expect(p).to.have.all.keys([\"project_id\", \"utility_id\", \"project_name\", \"project_type\", \"state\", \"description\", \"location_text\", \"latitude\", \"longitude\", \"location_quality\", \"location_method\", \"construction_start\", \"construction_end\", \"in_service_date\", \"schedule_text\", \"sources\", \"review_status\", \"notes\"]);",
+              "    pm.expect([\"dominion_sc\", \"georgia_power\"]).to.include(p.utility_id);",
+              "    pm.expect([\"validated\", \"needs_review\"]).to.include(p.review_status);",
+              "    pm.expect(p.latitude === null).to.equal(p.longitude === null);",
+              "    if (p.latitude === null) pm.expect(p.location_quality).to.equal(\"unknown\");",
+              "    else {",
+              "      pm.expect(p.latitude).to.be.within(-90, 90);",
+              "      pm.expect(p.longitude).to.be.within(-180, 180);",
+              "    }",
+              "    [p.construction_start, p.construction_end, p.in_service_date].forEach(function (date) {",
+              "      if (date !== null) pm.expect(date).to.match(/^\\d{4}(-\\d{2}(-\\d{2})?)?$/);",
+              "    });",
+              "    pm.expect(p.sources).to.be.an(\"array\").that.is.not.empty;",
+              "    p.sources.forEach(function (source) {",
+              "      pm.expect(source).to.have.all.keys(\"reference\", \"locator\", \"supports\");",
+              "      pm.expect(source.supports).to.be.an(\"array\").that.is.not.empty;",
+              "    });",
+              "  });",
+              "});"
+            ]
+          }
+        }
+      ],
+      "response": [
+        {
+          "name": "200 \u2014 two-project subset example",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{base_url}}/projects",
+            "description": "All stored projects, including needs_review and null coordinates. Saved example is a two-record subset from the master dataset."
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"schema_version\": \"1.0\",\n  \"projects\": [\n    {\n      \"project_id\": \"DESC_0139_M_N\",\n      \"utility_id\": \"dominion_sc\",\n      \"project_name\": \"Okatie 230-115kV Substation, Jasper \\u2013 Yemassee 230kV #1 Fold-in\",\n      \"project_type\": \"substation\",\n      \"state\": \"SC\",\n      \"description\": \"Expand existing Okatie Transmission sub, add a 230-115 autobank and fold the Jasper - Yemassee 230 kV #1 line into the 230 kV side. Construct two additional 115 kV bus tie lines.\",\n      \"location_text\": \"Jasper - Yemassee\",\n      \"latitude\": 32.5290626,\n      \"longitude\": -80.9939726,\n      \"location_quality\": \"approximate\",\n      \"location_method\": \"Midpoint of two terminal coordinates independently corroborated by OSM and HIFLD\",\n      \"construction_start\": null,\n      \"construction_end\": null,\n      \"in_service_date\": \"2024-12-31\",\n      \"schedule_text\": null,\n      \"sources\": [\n        {\n          \"reference\": \"Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf\",\n          \"locator\": \"PDF page 3 (printed Project 3 of 44)\",\n          \"supports\": [\n            \"utility_id\",\n            \"state\",\n            \"project_name\",\n            \"project_type\",\n            \"description\",\n            \"location_text\",\n            \"in_service_date\",\n            \"schedule_text\"\n          ]\n        },\n        {\n          \"reference\": \"https://www.openstreetmap.org/way/185380597\",\n          \"locator\": \"Terminal: Jasper\",\n          \"supports\": [\n            \"latitude\",\n            \"longitude\",\n            \"location_quality\",\n            \"location_method\"\n          ]\n        },\n        {\n          \"reference\": \"https://services2.arcgis.com/6VIt2tukGNSxkmi6/arcgis/rest/services/DEMO_Substations/FeatureServer/8\",\n          \"locator\": \"Terminal: Jasper\",\n          \"supports\": [\n            \"latitude\",\n            \"longitude\",\n            \"location_quality\",\n            \"location_method\"\n          ]\n        },\n        {\n          \"reference\": \"https://www.openstreetmap.org/way/185317032\",\n          \"locator\": \"Terminal: Yemassee\",\n          \"supports\": [\n            \"latitude\",\n            \"longitude\",\n            \"location_quality\",\n            \"location_method\"\n          ]\n        }\n      ],\n      \"review_status\": \"validated\",\n      \"notes\": \"Source Project ID 0139 M,N. Scope includes substation expansion/autobank addition at Okatie and folding in the Jasper - Yemassee 230 kV #1 line.\"\n    },\n    {\n      \"project_id\": \"GPC_09661\",\n      \"utility_id\": \"georgia_power\",\n      \"project_name\": \"MCGRAU FORD - MIDDLE FORK 500KV LINE PROJECT\",\n      \"project_type\": \"transmission_line\",\n      \"state\": null,\n      \"description\": \"Construct a new approximately 64 mile 500kV line from McGrau Ford to Middle Fork.\",\n      \"location_text\": null,\n      \"latitude\": null,\n      \"longitude\": null,\n      \"location_quality\": \"unknown\",\n      \"location_method\": null,\n      \"construction_start\": \"2026-06-01\",\n      \"construction_end\": null,\n      \"in_service_date\": null,\n      \"schedule_text\": \"Need Date: 06/01/2033. Start Date: 06/01/2026.\",\n      \"sources\": [\n        {\n          \"reference\": \"Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf\",\n          \"locator\": \"PDF page 418 (printed Page 248 of 304)\",\n          \"supports\": [\n            \"utility_id\",\n            \"project_name\",\n            \"project_type\",\n            \"description\",\n            \"location_text\",\n            \"construction_start\",\n            \"construction_end\",\n            \"in_service_date\",\n            \"schedule_text\"\n          ]\n        }\n      ],\n      \"review_status\": \"needs_review\",\n      \"notes\": \"Source project ID 09661; sponsor Georgia Power. Need Date 2033-06-01 is preserved in schedule_text and is not an in-service date. Need Date is preserved separately and is not an in-service date. No construction end date is explicitly provided. Terminals were not assigned automatically; review the title and description. The source page carries a CEII/confidentiality warning despite its PUBLIC DISCLOSURE label; confirm reuse permission before distribution.\"\n    }\n  ]\n}"
+        },
+        {
+          "name": "503 \u2014 database/configuration unavailable",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{base_url}}/projects",
+            "description": "All stored projects, including needs_review and null coordinates. Saved example is a two-record subset from the master dataset."
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"detail\": \"Project data is temporarily unavailable.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET /opportunities",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base_url}}/opportunities",
+        "description": "Validated real cross-utility pairs within <=25 miles, ordered by unrounded distance, timeline status, and IDs. Empty is the current expected live result."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Versioned and ranked opportunity response\", function () {",
+              "  pm.response.to.have.status(200);",
+              "  const body = pm.response.json();",
+              "  pm.expect(body).to.have.all.keys(\"schema_version\", \"opportunities\");",
+              "  pm.expect(body.schema_version).to.equal(\"1.0\");",
+              "  pm.expect(body.opportunities).to.be.an(\"array\");",
+              "  const priority = {overlap: 0, unknown: 1, no_overlap: 2};",
+              "  const seen = new Set();",
+              "  body.opportunities.forEach(function (o, i) {",
+              "    pm.expect(o).to.have.all.keys(\"project_id_a\", \"project_id_b\", \"distance_miles\", \"distance_method\", \"location_uncertain\", \"timeline_status\", \"reason\");",
+              "    pm.expect(o.project_id_a < o.project_id_b).to.equal(true);",
+              "    pm.expect(o.distance_miles).to.be.within(0, 25);",
+              "    pm.expect(o.distance_method).to.equal(\"postgis_geography\");",
+              "    pm.expect(o.location_uncertain).to.be.a(\"boolean\");",
+              "    pm.expect(Object.keys(priority)).to.include(o.timeline_status);",
+              "    pm.expect(o.reason).to.be.a(\"string\").that.is.not.empty;",
+              "    const pair = JSON.stringify([o.project_id_a, o.project_id_b]);",
+              "    pm.expect(seen.has(pair)).to.equal(false); seen.add(pair);",
+              "    if (i > 0) {",
+              "      const previous = body.opportunities[i - 1];",
+              "      pm.expect(previous.distance_miles <= o.distance_miles).to.equal(true);",
+              "      if (previous.distance_miles === o.distance_miles) {",
+              "        pm.expect(priority[previous.timeline_status] <= priority[o.timeline_status]).to.equal(true);",
+              "        if (previous.timeline_status === o.timeline_status) {",
+              "          pm.expect(previous.project_id_a < o.project_id_a ||",
+              "            (previous.project_id_a === o.project_id_a && previous.project_id_b < o.project_id_b)).to.equal(true);",
+              "        }",
+              "      }",
+              "    }",
+              "  });",
+              "});"
+            ]
+          }
+        }
+      ],
+      "response": [
+        {
+          "name": "200 \u2014 current response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{base_url}}/opportunities",
+            "description": "Validated real cross-utility pairs within <=25 miles, ordered by unrounded distance, timeline status, and IDs. Empty is the current expected live result."
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"schema_version\": \"1.0\",\n  \"opportunities\": []\n}"
+        },
+        {
+          "name": "503 \u2014 database/configuration unavailable",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{base_url}}/opportunities",
+            "description": "Validated real cross-utility pairs within <=25 miles, ordered by unrounded distance, timeline status, and IDs. Empty is the current expected live result."
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"detail\": \"Opportunity data is temporarily unavailable.\"\n}"
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,9 @@
 ## Status and purpose
 
 Initial team draft for a four-person hackathon with approximately 12 hours total.
-The repository currently contains source documents, an XLSX workbook, and a minimal
-README; no application implementation or configured integration has been verified.
+The repository contains the source documents, an XLSX workbook, and a Tiger Cloud
+PostgreSQL/PostGIS schema with a JSON importer. The application UI and API remain
+to be built.
 
 GridLock helps electric utilities identify potentially useful coordination between
 planned transmission projects: shared crews, equipment, rights-of-way, or other
@@ -27,22 +28,22 @@ The local `Challenge Docs/ShellHacks_Challenge_Gridlock.pdf` is the source of ch
 Initial boundary convention for implementation: distance <= 25 miles qualifies;
 include a boundary check and document this convention in the UI/methodology.
 
-## Selected tracks and proposed stack
+## Selected tracks and stack decisions
 
 Selected tracks: **Sperry Tech + Gemini API + Tiger Data**. Official Gemini and
 Tiger Data prize submission requirements still need checking before submission.
 
-| Layer | Team proposal | Decision status |
+| Layer | Team choice | Decision status |
 | --- | --- | --- |
-| Frontend | React + Tailwind CSS | Proposed baseline |
+| Frontend | React + Tailwind CSS | Selected; implementation pending |
 | Map | Leaflet or Mapbox GL JS | Selection pending |
-| Backend | Python + FastAPI | Proposed baseline |
-| Storage | Tiger Data / PostgreSQL | Selected track; instance/schema pending |
+| Backend | Python + FastAPI | Selected; implementation pending |
+| Storage | Tiger Data / PostgreSQL | Tiger Cloud service and initial schema verified |
 | AI | Gemini API for structured extraction; optional explanations | Selected track; integration pending |
-| Geography | PostGIS if supported by the actual Tiger Data instance | Verify capability before choosing |
-| Python geography | GeoPy, Shapely, GeoPandas as needed | Alternatives; do not install all by default |
-| API testing | Postman | Team preference |
-| Version control | GitHub | Team preference |
+| Geography | PostGIS | Verified in Tiger Cloud |
+| Python geography | GeoPy, Shapely, GeoPandas as needed | Optional; choose only if a concrete task needs them |
+| API testing | Postman | Selected |
+| Version control | GitHub | Selected |
 | Deployment | Vercel frontend; Render or Railway backend | Undecided; choose a fast viable path |
 
 Intended flow: public PDF/XLSX -> extraction and validation -> shared JSON records
@@ -64,14 +65,14 @@ matches for any record. Preserve original files.
 
 ## Shared project handoff contract: v1 draft
 
-Accepted decision: keep `construction_start`, `construction_end`, and
+Selected contract: keep `construction_start`, `construction_end`, and
 `in_service_date` as separate fields. Missing construction dates remain null;
 an in-service milestone does not establish a construction window. Preserve the
-source's date precision. This decision approves the date-field distinction;
-the remaining contract and analysis proposals still need review.
+source's date precision. The v1 project payload below is the selected handoff
+contract for extraction and loading.
 
-This is the initial interface proposal for team review, not an implemented database
-schema. Once accepted, changes follow the approval rule in AGENTS.md. Use a UTF-8
+The database schema and JSON importer implement this project handoff contract.
+Further changes follow the approval rule in AGENTS.md. Use a UTF-8
 JSON object containing `schema_version: "1.0"` and a `projects` array. All fields
 below are present; use JSON null for unavailable scalar values, never empty strings
 or placeholder coordinates. Each array member represents one project.
@@ -82,6 +83,7 @@ or placeholder coordinates. Each array member represents one project.
 | utility_id | string | Controlled ID: dominion_sc or georgia_power initially |
 | project_name | string | Source-backed project name |
 | project_type | string | transmission_line, substation, other, or unknown |
+| state | string or null | Two-letter uppercase state code when source-backed |
 | description | string or null | Source-backed summary |
 | location_text | string or null | Location as described by the source |
 | latitude | number or null | WGS84 latitude, -90 to 90 |
@@ -113,6 +115,7 @@ Illustrative fixture only; this is not a real utility project:
       "utility_id": "dominion_sc",
       "project_name": "Illustrative project",
       "project_type": "substation",
+      "state": null,
       "description": null,
       "location_text": null,
       "latitude": null,
@@ -153,7 +156,7 @@ Validation rules:
 - This v1 uses representative points. Distances between these points do not
   establish the minimum separation between full transmission routes.
 
-## Analysis and API handoff: proposal
+## Analysis and API handoff: selected baseline
 
 For every candidate pair, preserve the two project IDs, `distance_miles`,
 `distance_method`, `location_uncertain`, `timeline_status`, and `reason`.
@@ -166,13 +169,13 @@ day only inside the calculation. Report the result as based on the source's date
 precision. If either window is incomplete, report unknown rather than inventing
 missing bounds.
 
-Initial ranking proposal: filter to cross-utility pairs within 25 miles; sort by
+Initial ranking rule: filter to cross-utility pairs within 25 miles; sort by
 distance ascending, then timeline status (overlap, unknown, no_overlap), then
 project IDs for stable ties. This deliberately simple baseline keeps geography
 primary. Agree on any richer scoring formula before implementation; do not invent
 an unexplained opportunity score.
 
-Suggested endpoints for backend/frontend review:
+Selected initial endpoints for backend/frontend implementation:
 
 - `GET /health`: service health without secrets.
 - `GET /projects`: `{ "schema_version": "1.0", "projects": [...] }`.
@@ -198,9 +201,8 @@ working demo and meaningful use of the selected sponsor technologies.
 
 ## Next team decisions
 
-1. Review the remaining v1 project contract and analysis proposal; the separate
-   construction-start, construction-end, and in-service fields are accepted.
-2. Assign the overlap-computation owner; team roles are recorded in AGENTS.md.
-3. Confirm stack choices and Tiger Data/PostGIS access.
-4. Agree endpoint responses and one shared sample payload.
-5. Choose the demo dataset and deployment destination.
+1. Assign the overlap-computation owner; team roles are recorded in AGENTS.md.
+2. Define opportunity response details, filters, errors, and pagination with the
+   backend and frontend owners.
+3. Select Leaflet or Mapbox GL JS for the map.
+4. Choose the demo dataset and deployment destination.

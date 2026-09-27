@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridlock-importer"
+version = "0.1.0"
+description = "Validate and import GridLock project batches into Tiger Cloud"
+requires-python = ">=3.10"
+dependencies = [
+  "psycopg[binary]>=3.2,<4.0",
+  "python-dotenv>=1.1,<2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4,<9.0"]
+
+[project.scripts]
+gridlock-import = "gridlock_importer.cli:main"
+gridlock-db-check = "gridlock_importer.health:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gridlock_importer*"]

@@ -90,6 +90,16 @@ and shared interfaces before making overlapping changes.
 | [skills.md](skills.md) | Workflows and handoffs for extraction, storage, analysis, API, frontend, and demo |
 | [docs/data-audit.md](docs/data-audit.md) | Read-only audit and proposed import mapping for the supplied workbook |
 | [database/](database/) | Tiger Cloud schema, JSON importer, examples, tests, and run instructions |
+| [data/validated_projects.json](data/validated_projects.json) | First source-checked project records in the shared v1 handoff shape |
+| [data/all_pdf_project_candidates.json](data/all_pdf_project_candidates.json) | All 44 Dominion and 208 Georgia plan project candidates extracted from the PDFs |
+| [data/master_projects.json](data/master_projects.json) | Contract-shaped master dataset for Dominion and Georgia Power; review status distinguishes validated records from candidates |
+| [gemini_extraction/extract_projects.py](gemini_extraction/extract_projects.py) | Dependency-free Gemini REST client for extracting source-backed PDF records |
+| [gemini_extraction/project_schema.json](gemini_extraction/project_schema.json) | Structured-output schema enforced on Gemini responses |
+| [location_enrichment/fetch_osm_candidates.py](location_enrichment/fetch_osm_candidates.py) | Batch-fetch and cautious name matching for public OSM substation candidates |
+| [location_enrichment/confirm_hifld_candidates.py](location_enrichment/confirm_hifld_candidates.py) | Independent HIFLD confirmation for exact OSM terminal candidates |
+| [prompts/gemini_project_extraction.md](prompts/gemini_project_extraction.md) | Gemini extraction prompt, evidence format, and handoff mapping rules |
+| [scripts/validate_projects.py](scripts/validate_projects.py) | Standard-library validation for project batches |
+| [scripts/validate_pdf_candidates.py](scripts/validate_pdf_candidates.py) | Coverage and structure checks for the complete PDF candidate dataset |
 
 Use public information only and preserve original source files. The source
 inventory and review status are tracked in [context.md](context.md).
@@ -106,8 +116,51 @@ The database importer can be run now. From `database/`, install the package with
 and run `python -m gridlock_importer.health` to verify connectivity. Validate a
 versioned batch with `gridlock-import /path/to/projects.json --dry-run`, then
 run the same command without `--dry-run` to import it. See [database/README.md](database/README.md)
-for complete instructions. The API and frontend do not have run commands yet.
-Never commit API keys, database credentials, or `.env` files.
+for complete instructions.
+
+Validate the data-science outputs without installing additional dependencies:
+
+```bash
+python3 scripts/validate_projects.py
+python3 scripts/validate_pdf_candidates.py
+python3 -m unittest tests/test_gemini_extraction.py
+python3 -m unittest tests/test_location_enrichment.py
+python3 -m unittest tests/test_hifld_confirmation.py
+```
+
+Run a safe local check of the Gemini extractor without an API request:
+
+```bash
+python3 gemini_extraction/extract_projects.py \
+  "Challenge Docs/Project Listings/Dominion Energy/2024-2028-2million-and-above-project-descriptions.pdf" \
+  --pages 31 --dry-run
+```
+
+For a real extraction, set `GEMINI_API_KEY` in the shell, remove `--dry-run`, and
+provide an output path. Never save the key in the repository. The Georgia source
+is blocked by default because it carries a CEII/confidentiality warning. After
+team approval, add `--allow-sensitive-source`. For example, extract GPC_1:
+
+```bash
+python3 gemini_extraction/extract_projects.py \
+  "Challenge Docs/Project Listings/Georgia Power/2025 IRP Volume 3 PUBLIC DISCLOSURE.pdf" \
+  --pages 410 --allow-sensitive-source \
+  --output data/gemini_georgia_410.json
+```
+
+For larger runs, extract manageable page batches and merge them while keeping
+their status as `needs_review`:
+
+```bash
+python3 scripts/extract_georgia_batches.py
+```
+
+The command is resumable: completed batches are skipped if a later API request
+temporarily fails. Use `python3 scripts/extract_georgia_batches.py --dry-run` to
+check the page ranges without making API requests.
+
+The API and frontend do not have run commands yet. Never commit API keys, database
+credentials, or `.env` files.
 
 ## Contributing during the hackathon
 

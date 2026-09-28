@@ -1,4 +1,7 @@
+import os
+
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 import psycopg
 
 from api_models import (
@@ -12,6 +15,22 @@ from db import get_projects as fetch_projects
 from recommendations.engine import build_recommendations, index_projects
 
 app = FastAPI(title="GridLock")
+
+# Browsers block cross-origin reads unless the API allows the frontend origin.
+# Comma-separated; defaults to the local Vite dev server.
+DEFAULT_CORS_ORIGINS = "http://localhost:5173,http://127.0.0.1:5173"
+CORS_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv("GRIDLOCK_CORS_ORIGINS", DEFAULT_CORS_ORIGINS).split(",")
+    if origin.strip()
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=CORS_ORIGINS,
+    allow_methods=["GET"],
+    allow_headers=[],
+)
 
 
 @app.get("/health", response_model=HealthResponse)

@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-dominion: #2563eb;
+  --color-georgia: #ea580c;
+}
+
+html, body, #root { height: 100%; }
+body { @apply bg-slate-100 text-slate-800 antialiased; }
+.leaflet-container { font: inherit; }

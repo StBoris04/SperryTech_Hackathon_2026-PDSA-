@@ -3,10 +3,11 @@
 ## Status and purpose
 
 Initial team draft for a four-person hackathon with approximately 12 hours total.
-The repository contains the source documents, an XLSX workbook, and a Tiger Cloud
-PostgreSQL/PostGIS schema with a JSON importer. The backend implements
-`GET /health`, `GET /projects`, and `GET /opportunities`; the application UI
-remains to be built. See [the backend validation report](docs/backend-api-validation.md)
+The repository contains the source documents, an XLSX workbook, a Tiger Cloud
+PostgreSQL/PostGIS schema with a JSON importer, a FastAPI backend, and a React
+frontend. The backend implements `GET /health`, `GET /projects`,
+`GET /opportunities`, and `GET /recommendations`; the frontend displays the API
+and can fall back to committed snapshots. See [the backend validation report](docs/backend-api-validation.md)
 for verified behavior and remaining gaps.
 
 GridLock helps electric utilities identify potentially useful coordination between
@@ -37,8 +38,8 @@ Tiger Data prize submission requirements still need checking before submission.
 
 | Layer | Team choice | Decision status |
 | --- | --- | --- |
-| Frontend | React + Tailwind CSS | Selected; implementation pending |
-| Map | Leaflet or Mapbox GL JS | Selection pending |
+| Frontend | React + Vite | Implemented |
+| Map | Leaflet | Implemented |
 | Backend | Python + FastAPI | Health, project, and opportunity endpoints implemented |
 | Storage | Tiger Data / PostgreSQL | Tiger Cloud service and initial schema verified |
 | AI | Gemini API for structured extraction; optional explanations | Selected track; integration pending |

@@ -13,7 +13,7 @@ From the repository root, with Python 3.10 or newer:
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python -m uvicorn main:app --host 127.0.0.1 --port 8000
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 ```
 
 Set `DATABASE_URL` in the process environment or ignored `database/.env`.
@@ -107,7 +107,7 @@ with an intentionally unreachable local database:
 
 ```bash
 DATABASE_URL='postgresql://invalid:invalid@127.0.0.1:1/invalid?connect_timeout=1' \
-  python -m uvicorn main:app --host 127.0.0.1 --port 8001
+  python -m uvicorn backend.main:app --host 127.0.0.1 --port 8001
 ```
 
 Point a duplicate Postman environment at port 8001: health returns 200; both list

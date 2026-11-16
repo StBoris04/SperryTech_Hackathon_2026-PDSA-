@@ -7,7 +7,7 @@ import re
 
 from psycopg.types.json import Jsonb
 
-import db
+from backend import db
 
 CASES = [
     ("same point", {}, 1, "unknown"),

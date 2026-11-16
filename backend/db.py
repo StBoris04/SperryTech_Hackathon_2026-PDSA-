@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from psycopg.rows import dict_row
 
 
-ENV_PATH = Path(__file__).resolve().parent / "database" / ".env"
+ENV_PATH = Path(__file__).resolve().parents[1] / "database" / ".env"
 load_dotenv(ENV_PATH)
 
 

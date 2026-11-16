@@ -15,10 +15,9 @@ from unittest.mock import MagicMock, patch
 
 import psycopg
 
-import db
-import main
+from backend import db, main
 from database.gridlock_importer.validation import validate_batch
-from recommendations.engine import self_test_data
+from backend.recommendations.engine import self_test_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,7 +65,7 @@ class BackendApiTests(unittest.TestCase):
         )["projects"][0]
 
     def test_health_is_json_and_does_not_require_database(self):
-        with patch("db.get_connection", side_effect=AssertionError("DB accessed")):
+        with patch("backend.db.get_connection", side_effect=AssertionError("DB accessed")):
             status, headers, body = get("/health")
         self.assertEqual(status, 200)
         self.assertEqual(headers[b"content-type"], b"application/json")
@@ -76,7 +75,7 @@ class BackendApiTests(unittest.TestCase):
         other = copy.deepcopy(self.sample)
         other.update(project_id="fixture-georgia-001", utility_id="georgia_power")
         rows = [self.sample, other]
-        with patch("main.fetch_projects", return_value=rows):
+        with patch("backend.main.fetch_projects", return_value=rows):
             status, headers, body = get("/projects")
         self.assertEqual(status, 200)
         self.assertEqual(headers[b"content-type"], b"application/json")
@@ -92,7 +91,7 @@ class BackendApiTests(unittest.TestCase):
                     construction_end=None,
                     in_service_date=date,
                 )
-                with patch("main.fetch_projects", return_value=[row]):
+                with patch("backend.main.fetch_projects", return_value=[row]):
                     status, _, body = get("/projects")
                 self.assertEqual(status, 200)
                 self.assertEqual(body["projects"][0], row)
@@ -113,14 +112,14 @@ class BackendApiTests(unittest.TestCase):
         row["sources"][0]["supports"].extend(
             ["latitude", "longitude", "location_quality", "location_method"]
         )
-        with patch("main.fetch_projects", return_value=[row]):
+        with patch("backend.main.fetch_projects", return_value=[row]):
             status, _, body = get("/projects")
         self.assertEqual(status, 200)
         self.assertEqual(body["projects"], [row])
         validate_batch(body)
 
     def test_empty_projects_remain_versioned(self):
-        with patch("main.fetch_projects", return_value=[]):
+        with patch("backend.main.fetch_projects", return_value=[]):
             status, _, body = get("/projects")
         self.assertEqual(status, 200)
         self.assertEqual(body, {"schema_version": "1.0", "projects": []})
@@ -130,7 +129,7 @@ class BackendApiTests(unittest.TestCase):
             for endpoint, label in (("projects", "Project"), ("opportunities", "Opportunity")):
                 with self.subTest(error=error_type.__name__, endpoint=endpoint):
                     with patch(
-                        "db.get_connection",
+                        "backend.db.get_connection",
                         side_effect=error_type("PRIVATE_CONNECTION_DETAILS"),
                     ):
                         status, _, body = get(f"/{endpoint}")
@@ -148,7 +147,7 @@ class BackendApiTests(unittest.TestCase):
             self.assertEqual(body, {"detail": f"{label} data is temporarily unavailable."})
 
     def test_empty_opportunities_remain_versioned(self):
-        with patch("main.fetch_opportunities", return_value=[]):
+        with patch("backend.main.fetch_opportunities", return_value=[]):
             status, _, body = get("/opportunities")
         self.assertEqual(status, 200)
         self.assertEqual(body, {"schema_version": "1.0", "opportunities": []})
@@ -156,8 +155,8 @@ class BackendApiTests(unittest.TestCase):
     def test_recommendations_explain_backend_results(self):
         projects, opportunities = self_test_data()
         with (
-            patch("main.fetch_projects", return_value=list(projects.values())),
-            patch("main.fetch_opportunities", return_value=opportunities),
+            patch("backend.main.fetch_projects", return_value=list(projects.values())),
+            patch("backend.main.fetch_opportunities", return_value=opportunities),
         ):
             status, _, body = get("/recommendations")
         self.assertEqual(status, 200)
@@ -180,7 +179,7 @@ class BackendApiTests(unittest.TestCase):
                 }
                 connection = MagicMock()
                 connection.__enter__.return_value.cursor.return_value.__enter__.return_value.fetchall.return_value = [row]
-                with patch("db.get_connection", return_value=connection):
+                with patch("backend.db.get_connection", return_value=connection):
                     status, _, body = get("/opportunities")
                 self.assertEqual(status, 200)
                 self.assertEqual(body["schema_version"], "1.0")
@@ -219,7 +218,7 @@ class BackendApiTests(unittest.TestCase):
             connection.read_only = True
             return connection
 
-        with patch("db.get_connection", side_effect=read_only_connection):
+        with patch("backend.db.get_connection", side_effect=read_only_connection):
             status, _, body = get("/projects")
         self.assertEqual(status, 200, body)
         projects = validate_batch(body)
@@ -250,7 +249,7 @@ class BackendApiTests(unittest.TestCase):
             connection.read_only = True
             return connection
 
-        with patch("db.get_connection", side_effect=read_only_connection):
+        with patch("backend.db.get_connection", side_effect=read_only_connection):
             projects = {p["project_id"]: p for p in db.get_projects()}
             status, _, body = get("/opportunities")
         self.assertEqual(status, 200, body)

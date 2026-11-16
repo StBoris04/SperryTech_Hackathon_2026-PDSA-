@@ -13,15 +13,16 @@
 # - If there are no valid pairs, it says so and lists the missing evidence.
 #
 # Usage:
-#   python recommendations/engine.py                 -> uses local repo files
-#   python recommendations/engine.py --api URL       -> uses the live API
-#   python recommendations/engine.py --self-test     -> synthetic format test
+#   python -m backend.recommendations.engine                 -> uses local repo files
+#   python -m backend.recommendations.engine --api URL       -> uses the live API
+#   python -m backend.recommendations.engine --self-test     -> synthetic format test
 
 import json
 import sys
 import urllib.request
+from pathlib import Path
 
-PROJECTS_FILE = "data/master_projects.json"
+PROJECTS_FILE = Path(__file__).resolve().parents[2] / "data" / "master_projects.json"
 
 UTILITY_NAMES = {
     "dominion_sc": "Dominion Energy South Carolina (DESC)",

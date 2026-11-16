@@ -9,7 +9,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from recommendations.engine import build_recommendations, index_projects
+from backend.recommendations.engine import build_recommendations, index_projects
 
 
 def distance_miles(a, b):
@@ -49,7 +49,7 @@ def main():
     opportunities.sort(key=lambda item: (item["distance_miles"], item["project_id_a"], item["project_id_b"]))
     result = build_recommendations(opportunities, index_projects(payload))
     result["source"] = "local_deterministic_snapshot"
-    destination = ROOT / "public/recommendations.json"
+    destination = ROOT / "frontend/public/recommendations.json"
     destination.write_text(json.dumps(result, indent=2) + "\n")
     print(f"Wrote {len(result['recommendations'])} local recommendations to {destination}")
 

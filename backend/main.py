@@ -1,15 +1,15 @@
 from fastapi import FastAPI, HTTPException
 import psycopg
 
-from api_models import (
+from .api_models import (
     ErrorResponse,
     HealthResponse,
     OpportunitiesResponse,
     ProjectsResponse,
 )
-from db import get_opportunities as fetch_opportunities
-from db import get_projects as fetch_projects
-from recommendations.engine import build_recommendations, index_projects
+from .db import get_opportunities as fetch_opportunities
+from .db import get_projects as fetch_projects
+from .recommendations.engine import build_recommendations, index_projects
 
 app = FastAPI(title="GridLock")
 
